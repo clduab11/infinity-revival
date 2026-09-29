@@ -1,0 +1,6 @@
+{
+  "name": "Praxen.Game.Content",
+  "rootNamespace": "Praxen.Game.Content",
+  "references": ["Praxen.Game.Domain", "Praxen.Game.Application"],
+  "autoReferenced": false
+}

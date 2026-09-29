@@ -1,0 +1,107 @@
+{
+  "publication_date": "2026-09-29",
+  "repository": "https://github.com/clduab11/infinity-revival",
+  "branch": "main",
+  "remote_parent_commit": "4926ca117a5d732c0621c7d9b1207e220d07a473",
+  "authorization": "User explicitly requested repository upload, a full README, and a GPT-Image prototype in this session.",
+  "code_changes_since_task04": false,
+  "historical_task04_source_changes": [
+    "README.md"
+  ],
+  "historical_receipts": "Task01-04 acceptance receipts describe their original snapshots. The Task04 README hash predates this publication README. All recorded working-source bytes except README remain unchanged; Git stores tracked text with the repository's declared LF normalization. Runtime logic, tests, package versions, and Unity GUIDs are unchanged.",
+  "readme": {
+    "path": "README.md",
+    "sha256": "b603799898588df2a97701ac9a8d487be2629072d4abd20a5b7919f15589d655",
+    "lines": 288
+  },
+  "portable_plan": {
+    "index": "docs/production/development-plan.md",
+    "chapters": 13,
+    "source_scope_retained": true,
+    "corrections": [
+      "Canonical project is at the outer root, not a duplicated nested directory.",
+      "Initial repository upload and concept generation have explicit user authorization."
+    ],
+    "source_original_sha256": "0b997c408096dbf9c648f147589002dddefa9dfdee8e8c864976f2260a5c808e"
+  },
+  "image": {
+    "path": "docs/media/infinity-revival-prototype.png",
+    "generator": "OpenAI GPT-Image through the built-in image generation tool",
+    "specific_model_version": "not exposed by tool",
+    "created": "2026-09-29",
+    "width": 941,
+    "height": 1672,
+    "sha256": "8b8fcfea6da55cbd8cb978e8e1ed278c82eaec03103057a909379d9b78209881",
+    "prompt": "docs/media/infinity-revival-prototype.prompt.txt",
+    "provenance": "docs/media/infinity-revival-prototype.md",
+    "reference_images": [],
+    "modifications": "None; copied the generated PNG without edits.",
+    "purpose": "Documentation concept of intended game; not a gameplay screenshot or implemented runtime asset."
+  },
+  "verification": {
+    "editmode": 148,
+    "playmode": 24,
+    "validator_regression_tests": 12,
+    "baseline": {
+      "direct_packages": 48,
+      "resolved_packages": 65,
+      "asset_guids": 82
+    },
+    "unity_repeated_for_publication": false,
+    "reason": "Only documentation and concept/evidence copies changed. Existing compiled acceptance remains valid for unchanged runtime source.",
+    "independent_publication_review": "No detected credentials or broken publication documentation links."
+  },
+  "media": {
+    "docs/media/infinity-revival-prototype.md": {
+      "sha256": "7fb63f6fe35a48fb37bf8bacacec3ca4390891c9297fe1ff4aa21c5b29b84ac0",
+      "bytes": 2536
+    },
+    "docs/media/infinity-revival-prototype.png": {
+      "sha256": "8b8fcfea6da55cbd8cb978e8e1ed278c82eaec03103057a909379d9b78209881",
+      "bytes": 2548359
+    },
+    "docs/media/infinity-revival-prototype.prompt.txt": {
+      "sha256": "83fba06fad1116ab47a2e70e783cd58b07224adfd5d3f19351764ac462f71849",
+      "bytes": 3447
+    },
+    "docs/media/refuge-current.png": {
+      "sha256": "bdc278a632f5139711860597a774722edf5503170ffd5ff787f66155bc0eff9f",
+      "bytes": 19678
+    }
+  },
+  "portable_evidence": {
+    "docs/acceptance/evidence/task-04-baseline.json": {
+      "sha256": "b36e75dd4f892c97cf3a370cbd0506c6bae53a5a3f06c8abbde1a067c0751358",
+      "bytes": 211
+    },
+    "docs/acceptance/evidence/task-04-editmode.xml": {
+      "sha256": "52c0301599d30dc1dbc70598bfba2614379132c6a5bb046624ddf062a160f0e7",
+      "bytes": 127690
+    },
+    "docs/acceptance/evidence/task-04-playmode.xml": {
+      "sha256": "247ccef2551af654e140868e6e30c48a32f7194488435aeeae277052ca39a307",
+      "bytes": 22536
+    },
+    "docs/acceptance/evidence/task-04-review.md": {
+      "sha256": "496a85a7fab4c62ad71b05387e54300e18b8b1f5ae6ba0136df20a39c477d49a",
+      "bytes": 2547
+    }
+  },
+  "excluded": [
+    "Library",
+    "Temp",
+    "Logs",
+    "UserSettings",
+    "My project",
+    "output",
+    "credentials and signing material"
+  ],
+  "limits": [
+    "Physical-device input latency and one-thumb ergonomics are unrun.",
+    "Player builds, mobile qualification, and gameplay outcomes are unrun or unverified.",
+    "Concept art is not final production art or naming clearance."
+  ],
+  "publication_procedure": "Preserve the existing remote parent commit; ordinary fast-forward push and Git LFS pre-push, no force push. Remote completion is checked separately after push.",
+  "git_text_normalization": "Unity YAML and metadata, code, and documentation follow existing LF text attributes. Exported test XML uses -text to retain the original receipt bytes and hashes.",
+  "formatting_note": "Existing Unity-generated YAML retains empty-field trailing spaces. Verified source bytes are preserved. Authored code and publication documentation receive a scoped whitespace check."
+}

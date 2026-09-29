@@ -1,0 +1,16 @@
+{
+    "name": "Praxen.Game.Application",
+    "rootNamespace": "Praxen.Game.Application",
+    "references": [
+        "Praxen.Game.Domain"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

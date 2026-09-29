@@ -1,0 +1,20 @@
+{
+  "name": "Praxen.Game.Tests.PlayMode",
+  "rootNamespace": "Praxen.Game.Tests.PlayMode",
+  "references": [
+    "Praxen.Game.Application",
+    "Praxen.Game.Infrastructure",
+    "Praxen.Game.Presentation",
+    "Praxen.Game.Domain",
+    "Praxen.Game.Content",
+    "Unity.InputSystem",
+    "UnityEngine.TestRunner",
+    "UnityEngine.UI",
+    "UnityEditor.TestRunner",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "autoReferenced": false
+}

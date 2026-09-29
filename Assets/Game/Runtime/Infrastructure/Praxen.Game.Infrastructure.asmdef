@@ -1,0 +1,16 @@
+{
+    "name": "Praxen.Game.Infrastructure",
+    "rootNamespace": "Praxen.Game.Infrastructure",
+    "references": [
+        "Praxen.Game.Application"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

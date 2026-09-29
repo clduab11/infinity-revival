@@ -1,0 +1,26 @@
+{
+    "name": "Praxen.Game.Tests.EditMode",
+    "rootNamespace": "Praxen.Game.Tests.EditMode",
+    "references": [
+        "Praxen.Game.Domain",
+        "Praxen.Game.Application",
+        "Praxen.Game.Infrastructure",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

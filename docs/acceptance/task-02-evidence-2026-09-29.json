@@ -1,0 +1,141 @@
+{
+  "task": "02",
+  "status": "COMPLETE",
+  "verified_at_utc": "2026-09-29T20:24:39.114412+00:00",
+  "canonical_windows_root": "C:\\Users\\cld-main\\Desktop\\github-projects\\infinity-redux",
+  "canonical_wsl_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+  "editor": {
+    "version": "6000.6.0f1",
+    "revision": "f7f8ed4d1e24"
+  },
+  "git": {
+    "branch": "main",
+    "commits": 0,
+    "staged_paths": [],
+    "remotes": [],
+    "native_version": "2.55.0.windows.5",
+    "lfs_version": "3.7.1",
+    "configuration_scope": "repository-local",
+    "wsl_git_lfs": "UNAVAILABLE; use native Windows Git"
+  },
+  "packages": {
+    "direct_count": 48,
+    "resolved_count": 65,
+    "removed": {
+      "com.unity.2d.sprite": "1.0.0",
+      "com.unity.ai.assistant": "2.20.0-pre.1",
+      "com.unity.ai.inference": "2.6.1",
+      "com.unity.ai.navigation": "2.0.14",
+      "com.unity.dt.app-ui": "2.1.11",
+      "com.unity.visualscripting": "1.9.12"
+    },
+    "added": {
+      "com.unity.addressables": "2.11.2",
+      "com.unity.cinemachine": "6.6.0",
+      "com.unity.scriptablebuildpipeline": "3.0.3",
+      "com.unity.settings-manager": "2.1.1",
+      "com.unity.splines": "2.9.0"
+    },
+    "changed_retained_versions": {},
+    "newtonsoft_promoted_to_direct": "3.2.2",
+    "animation_rigging": "Deferred until contact correction is needed",
+    "lock_generated_by": "Unity Package Manager",
+    "approved_graph_fingerprint": "98cd45400f7c2cc7737969d6c433b89a2ebcda1848bc730222e1288260a3bd6f"
+  },
+  "verification": {
+    "canonical_import_exit_code": 0,
+    "clean_source_restore_exit_code": 0,
+    "clean_restore_started_without_project_library": true,
+    "shared_machine_package_cache_may_be_reused": true,
+    "manifest_and_lock_byte_identical_after_restore": true,
+    "baseline_verifier": "PASS canonical and source-only restore",
+    "asset_guids_validated": 35,
+    "validator_regression_tests": {
+      "passed": 12,
+      "failed": 0
+    },
+    "lfs_roundtrip": "PASS, 49 synthetic bytes reconstructed exactly",
+    "pipeline_range_listener_count_observed": 0,
+    "independent_review": "P2 validator graph-drift gap fixed, four reproduced failing cases then 12/12 pass; targeted re-review clear",
+    "play_mode": "UNRUN",
+    "player_build": "UNRUN",
+    "physical_devices": "UNRUN",
+    "release_endpoint_exclusion": "UNVERIFIED"
+  },
+  "preservation": {
+    "original_source_files": 132,
+    "unchanged_original_files": 129,
+    "changed_original_files": [
+      "Packages/manifest.json",
+      "Packages/packages-lock.json",
+      "ProjectSettings/EditorBuildSettings.asset"
+    ],
+    "removed_original_files": [],
+    "alternate_original_files": 62,
+    "alternate_changed_or_removed": [],
+    "new_unity_source_paths": [
+      "Assets/Game.meta",
+      "Assets/Game/Content.meta",
+      "Assets/Game/Content/.gitkeep",
+      "Assets/Game/Editor.meta",
+      "Assets/Game/Editor/.gitkeep",
+      "Assets/Game/Runtime.meta",
+      "Assets/Game/Runtime/Application.meta",
+      "Assets/Game/Runtime/Application/.gitkeep",
+      "Assets/Game/Runtime/Content.meta",
+      "Assets/Game/Runtime/Content/.gitkeep",
+      "Assets/Game/Runtime/Domain.meta",
+      "Assets/Game/Runtime/Domain/.gitkeep",
+      "Assets/Game/Runtime/Infrastructure.meta",
+      "Assets/Game/Runtime/Infrastructure/.gitkeep",
+      "Assets/Game/Runtime/Presentation.meta",
+      "Assets/Game/Runtime/Presentation/.gitkeep",
+      "Assets/Game/Scenes.meta",
+      "Assets/Game/Scenes/.gitkeep",
+      "Assets/Game/Tests.meta",
+      "Assets/Game/Tests/.gitkeep",
+      "Assets/ThirdParty.meta",
+      "Assets/ThirdParty/.gitkeep"
+    ]
+  },
+  "temporary_controls": {
+    "canonical_pipeline_override_remaining": false,
+    "description": "m_AutoStart=false during batch imports; canonical temporary setting parked under output after import, original absence restored; verification copy retains its test override."
+  },
+  "nonfatal_startup_diagnostics": [
+    "Licensing refresh reported unavailable access token; both batch runs nevertheless completed with exit0.",
+    "VisionOS native DLL failed to load in this Windows Editor installation; VisionOS is outside the approved launch targets."
+  ],
+  "evidence": {
+    "prechange_hashes": "../../output/task-02/before-source-hashes.json",
+    "dependency_settings_backup": "../../output/task-02/before/",
+    "canonical_log": "../../output/task-02/canonical-import.log",
+    "clean_restore_log": "../../output/task-02/clean-restore.log",
+    "restore_comparison": "../../output/task-02/restore-comparison.json",
+    "validator_tests": "../../output/task-02/validator-tests.log",
+    "review_red_tests": "../../output/task-02/validator-review-red.log",
+    "lfs_roundtrip": "../../output/task-02/lfs-roundtrip.json"
+  },
+  "restoration_hashes": {
+    "Packages/manifest.json": {
+      "canonical_sha256": "7c1d4fefe451304e62ee44a7af2b6cd29f02ff9bb5eec10c8954f2c2f70cfd19",
+      "restore_sha256": "7c1d4fefe451304e62ee44a7af2b6cd29f02ff9bb5eec10c8954f2c2f70cfd19",
+      "unchanged_during_restore": true
+    },
+    "Packages/packages-lock.json": {
+      "canonical_sha256": "6ed5a6e196a05468fbdc56b8fcf23dfb3861bbcef8d32aed989d144e99e6b13b",
+      "restore_sha256": "6ed5a6e196a05468fbdc56b8fcf23dfb3861bbcef8d32aed989d144e99e6b13b",
+      "unchanged_during_restore": true
+    },
+    "canonical-import.log": {
+      "exit_code": 0,
+      "success_marker": true,
+      "sha256": "0c7ddcefffdd27e91a97a061868ef665b6d493777ace04ff3b2a57044f3f318c"
+    },
+    "clean-restore.log": {
+      "exit_code": 0,
+      "success_marker": true,
+      "sha256": "19f2f2708860615b7b8291307f9aa786a325f0eb9d1693bd7ad1c0d055eced7f"
+    }
+  }
+}

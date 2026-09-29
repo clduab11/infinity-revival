@@ -1,0 +1,7 @@
+{
+  "name": "Praxen.Game.Editor",
+  "rootNamespace": "Praxen.Game.Editor",
+  "references": ["Praxen.Game.Application", "Praxen.Game.Presentation", "Praxen.Game.Content"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}
