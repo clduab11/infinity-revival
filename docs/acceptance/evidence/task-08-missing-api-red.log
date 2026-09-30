@@ -1,0 +1,48 @@
+Native Unity 6000.6.0f1 Edit Mode, expected preimplementation compile failure. Exit code: 1.
+No tests executed because new APIs were absent.
+Assets\Game\Tests\PlayMode\EnemyPatternInputIntegrationTests.cs(126,39): error CS0246: The type or namespace name 'EnemyPatternDecision' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(4,27): error CS0234: The type or namespace name 'Combat' does not exist in the namespace 'Praxen.Game.Content' (are you missing an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(6,27): error CS0234: The type or namespace name 'Combat' does not exist in the namespace 'Praxen.Game.Content' (are you missing an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(270,13): error CS0246: The type or namespace name 'EnemyArchetype' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternReplayTests.cs(45,43): error CS0246: The type or namespace name 'EnemyPatternDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternReplayTests.cs(74,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternReplayTests.cs(77,24): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(383,51): error CS0246: The type or namespace name 'EnemyPatternSelector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(399,59): error CS0246: The type or namespace name 'EnemyPatternSelector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(400,13): error CS0246: The type or namespace name 'EnemyPatternDecision' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemySequenceAdmissionTests.cs(114,24): error CS0246: The type or namespace name 'ScheduledEnemyStrike' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(412,56): error CS0246: The type or namespace name 'EnemyPatternSelector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(412,24): error CS0246: The type or namespace name 'EnemyPatternDecision' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(419,53): error CS0246: The type or namespace name 'EnemyPatternSelector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(420,13): error CS0246: The type or namespace name 'EnemyObservation' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(419,24): error CS0246: The type or namespace name 'EnemyPatternDecision' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(428,24): error CS0246: The type or namespace name 'EnemyObservation' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(434,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(439,53): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(439,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(444,78): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(444,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternSelectorTests.cs(450,24): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(297,81): error CS0246: The type or namespace name 'EnemyArchetype' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(329,24): error CS0246: The type or namespace name 'EnemyPatternStep' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(334,24): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(306,24): error CS0246: The type or namespace name 'EnemyPatternStep' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(310,24): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(336,66): error CS0246: The type or namespace name 'EnemyArchetype' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(336,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(341,60): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(341,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(313,53): error CS0246: The type or namespace name 'EnemyPattern' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(313,24): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(322,43): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(337,31): error CS0246: The type or namespace name 'EnemyPatternDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDirectorTests.cs(340,26): error CS0246: The type or namespace name 'EnemyPatternDeck' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(265,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(266,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(267,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(268,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(293,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(294,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(295,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(296,19): error CS0103: The name 'EnemyArchetype' does not exist in the current context
+Assets\Game\Tests\EditMode\EnemyPatternDefinitionTests.cs(336,93): error CS0103: The name 'EnemyArchetype' does not exist in the current context

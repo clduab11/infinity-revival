@@ -5,6 +5,7 @@ using Praxen.Game.Application.Input;
 using Praxen.Game.Content.Input;
 using Praxen.Game.Domain.Input;
 using Praxen.Game.Presentation.Input;
+using Praxen.Game.Presentation.Combat;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
@@ -25,6 +26,7 @@ namespace Praxen.Game.Presentation
         public GesturePhaseContext InteractionPhase { get; private set; }
         public TimestampedTouchCapture InputCapture { get; private set; }
         public GestureTraceView GestureTrace { get; private set; }
+        public CombatTimingDriver Timing { get; private set; }
 
         private void Awake() => Initialize();
 
@@ -101,6 +103,11 @@ namespace Praxen.Game.Presentation
                 var trace = new GameObject("Gesture Trace", typeof(RectTransform));
                 GestureTrace = trace.AddComponent<GestureTraceView>();
                 InputCapture.CommandProduced += GestureTrace.Show;
+                var timing = new GameObject("Combat Timing");
+                timing.transform.SetParent(transform, false);
+                Timing = timing.AddComponent<CombatTimingDriver>();
+                Timing.Configure(InputCapture, InteractionPhase);
+                Timing.Suspended += GestureTrace.Clear;
             }
             GestureTrace.Configure(view.UiCanvas);
         }
@@ -132,6 +139,7 @@ namespace Praxen.Game.Presentation
         private void RefreshSuspension()
         {
             if (states == null) return;
+            Timing?.SetLifecycle(paused, focused);
             if (paused || !focused)
             {
                 if (CurrentState != ApplicationState.Loading && CurrentState != ApplicationState.Refuge)
@@ -141,7 +149,8 @@ namespace Praxen.Game.Presentation
             }
             else if (CurrentState == ApplicationState.Suspended)
                 states.TryTransition(resumeState);
-            InputCapture?.SetInputEnabled(!paused && focused && CurrentState == ApplicationState.Refuge);
+            InputCapture?.SetInputEnabled(!paused && focused && CurrentState == ApplicationState.Refuge &&
+                (Timing == null || Timing.CanAcceptInput));
             if ((paused || !focused) && GestureTrace != null) GestureTrace.Clear();
         }
 

@@ -1,0 +1,45 @@
+{
+  "scope": "Literal authored defense outcomes and resource timers at 30/60/120 FPS and jitter; synthetic source replay, not physical performance",
+  "tests": [
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.AuthoredDefensesPreserveLiteralResultsAndMixedInputOrderAtEveryPresentationRate(30)",
+      "result": "Passed",
+      "duration_seconds": "0.008734"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.AuthoredDefensesPreserveLiteralResultsAndMixedInputOrderAtEveryPresentationRate(60)",
+      "result": "Passed",
+      "duration_seconds": "0.007669"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.AuthoredDefensesPreserveLiteralResultsAndMixedInputOrderAtEveryPresentationRate(120)",
+      "result": "Passed",
+      "duration_seconds": "0.001849"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.AuthoredDefensesPreserveLiteralResultsAndMixedInputOrderAtEveryPresentationRate(0)",
+      "result": "Passed",
+      "duration_seconds": "0.000654"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.GuardBreakStaggerFollowupAndSaturatedDeathHaveLiteralReplayOutcomes(30)",
+      "result": "Passed",
+      "duration_seconds": "0.001317"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.GuardBreakStaggerFollowupAndSaturatedDeathHaveLiteralReplayOutcomes(60)",
+      "result": "Passed",
+      "duration_seconds": "0.000777"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.GuardBreakStaggerFollowupAndSaturatedDeathHaveLiteralReplayOutcomes(120)",
+      "result": "Passed",
+      "duration_seconds": "0.001227"
+    },
+    {
+      "name": "Praxen.Game.Tests.EditMode.DefenseReplayTests.GuardBreakStaggerFollowupAndSaturatedDeathHaveLiteralReplayOutcomes(0)",
+      "result": "Passed",
+      "duration_seconds": "0.000577"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('Import', 'AuthorScene', 'AuthorInput', 'EditMode', 'PlayMode')]
+    [ValidateSet('Import', 'AuthorScene', 'AuthorInput', 'AuthorCombat', 'EditMode', 'PlayMode')]
     [string]$Mode = 'EditMode',
     [string]$EvidenceName = '',
     [ValidatePattern('^task-[0-9]{2}$')]
@@ -40,6 +40,9 @@ if ($Mode -in @('EditMode', 'PlayMode')) {
     }
     if ($Mode -eq 'AuthorInput') {
         $arguments += @('-executeMethod', 'Praxen.Game.Editor.BootstrapSceneAuthoring.ConfigureInput')
+    }
+    if ($Mode -eq 'AuthorCombat') {
+        $arguments += @('-executeMethod', 'Praxen.Game.Editor.GrayboxEncounterAuthoring.CreateScene')
     }
 }
 

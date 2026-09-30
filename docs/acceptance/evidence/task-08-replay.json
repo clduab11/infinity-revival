@@ -1,0 +1,81 @@
+{
+  "task": 8,
+  "source": "final native Edit Mode XML TestContext output",
+  "seed": 1234567,
+  "fixture": "three zero-damage single-step patterns, common intro a",
+  "identical_outcomes": true,
+  "cases": [
+    {
+      "task": 8,
+      "replay": "seeded-enemy-patterns",
+      "presentation_fps": 30,
+      "jittered": false,
+      "events": [
+        "pattern:a:0",
+        "telegraph:1:10000",
+        "strike:1:660000:Hit:100:100:3:0",
+        "pattern:c:3160000",
+        "telegraph:2:3170000",
+        "strike:2:3820000:Hit:100:100:3:0",
+        "pattern:a:6320000",
+        "telegraph:3:6330000",
+        "strike:3:6980000:Hit:100:100:3:0"
+      ],
+      "outcome": "Running"
+    },
+    {
+      "task": 8,
+      "replay": "seeded-enemy-patterns",
+      "presentation_fps": 60,
+      "jittered": false,
+      "events": [
+        "pattern:a:0",
+        "telegraph:1:10000",
+        "strike:1:660000:Hit:100:100:3:0",
+        "pattern:c:3160000",
+        "telegraph:2:3170000",
+        "strike:2:3820000:Hit:100:100:3:0",
+        "pattern:a:6320000",
+        "telegraph:3:6330000",
+        "strike:3:6980000:Hit:100:100:3:0"
+      ],
+      "outcome": "Running"
+    },
+    {
+      "task": 8,
+      "replay": "seeded-enemy-patterns",
+      "presentation_fps": 120,
+      "jittered": false,
+      "events": [
+        "pattern:a:0",
+        "telegraph:1:10000",
+        "strike:1:660000:Hit:100:100:3:0",
+        "pattern:c:3160000",
+        "telegraph:2:3170000",
+        "strike:2:3820000:Hit:100:100:3:0",
+        "pattern:a:6320000",
+        "telegraph:3:6330000",
+        "strike:3:6980000:Hit:100:100:3:0"
+      ],
+      "outcome": "Running"
+    },
+    {
+      "task": 8,
+      "replay": "seeded-enemy-patterns",
+      "presentation_fps": 0,
+      "jittered": true,
+      "events": [
+        "pattern:a:0",
+        "telegraph:1:10000",
+        "strike:1:660000:Hit:100:100:3:0",
+        "pattern:c:3160000",
+        "telegraph:2:3170000",
+        "strike:2:3820000:Hit:100:100:3:0",
+        "pattern:a:6320000",
+        "telegraph:3:6330000",
+        "strike:3:6980000:Hit:100:100:3:0"
+      ],
+      "outcome": "Running"
+    }
+  ]
+}

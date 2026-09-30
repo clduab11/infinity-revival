@@ -1,0 +1,14 @@
+Native Unity Edit Mode, observed exit 1. Compiler evidence before Task 07 implementation.
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(73,79): error CS0246: The type or namespace name 'AttackRequestStatus' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(166,77): error CS0246: The type or namespace name 'AttackRequestStatus' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OpeningEncounterTests.cs(329,31): error CS0246: The type or namespace name 'CombatOpeningController' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OpeningEncounterTests.cs(332,47): error CS0246: The type or namespace name 'CombatOffenseTuning' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(443,71): error CS0246: The type or namespace name 'CombatOffenseTuning' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(443,24): error CS0246: The type or namespace name 'OffenseCombatant' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(451,51): error CS0246: The type or namespace name 'OffenseCombatant' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(70,26): error CS0103: The name 'AttackRequestStatus' does not exist in the current context
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(71,27): error CS0103: The name 'AttackRequestStatus' does not exist in the current context
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(72,27): error CS0103: The name 'AttackRequestStatus' does not exist in the current context
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(163,27): error CS0103: The name 'AttackRequestStatus' does not exist in the current context
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(164,27): error CS0103: The name 'AttackRequestStatus' does not exist in the current context
+Assets\Game\Tests\EditMode\OffenseRulesTests.cs(165,27): error CS0103: The name 'AttackRequestStatus' does not exist in the current context

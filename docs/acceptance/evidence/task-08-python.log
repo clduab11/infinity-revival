@@ -1,0 +1,6 @@
+Captured native-task tool result, 2026-09-29.
+Command: python3 -m unittest discover -s tools/build -p test_*.py -v
+Ran 12 tests in 4.479s
+OK
+Exit code: 0
+No Python validator implementation changed.

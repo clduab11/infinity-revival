@@ -1,0 +1,73 @@
+{
+  "equivalent": true,
+  "records": [
+    {
+      "presentation_fps": 30,
+      "jittered": false,
+      "hits": 1,
+      "parries": 2,
+      "events": [
+        "100000:Telegraph",
+        "200000:parry:9",
+        "200000:parry:2",
+        "200000:Impact",
+        "200000:RecoveryComplete",
+        "399999:parry:3",
+        "400000:Impact",
+        "600000:parry:4",
+        "600000:Impact"
+      ]
+    },
+    {
+      "presentation_fps": 60,
+      "jittered": false,
+      "hits": 1,
+      "parries": 2,
+      "events": [
+        "100000:Telegraph",
+        "200000:parry:9",
+        "200000:parry:2",
+        "200000:Impact",
+        "200000:RecoveryComplete",
+        "399999:parry:3",
+        "400000:Impact",
+        "600000:parry:4",
+        "600000:Impact"
+      ]
+    },
+    {
+      "presentation_fps": 120,
+      "jittered": false,
+      "hits": 1,
+      "parries": 2,
+      "events": [
+        "100000:Telegraph",
+        "200000:parry:9",
+        "200000:parry:2",
+        "200000:Impact",
+        "200000:RecoveryComplete",
+        "399999:parry:3",
+        "400000:Impact",
+        "600000:parry:4",
+        "600000:Impact"
+      ]
+    },
+    {
+      "presentation_fps": 0,
+      "jittered": true,
+      "hits": 1,
+      "parries": 2,
+      "events": [
+        "100000:Telegraph",
+        "200000:parry:9",
+        "200000:parry:2",
+        "200000:Impact",
+        "200000:RecoveryComplete",
+        "399999:parry:3",
+        "400000:Impact",
+        "600000:parry:4",
+        "600000:Impact"
+      ]
+    }
+  ]
+}

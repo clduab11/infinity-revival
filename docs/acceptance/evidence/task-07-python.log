@@ -1,0 +1,5 @@
+Captured native task command output: python3 -m unittest discover -s tools/build -p test_*.py -v
+All 12 validator regression cases passed.
+Ran 12 tests in 3.352s
+OK
+Exit code: 0

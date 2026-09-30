@@ -1,0 +1,441 @@
+{
+  "task": "07",
+  "status": "complete_for_openings_offense_balance_focus_contract",
+  "date": "2026-09-29",
+  "recorded_at_utc": "2026-09-30T01:28:48.522129+00:00",
+  "title": "Forever We Reign",
+  "canonical_windows_root": "C:\\Users\\cld-main\\Desktop\\github-projects\\infinity-redux",
+  "canonical_wsl_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+  "unity": {
+    "version": "6000.6.0f1",
+    "revision": "f7f8ed4d1e24"
+  },
+  "git": {
+    "branch": "task-05-combat-timing",
+    "base_commit": "ac4465af80ac521a1305dbe375b77c5192c89851",
+    "commit_or_push_performed": false
+  },
+  "test_suites": {
+    "editmode": {
+      "total": 488,
+      "passed": 488,
+      "failed": 0,
+      "skipped": 0
+    },
+    "playmode": {
+      "total": 56,
+      "passed": 56,
+      "failed": 0,
+      "skipped": 0
+    },
+    "python": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0
+    }
+  },
+  "task_07_new_cases": {
+    "editmode": 107,
+    "playmode": 8
+  },
+  "baseline": {
+    "ok": true,
+    "project_root": "/mnt/c/users/cld-main/desktop/github-projects/infinity-redux",
+    "direct_packages": 48,
+    "resolved_packages": 65,
+    "asset_guids": 126,
+    "git_checked": true,
+    "errors": []
+  },
+  "literal_replay": {
+    "cases": 4,
+    "source": "final native XML TestContext output",
+    "identical_outcomes": true,
+    "path": "docs/acceptance/evidence/task-07-replay.json"
+  },
+  "independent_review": {
+    "final_p1_p2_found": 0,
+    "scope": "read-only source review"
+  },
+  "preservation": {
+    "before_count": 385,
+    "preserved_count": 372,
+    "changed_paths": [
+      "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+      "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatInput.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+      "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs",
+      "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs",
+      "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+      "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+      "README.md",
+      "docs/production/asset-readiness.md"
+    ],
+    "changes": [
+      {
+        "path": "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+        "before_sha256": "9866bed27312330334b0aa90d73d7d16d6c60dfb28068adf9c950a49f6e3e030",
+        "after_sha256": "f843c8ce4afbfd527a2cb0823ad8fa4b119574615e2adf6f57c85616285a84a4"
+      },
+      {
+        "path": "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+        "before_sha256": "1b66d94634f0ef108fa8febdcff1ea7890fd6a6b77b9bb6fcdaf3d5dd1bc4f29",
+        "after_sha256": "edc034d6755524463ed4d6fb53b299981c300de3cb178de02740115750458fbf"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/CombatInput.cs",
+        "before_sha256": "77afa91db904f66787de18a1d3c78a3d2df2b0bf6b6b0835894a667180928185",
+        "after_sha256": "966d65167e04aa2cd704e764a5d9166ff7cac5713174ac59ee66a2bc89482a88"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+        "before_sha256": "10164e0fab39a07322d49089a9a81d90c844ad9e3cf41ec17b48bc723370b61e",
+        "after_sha256": "b96308c8130c158dac90886692ad5439eea66cf6afb16a1bb4401b020519520d"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+        "before_sha256": "461b5521d45211b767f1648e5264e996f38a9fd1ca25d0881f04bd2c889e6604",
+        "after_sha256": "474c46907f3d5ad4eaa4444d4379bafa9c72ba064869c2c938f1c2933ccc857d"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs",
+        "before_sha256": "9253b4f7a0cdaaf98fc3f26bf82252c66e19a54c03687f73648f9cb72ba75700",
+        "after_sha256": "23a6b5530cf1f2a90eef359a0d06a7dd23ed620454aa107216d72a0bc78ba5d9"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs",
+        "before_sha256": "0054c2362f8978d855ed6971f7f0d8be1d3424c6b161b765b9334ddcb8de8a73",
+        "after_sha256": "5d60504cad5cf55787130e2aeb61df1a922c4b2b821a6a82d35aa1bf6b5abaa8"
+      },
+      {
+        "path": "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+        "before_sha256": "50da3af581d7218347cec13bfcdbecf4aaf55cc6ef82215cc78327393d8cfe52",
+        "after_sha256": "5749a738abf974115e20fd3af0273125ff5db6028cf95fa7342123251a9b6341"
+      },
+      {
+        "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+        "before_sha256": "67599daab058bfdc8c66e27fac617a2b41f98749b05ba136bb324fc347238115",
+        "after_sha256": "66224445484703a44a2dab700b9f98caa0720eb95e9565d9815ea1ebe354cc5f"
+      },
+      {
+        "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+        "before_sha256": "8b292d1046f09f1ca17b01f008f3b3e1fa2006ada0da43089efab23ef3740873",
+        "after_sha256": "1d196de5d1e5a509a3ef0687f33d91073b53da91cb0cbb0a14c1b30b1477cdfa"
+      },
+      {
+        "path": "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+        "before_sha256": "9434229db21a6df3edb2bab6810e8cb3db0b6a190fe8361225714459887deef5",
+        "after_sha256": "ee827d2d6f8b7a00af4896c459e75a533829debecc719d6620b623ce3b478b66"
+      },
+      {
+        "path": "README.md",
+        "before_sha256": "59dd3ed95358edc5462040062bd33dc3ade5fd517be921ac12369d369990ef2d",
+        "after_sha256": "41b25f116f18d249babe286b2a0b2b1da91657dbb95505aea46a95971b82c98f"
+      },
+      {
+        "path": "docs/production/asset-readiness.md",
+        "before_sha256": "310055f0913bfd76d9b468d816ec0f30c01f65e270d3320f6eb2eaf07d2de9f4",
+        "after_sha256": "aad7a40936a3fcfe69b9d7321c68990562c2183fe9e0c35a54391d12cd2796e8"
+      }
+    ],
+    "missing_paths": [],
+    "alternate_source_files_preserved": 62,
+    "prior_metadata_guids_unchanged": true,
+    "editor_packages_project_settings_and_pipeline_control_unchanged": true,
+    "before_inventory": "task-07-before-source-hashes.json"
+  },
+  "qualification": {
+    "physical_phone": "UNRUN",
+    "player_build": "UNRUN",
+    "full_prototype_gate": "unaccepted",
+    "next_work_order": "08",
+    "active_ability_effects_equip_and_persistence": "Task22"
+  },
+  "art_generation_or_purchase": false,
+  "artifacts": [
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+      "bytes": 6117,
+      "sha256": "f843c8ce4afbfd527a2cb0823ad8fa4b119574615e2adf6f57c85616285a84a4"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatOpeningController.cs",
+      "bytes": 17382,
+      "sha256": "68d712470505277ce118b11977dd7f1f45626bfe5f1e38feb567f7b256348747"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatOpeningController.cs.meta",
+      "bytes": 59,
+      "sha256": "60a51d899646a34367f8f41607ff0129f371ebbc80e072dcc2e9d825f5d7e5e7"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+      "bytes": 4527,
+      "sha256": "edc034d6755524463ed4d6fb53b299981c300de3cb178de02740115750458fbf"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatInput.cs",
+      "bytes": 1234,
+      "sha256": "966d65167e04aa2cd704e764a5d9166ff7cac5713174ac59ee66a2bc89482a88"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatMomentum.cs",
+      "bytes": 3524,
+      "sha256": "8a9de281daca5be5cc18fad2dc72acff7cb8ed9846b5d2eee4aa08d738a322a7"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatMomentum.cs.meta",
+      "bytes": 59,
+      "sha256": "7e5e2df55f21ebda3e359b862b07f311d5a44d0c4e60aa433ea016f17207e02b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatOffenseTuning.cs",
+      "bytes": 3894,
+      "sha256": "588922c2593506197f4a8e2409172a9ca6d0b0bf381d5f287927290aba4348b7"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatOffenseTuning.cs.meta",
+      "bytes": 59,
+      "sha256": "93b5926ec8c7b8f093002c94ba087661cc162fe63d8e6ad559beec929a6919fb"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "bytes": 10602,
+      "sha256": "b96308c8130c158dac90886692ad5439eea66cf6afb16a1bb4401b020519520d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+      "bytes": 2801,
+      "sha256": "474c46907f3d5ad4eaa4444d4379bafa9c72ba064869c2c938f1c2933ccc857d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs",
+      "bytes": 1280,
+      "sha256": "23a6b5530cf1f2a90eef359a0d06a7dd23ed620454aa107216d72a0bc78ba5d9"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs",
+      "bytes": 13199,
+      "sha256": "5d60504cad5cf55787130e2aeb61df1a922c4b2b821a6a82d35aa1bf6b5abaa8"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/OffenseCombatant.cs",
+      "bytes": 9252,
+      "sha256": "fd4f7ea3e70170ff1acda2f9359063be254f175892c698cbd2f85b4ce2922225"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/OffenseCombatant.cs.meta",
+      "bytes": 59,
+      "sha256": "d32c62cfa0e455d5317afde27a94cf32e4810cf3b0c0ddf9c85383e8942f881f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/PlayerAttackValues.cs",
+      "bytes": 3105,
+      "sha256": "74032a4a0c1820e67fe377e25081b6cfef53a95be78aa814c6805cf0e92d2577"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/PlayerAttackValues.cs.meta",
+      "bytes": 59,
+      "sha256": "29c102d461cf38c0b4465653ae0b0f16d33217e6f744ece8a464849a5c73358a"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/OrderedTouchRecord.cs",
+      "bytes": 798,
+      "sha256": "e3000f38ba1df9cfc8ce1e954a8d7000eb58df78ef64e529cc33dd81b479d541"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/OrderedTouchRecord.cs.meta",
+      "bytes": 59,
+      "sha256": "f05a50610f707535a219ce075bd425ab9e22ed950734562a6218e13cdc0c4e50"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "bytes": 8350,
+      "sha256": "5749a738abf974115e20fd3af0273125ff5db6028cf95fa7342123251a9b6341"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "bytes": 9162,
+      "sha256": "66224445484703a44a2dab700b9f98caa0720eb95e9565d9815ea1ebe354cc5f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+      "bytes": 16013,
+      "sha256": "1d196de5d1e5a509a3ef0687f33d91073b53da91cb0cbb0a14c1b30b1477cdfa"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+      "bytes": 10379,
+      "sha256": "ee827d2d6f8b7a00af4896c459e75a533829debecc719d6620b623ce3b478b66"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/CombatMomentumTests.cs",
+      "bytes": 15685,
+      "sha256": "d1b687a7b8ad3102f0f9f635fd5f834afcd7c64a47642a08643af60004a6ec6e"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/CombatMomentumTests.cs.meta",
+      "bytes": 59,
+      "sha256": "8cd9a1d1ed9526a1c9090dac40a1d2b4b7bbac6171fe523c40f9356b520f5401"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OffenseRulesTests.cs",
+      "bytes": 24447,
+      "sha256": "168eee6f8269983d8519e606e147ab121499af33ba7e6f85038350aba5a1b276"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OffenseRulesTests.cs.meta",
+      "bytes": 59,
+      "sha256": "99a3b70babb357aa5b3f698f7784ae786123528026a6bf57b0d5845fe0f9b9f2"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OffenseTimingSeamTests.cs",
+      "bytes": 6086,
+      "sha256": "68a68097f980e5a1bb52cbb0bc286f76d821b81a9f5dccc3aaedf2b83bb9e467"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OffenseTimingSeamTests.cs.meta",
+      "bytes": 59,
+      "sha256": "45e9e2fb029c368cc60355b194cd0da5b656803cf40c8a132efdff3432548299"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OpeningEncounterTests.cs",
+      "bytes": 23477,
+      "sha256": "434c7f527b39080bf5cfef40bf47b45cbd37febc02f311f300c4b086efb49e35"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OpeningEncounterTests.cs.meta",
+      "bytes": 59,
+      "sha256": "68cc395e237e168a63d00a815d6acf15789d8db7fb66947c66da247f8734a9bc"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OrderedTouchAdmissionTests.cs",
+      "bytes": 2311,
+      "sha256": "7a5efb1cd36754e9657cac5f3228ec4d75255d0f530e680c8e27a40e952ad509"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/OrderedTouchAdmissionTests.cs.meta",
+      "bytes": 59,
+      "sha256": "c99253dcfbcd2fbd32a29c0e99de22b6f541ec2562393b645e7ab2d395bca5ed"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/TimestampedOffenseIntegrationTests.cs",
+      "bytes": 10340,
+      "sha256": "23fc14dbbaa280979cd815f40355a1a6b17521aeecdfebbdc1dde40e44a78701"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/TimestampedOffenseIntegrationTests.cs.meta",
+      "bytes": 59,
+      "sha256": "57435a929c599c506bd85e0389de3fb34e85dac65171525d9300867d5bad3640"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27782,
+      "sha256": "41b25f116f18d249babe286b2a0b2b1da91657dbb95505aea46a95971b82c98f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-admission-red.xml",
+      "bytes": 402300,
+      "sha256": "830a6ab70ece4027ca17786d60a2d18df830bd7766e38e716aecee7572ae344f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-baseline.json",
+      "bytes": 212,
+      "sha256": "8192465429e2b31a8700fcc6062ce4570be20ae9a1601f17cc837e569eb479f9"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-before-source-hashes.json",
+      "bytes": 46842,
+      "sha256": "76e83bc3477699c8d36eed069d3010964c134cebf7134bd1d554b8f2997127e9"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-buffer-red.xml",
+      "bytes": 397824,
+      "sha256": "2acdaf0fba5fd5a174a0f2ae5958194f30a8f6eef8ce3a586a9b597d540c25a9"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-editmode.xml",
+      "bytes": 399747,
+      "sha256": "7f10a5a1ca6b7c151115374d5487ea16d6e68bbbaf392f7ec3c02f86972c2b12"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-missing-api-red.log",
+      "bytes": 2339,
+      "sha256": "ef619997561eafd610936142867ca7b6bbf5db15fab5704d0b162642a5a97c2f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-ownership-red.xml",
+      "bytes": 401708,
+      "sha256": "ebe68b33f090497baa6b5d9c65a17d85e2316dfbdbf3a596696b78746446decf"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-playmode.xml",
+      "bytes": 48776,
+      "sha256": "31c06525e08d667ab28ff787b9b54ca75c8bbd7bca5ea78f23714b00f2acc495"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-python.log",
+      "bytes": 178,
+      "sha256": "581e0a1caa759f73e9a3b883081b6d16dfbf09616d1a9e95f9514bb5bc04c743"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-replay.json",
+      "bytes": 2415,
+      "sha256": "5c32ef242390974ed572962feb4278e232ebf5b52df092b347157dee8c216fb3"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-review.md",
+      "bytes": 2968,
+      "sha256": "484ce70446e146bff480eedbe38f609c8d9cbbba5aa8202248b99e064e95ab28"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-source-preservation.json",
+      "bytes": 4524,
+      "sha256": "46918631b1c20579662a97bf6e94b184ceaf4946e790da0466bb11ade4f7a25f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-test-first.md",
+      "bytes": 815,
+      "sha256": "492376275aa878338a0540182d6ceb32d6598b71c671ebd03787ff7aac8175b1"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-07-touch-red.xml",
+      "bytes": 51151,
+      "sha256": "56c0882ee7a1e9428c56a1ab7bc9cd48466670951de6b572c94b4a2a2cc37d30"
+    },
+    {
+      "path": "docs/acceptance/task-07-readiness-2026-09-29.md",
+      "bytes": 4992,
+      "sha256": "404debcded5f65eefbf8623723d3b03a7a7fef63a07ea76e6377c72b217d3162"
+    },
+    {
+      "path": "docs/architecture/offense-combat.md",
+      "bytes": 12361,
+      "sha256": "05277231b5faba6b929299eb5aab48627396a1afe3859c79d80fd9c9845c5f0b"
+    },
+    {
+      "path": "docs/media/forever-we-reign-task-07-graybox.png",
+      "bytes": 156456,
+      "sha256": "f3584582e3299f4070ddb754187f9a80c8647e928308c82f6fbfea8ea539f8e4"
+    },
+    {
+      "path": "docs/production/asset-readiness.md",
+      "bytes": 7223,
+      "sha256": "aad7a40936a3fcfe69b9d7321c68990562c2183fe9e0c35a54391d12cd2796e8"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-29-task-07-offense.md",
+      "bytes": 2045,
+      "sha256": "310c533755da2163962ddeb0675ce632062402867c467fc491fd7261582e950d"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-29-task-07-offense-design.md",
+      "bytes": 4678,
+      "sha256": "9dba4d7a4a57585b6160d4d75adc5a7ba6323f1cddf2039e1e5c920b8a1c4c19"
+    }
+  ]
+}

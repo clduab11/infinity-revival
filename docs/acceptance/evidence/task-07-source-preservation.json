@@ -1,0 +1,91 @@
+{
+  "before_count": 385,
+  "preserved_count": 372,
+  "changed_paths": [
+    "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+    "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+    "Assets/Game/Runtime/Domain/Combat/CombatInput.cs",
+    "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+    "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+    "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs",
+    "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs",
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+    "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+    "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+    "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+    "README.md",
+    "docs/production/asset-readiness.md"
+  ],
+  "changes": [
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+      "before_sha256": "9866bed27312330334b0aa90d73d7d16d6c60dfb28068adf9c950a49f6e3e030",
+      "after_sha256": "f843c8ce4afbfd527a2cb0823ad8fa4b119574615e2adf6f57c85616285a84a4"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+      "before_sha256": "1b66d94634f0ef108fa8febdcff1ea7890fd6a6b77b9bb6fcdaf3d5dd1bc4f29",
+      "after_sha256": "edc034d6755524463ed4d6fb53b299981c300de3cb178de02740115750458fbf"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatInput.cs",
+      "before_sha256": "77afa91db904f66787de18a1d3c78a3d2df2b0bf6b6b0835894a667180928185",
+      "after_sha256": "966d65167e04aa2cd704e764a5d9166ff7cac5713174ac59ee66a2bc89482a88"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "before_sha256": "10164e0fab39a07322d49089a9a81d90c844ad9e3cf41ec17b48bc723370b61e",
+      "after_sha256": "b96308c8130c158dac90886692ad5439eea66cf6afb16a1bb4401b020519520d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+      "before_sha256": "461b5521d45211b767f1648e5264e996f38a9fd1ca25d0881f04bd2c889e6604",
+      "after_sha256": "474c46907f3d5ad4eaa4444d4379bafa9c72ba064869c2c938f1c2933ccc857d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs",
+      "before_sha256": "9253b4f7a0cdaaf98fc3f26bf82252c66e19a54c03687f73648f9cb72ba75700",
+      "after_sha256": "23a6b5530cf1f2a90eef359a0d06a7dd23ed620454aa107216d72a0bc78ba5d9"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs",
+      "before_sha256": "0054c2362f8978d855ed6971f7f0d8be1d3424c6b161b765b9334ddcb8de8a73",
+      "after_sha256": "5d60504cad5cf55787130e2aeb61df1a922c4b2b821a6a82d35aa1bf6b5abaa8"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "before_sha256": "50da3af581d7218347cec13bfcdbecf4aaf55cc6ef82215cc78327393d8cfe52",
+      "after_sha256": "5749a738abf974115e20fd3af0273125ff5db6028cf95fa7342123251a9b6341"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "before_sha256": "67599daab058bfdc8c66e27fac617a2b41f98749b05ba136bb324fc347238115",
+      "after_sha256": "66224445484703a44a2dab700b9f98caa0720eb95e9565d9815ea1ebe354cc5f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+      "before_sha256": "8b292d1046f09f1ca17b01f008f3b3e1fa2006ada0da43089efab23ef3740873",
+      "after_sha256": "1d196de5d1e5a509a3ef0687f33d91073b53da91cb0cbb0a14c1b30b1477cdfa"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+      "before_sha256": "9434229db21a6df3edb2bab6810e8cb3db0b6a190fe8361225714459887deef5",
+      "after_sha256": "ee827d2d6f8b7a00af4896c459e75a533829debecc719d6620b623ce3b478b66"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "59dd3ed95358edc5462040062bd33dc3ade5fd517be921ac12369d369990ef2d",
+      "after_sha256": "41b25f116f18d249babe286b2a0b2b1da91657dbb95505aea46a95971b82c98f"
+    },
+    {
+      "path": "docs/production/asset-readiness.md",
+      "before_sha256": "310055f0913bfd76d9b468d816ec0f30c01f65e270d3320f6eb2eaf07d2de9f4",
+      "after_sha256": "aad7a40936a3fcfe69b9d7321c68990562c2183fe9e0c35a54391d12cd2796e8"
+    }
+  ],
+  "missing_paths": [],
+  "alternate_source_files_preserved": 62,
+  "prior_metadata_guids_unchanged": true,
+  "editor_packages_project_settings_and_pipeline_control_unchanged": true,
+  "before_inventory": "task-07-before-source-hashes.json"
+}

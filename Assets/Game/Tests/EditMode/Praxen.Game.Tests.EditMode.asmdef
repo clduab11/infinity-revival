@@ -4,6 +4,7 @@
     "references": [
         "Praxen.Game.Domain",
         "Praxen.Game.Application",
+        "Praxen.Game.Content",
         "Praxen.Game.Infrastructure",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

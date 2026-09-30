@@ -21,9 +21,28 @@ namespace Praxen.Game.Presentation.Input
         private InputSettings.UpdateMode updateMode;
         private bool inputEnabled = true;
         private readonly Dictionary<long, TouchSample> contacts = new Dictionary<long, TouchSample>();
+        private readonly Dictionary<long, PointerOwnership> orderedOwners = new Dictionary<long, PointerOwnership>();
 
         public event Action<TouchSample> SampleCaptured;
+        public event Action<OrderedTouchRecord> OrderedSampleCaptured;
         public event Action<GestureCommand> CommandProduced;
+        public event Action ContactsCancelled;
+        public bool OrderedRecognition { get; private set; }
+
+        public void SetOrderedRecognition(bool value)
+        {
+            if (OrderedRecognition == value) return;
+            OrderedRecognition = value;
+            orderedOwners.Clear();
+            recognizer?.ResetContacts();
+            ContactsCancelled?.Invoke();
+        }
+
+        public void PublishRecognized(GestureCommand command)
+        {
+            if (!OrderedRecognition) throw new InvalidOperationException("Ordered recognition is disabled.");
+            CommandProduced?.Invoke(command);
+        }
 
         public void Configure(IInteractionPhaseSource phaseSource,
             IPointerOwnershipResolver ownershipResolver, GestureTuning tuning)
@@ -39,8 +58,14 @@ namespace Praxen.Game.Presentation.Input
 
         public void SetInputEnabled(bool value)
         {
+            bool changed = inputEnabled != value;
             inputEnabled = value;
-            if (!value) recognizer?.CancelAll();
+            if (!value)
+            {
+                recognizer?.CancelAll();
+                orderedOwners.Clear();
+                if (changed) ContactsCancelled?.Invoke();
+            }
         }
 
         private void OnEnable()
@@ -55,6 +80,7 @@ namespace Praxen.Game.Presentation.Input
             updateMode = InputSystem.settings.updateMode;
             recognizer.ResetContacts();
             contacts.Clear();
+            orderedOwners.Clear();
             metrics = CurrentMetrics();
             SeedHeldContacts();
             EnhancedTouch.onFingerDown += Capture;
@@ -80,6 +106,7 @@ namespace Praxen.Game.Presentation.Input
                     var inactive = InteractionPhase.Inactive;
                     recognizer.Process(in sample, in excluded, in inactive, in metrics);
                     contacts[sample.PointerId] = sample;
+                    orderedOwners[sample.PointerId] = excluded;
                 }
             }
         }
@@ -93,7 +120,11 @@ namespace Praxen.Game.Presentation.Input
             if (!touch.valid || touch.touchId == 0) return;
             var nextMetrics = CurrentMetrics();
             if (nextMetrics.Width != metrics.Width || nextMetrics.Height != metrics.Height)
+            {
                 recognizer.CancelAll();
+                orderedOwners.Clear();
+                ContactsCancelled?.Invoke();
+            }
             metrics = nextMetrics;
             var phase = ConvertPhase(touch.phase);
             if (!phase.HasValue) return;
@@ -105,12 +136,26 @@ namespace Praxen.Game.Presentation.Input
                 owner = ownership.Resolve(in sample, in metrics);
             if (!inputEnabled) recognizer.CancelAll();
             var command = recognizer.Process(in sample, in owner, in current, in metrics);
+            PublishSample(sample, owner, command);
+        }
+
+        private void PublishSample(TouchSample sample, PointerOwnership owner, GestureCommand? command)
+        {
+            if (sample.Phase == SamplePhase.Began && !orderedOwners.ContainsKey(sample.PointerId))
+                orderedOwners.Add(sample.PointerId, owner);
+            // UI contacts already produce typed controls. Queue only contacts owned by gameplay at Begin.
+            if (OrderedRecognition && inputEnabled && orderedOwners.TryGetValue(sample.PointerId, out var capturedOwner) &&
+                capturedOwner.Kind == PointerOwnerKind.Gameplay)
+                OrderedSampleCaptured?.Invoke(new OrderedTouchRecord(sample, capturedOwner, metrics));
             if (sample.Phase == SamplePhase.Ended || sample.Phase == SamplePhase.Cancelled)
+            {
                 contacts.Remove(sample.PointerId);
+                orderedOwners.Remove(sample.PointerId);
+            }
             else
                 contacts[sample.PointerId] = sample;
             SampleCaptured?.Invoke(sample);
-            if (command.HasValue) CommandProduced?.Invoke(command.Value);
+            if (!OrderedRecognition && command.HasValue) CommandProduced?.Invoke(command.Value);
         }
 
         private void SettingsChanged()
@@ -118,6 +163,8 @@ namespace Praxen.Game.Presentation.Input
             var next = InputSystem.settings.updateMode;
             if (next == updateMode) return;
             recognizer.CancelAll();
+            orderedOwners.Clear();
+            ContactsCancelled?.Invoke();
             updateMode = next;
         }
 
@@ -135,9 +182,14 @@ namespace Praxen.Game.Presentation.Input
                 var cancelled = new TouchSample(id, SamplePhase.Cancelled, last.Position,
                     Math.Max(last.TimestampUs, Microseconds(InputState.currentTime)));
                 recognizer.Process(in cancelled, in excluded, in current, in metrics);
+                if (OrderedRecognition && orderedOwners.TryGetValue(id, out var owner) &&
+                    owner.Kind == PointerOwnerKind.Gameplay)
+                    OrderedSampleCaptured?.Invoke(new OrderedTouchRecord(cancelled, owner, metrics));
+                orderedOwners.Remove(id);
                 contacts.Remove(id);
                 SampleCaptured?.Invoke(cancelled);
             }
+            if (removed.Count > 0) ContactsCancelled?.Invoke();
         }
 
         private NormalizedPoint Normalize(Vector2 point) =>
@@ -174,6 +226,8 @@ namespace Praxen.Game.Presentation.Input
             InputSystem.onSettingsChange -= SettingsChanged;
             recognizer.CancelAll();
             contacts.Clear();
+            orderedOwners.Clear();
+            ContactsCancelled?.Invoke();
             session.Dispose();
             session = null;
         }

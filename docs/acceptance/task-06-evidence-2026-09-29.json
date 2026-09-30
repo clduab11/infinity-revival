@@ -1,0 +1,147 @@
+{
+  "task": "06",
+  "status": "complete_for_authored_graybox_defense_contract",
+  "date": "2026-09-29",
+  "recorded_at_utc": "2026-09-30T00:07:11.120999+00:00",
+  "title": "Forever We Reign",
+  "canonical_windows_root": "C:\\Users\\cld-main\\Desktop\\github-projects\\infinity-redux",
+  "canonical_wsl_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+  "unity": {
+    "version": "6000.6.0f1",
+    "revision": "f7f8ed4d1e24"
+  },
+  "git": {
+    "branch": "task-05-combat-timing",
+    "base_commit": "ac4465af80ac521a1305dbe375b77c5192c89851",
+    "commit_or_push_performed": false
+  },
+  "test_suites": {
+    "editmode": {
+      "total": 381,
+      "passed": 381,
+      "failed": 0,
+      "skipped": 0
+    },
+    "playmode": {
+      "total": 48,
+      "passed": 48,
+      "failed": 0,
+      "skipped": 0
+    },
+    "python": {
+      "total": 12,
+      "passed": 12
+    }
+  },
+  "task_06_new_cases": {
+    "editmode": 168,
+    "playmode": 15,
+    "authored_replay_cases": 8
+  },
+  "baseline": {
+    "ok": true,
+    "project_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+    "direct_packages": 48,
+    "resolved_packages": 65,
+    "asset_guids": 114,
+    "git_checked": true,
+    "errors": []
+  },
+  "independent_review": {
+    "p2_findings_resolved": 6,
+    "final_p1_p2_found": 0
+  },
+  "preservation": {
+    "before_count": 326,
+    "preserved_count": 317,
+    "changed_paths": [
+      "Assets/Game/Runtime/Application/Combat/CombatSession.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs",
+      "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "Assets/Game/Runtime/Presentation/Input/TimestampedTouchCapture.cs",
+      "ProjectSettings/EditorBuildSettings.asset",
+      "ProjectSettings/ProjectSettings.asset",
+      "README.md",
+      "tools/build/run_unity_checks.ps1"
+    ],
+    "missing_paths": [],
+    "alternate_project_files_preserved": 62
+  },
+  "prototype_rules": {
+    "health": 100,
+    "guard": 100,
+    "dodge_charges": 3,
+    "guard_stagger_us": 600000,
+    "dodge_action_us": 360000,
+    "dodge_avoidance_inclusive_us": [
+      50000,
+      230000
+    ],
+    "parry_window_inclusive_us": 140000,
+    "parry_recovery_us": 250000,
+    "hit_recovery_us": 200000,
+    "dodge_recharge_us": 3000000
+  },
+  "unrun": [
+    "physical_phone_acceptance",
+    "player_builds",
+    "sustained_mobile_performance",
+    "one_thumb_ergonomics",
+    "production_animation_contact",
+    "release_automation_exclusion"
+  ],
+  "asset_generation_or_purchase": false,
+  "artifact_sha256": {
+    "README.md": "59dd3ed95358edc5462040062bd33dc3ade5fd517be921ac12369d369990ef2d",
+    "ProjectSettings/ProjectSettings.asset": "c6059d22e45d537a90f0bf459fa07a2b1a2a66bdfcd51677bebbd81018ba91f3",
+    "ProjectSettings/EditorBuildSettings.asset": "5f678498be9543196d6e77e443ba5f3b45a20e10e588c7190ca25d179d491f96",
+    "docs/acceptance/task-06-readiness-2026-09-29.md": "95f124b0145bb493ff5f2444fab345378b5511fd3340856e0308729c5239c6d8",
+    "docs/acceptance/evidence/task-06-baseline.json": "d8411de330760cc5fbba0facd6994f8cc3905f9504ac3fc1a06c323cde1dde1d",
+    "docs/acceptance/evidence/task-06-editmode.xml": "df75e916cc1e7b0bb0364c0778a21ec5b1949963c7cd85bd36c346a0e072a9c4",
+    "docs/acceptance/evidence/task-06-ownership-red.xml": "f727c70208a7759dd73bd782e92334d5c3330be338aea10b3ef161147b0a04c0",
+    "docs/acceptance/evidence/task-06-playmode.xml": "6841303e6c84f2cf02033826fbfc841713693f294135bb231b9daa7f31585cd6",
+    "docs/acceptance/evidence/task-06-pose-red.xml": "06d304a941b8b8c51c2a1e0190026d0e24a3561f76e5e365d65463746a51617a",
+    "docs/acceptance/evidence/task-06-python.log": "4837a57a32cd28f12c89ca7fc1823654b627fe2e7f6674d385baaf3b6542beff",
+    "docs/acceptance/evidence/task-06-replay.json": "cde5ae9b841d1a2a459eac05b005e85de18886dc25cf66f4dcbcb9a180168183",
+    "docs/acceptance/evidence/task-06-review-red.xml": "a8eb4b9d45e2e15f0fcf244441a08ea1db9c7e9cebda953960b7f51e22ddaf3a",
+    "docs/acceptance/evidence/task-06-review.md": "6424f3e1867506b9761e5d06e36a12c9dcf0ca753942cbbe017605752962728f",
+    "docs/acceptance/evidence/task-06-source-preservation.json": "171afe551ab2ed6a62854222a431c24c730a190465185ca1f89c5fa57a674a85",
+    "docs/acceptance/evidence/task-06-test-first.md": "8f6741b26677a65bd3282c609e0a3036eecc2dd7b8840974c6697b44e4befa00",
+    "docs/media/forever-we-reign-graybox.png": "6b854768b2fdf192290dd20287ef86b76ed0117ccead13e52a250be572603a3e",
+    "docs/production/narrative-brief.md": "a7b9ecd0166a64c1fe79378a41ef3b41b0f84acb3b2814426c2ce9f205337b78",
+    "docs/production/asset-readiness.md": "310055f0913bfd76d9b468d816ec0f30c01f65e270d3320f6eb2eaf07d2de9f4",
+    "docs/architecture/defense-combat.md": "ca371c0ce225136f8063b5e48993250d7fb4bb10c9d883c169cf26e07183fb98",
+    "docs/superpowers/plans/2026-09-29-task-06-defense.md": "7f1e6b5c0dedc18d146949a214cd3036402848a7f7339cc562248b79a4264d66",
+    "docs/superpowers/specs/2026-09-29-task-06-defense-design.md": "f1b1abbb81faa3ea7c535389b959a1820cae1edad4aa2a68c2d295c472390642",
+    "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs": "9866bed27312330334b0aa90d73d7d16d6c60dfb28068adf9c950a49f6e3e030",
+    "Assets/Game/Runtime/Application/Combat/CombatSession.cs": "1b66d94634f0ef108fa8febdcff1ea7890fd6a6b77b9bb6fcdaf3d5dd1bc4f29",
+    "Assets/Game/Runtime/Domain/Combat/CombatClock.cs": "25798f4c5de69f83eefe05e43c1da2fdf5ff5a49e3f72d3e7f55dc7a617eefa6",
+    "Assets/Game/Runtime/Domain/Combat/CombatDefenseTuning.cs": "a401bad6dd11052ab8c60d72660a9ca60ce0798dd00acbeb890f1f3836914081",
+    "Assets/Game/Runtime/Domain/Combat/CombatInput.cs": "77afa91db904f66787de18a1d3c78a3d2df2b0bf6b6b0835894a667180928185",
+    "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs": "10164e0fab39a07322d49089a9a81d90c844ad9e3cf41ec17b48bc723370b61e",
+    "Assets/Game/Runtime/Domain/Combat/CombatTimingValues.cs": "461b5521d45211b767f1648e5264e996f38a9fd1ca25d0881f04bd2c889e6604",
+    "Assets/Game/Runtime/Domain/Combat/DefenseCombatValues.cs": "9253b4f7a0cdaaf98fc3f26bf82252c66e19a54c03687f73648f9cb72ba75700",
+    "Assets/Game/Runtime/Domain/Combat/DefenseCombatant.cs": "0054c2362f8978d855ed6971f7f0d8be1d3424c6b161b765b9334ddcb8de8a73",
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs": "50da3af581d7218347cec13bfcdbecf4aaf55cc6ef82215cc78327393d8cfe52",
+    "Assets/Game/Tests/EditMode/CombatClockTests.cs": "16cd73740724c4619c0406979e576fa7221a61f41be6e3f53b204cb1e2346c54",
+    "Assets/Game/Tests/EditMode/CombatSessionTests.cs": "b4d3009bc20f69c33d60875540421a6df9a7b09ae14f1c10368c8ac63c290dd8",
+    "Assets/Game/Tests/EditMode/CombatTimelineTests.cs": "a2fed53c5cb4136f65b493c832ce8baf396f15602626afb3fee9d0cabd6f015a",
+    "Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs": "2b772747537ad7f76fa5a01d499adc2f191ae9d515ac1eb4b67a0b4473c653d1",
+    "Assets/Game/Runtime/Domain/Combat/DefenseCommand.cs": "68b66bf88c1db9e378fe60dc203640308b23fe4d0b3c50b0b62828e9b6995158",
+    "Assets/Game/Runtime/Domain/Combat/EnemyStrike.cs": "1c224d40248a2475ba9c624a772ebc46677da0122c3cc75a71246a326cbca313",
+    "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs": "67599daab058bfdc8c66e27fac617a2b41f98749b05ba136bb324fc347238115",
+    "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs": "8b292d1046f09f1ca17b01f008f3b3e1fa2006ada0da43089efab23ef3740873",
+    "Assets/Game/Runtime/Presentation/Combat/GrayboxStrikes.cs": "6e4d5981e617c7436ff4bf0e86f83c6ef5d5b959a7a046f9b23ba0778de887ed",
+    "Assets/Game/Runtime/Presentation/Combat/TimestampedDefenseControls.cs": "4a00732bae683c5ce3292d0b78a5f016a3486e0064b34ae5ec4cdc86aae50492",
+    "Assets/Game/Tests/EditMode/DefenseEncounterTests.cs": "a54ef87681321212884aefabf70ed0883d67acd1854bb34bf88c1157a0900ab3",
+    "Assets/Game/Tests/EditMode/DefenseReplayTests.cs": "6914e958a9e3aa98827c2d19fb323acff67e9dc7589f9bc51d537be35a8d5c19",
+    "Assets/Game/Tests/EditMode/DefenseRulesTests.cs": "1b669c64382b4607393fe3eb40cf90c7d33ee54bf0b0cb47583e159016c7a88e",
+    "Assets/Game/Tests/EditMode/DefenseTimingTests.cs": "80f6af3ce26356cb9b9f86de6211b5a5466e5af0741ce5188c029d5caf830b96",
+    "Assets/Game/Tests/PlayMode/TimestampedDefenseIntegrationTests.cs": "9399812cd5482a4d08d60a25ea0ed179402a85301247fbe4acd6fdd51e45ab18",
+    "Assets/Game/Scenes/GrayboxEncounter.unity": "c993941df6b1a6b0bea86adb0ed6ffbd817310cfd1ea8bbcb4a94707530f62a8",
+    "Assets/Game/Editor/GrayboxEncounterAuthoring.cs": "41056e011d02d8d82b07dd1258bb7e26a555b29d5c48d3df93b61d855eb5abd3",
+    "Assets/Game/Tests/PlayMode/GrayboxCapture.cs": "24d769f3df079375615a8929749e18a8a56b82a685e0c8159983ca508106de07",
+    "Assets/Game/Tests/PlayMode/GrayboxEncounterTests.cs": "f001715f6d990f6e98ab6e6acb8d2f7c5ecaf1242aa8af64bd47adcf2ad2dc59"
+  }
+}

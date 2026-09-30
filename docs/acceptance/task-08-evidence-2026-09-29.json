@@ -1,0 +1,443 @@
+{
+  "task": "08",
+  "status": "complete_for_seeded_regular_enemy_pattern_contract",
+  "date": "2026-09-29",
+  "recorded_at_utc": "2026-09-30T02:14:36.893430+00:00",
+  "title": "Forever We Reign",
+  "canonical_windows_root": "C:\\Users\\cld-main\\Desktop\\github-projects\\infinity-redux",
+  "canonical_wsl_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+  "unity": {
+    "version": "6000.6.0f1",
+    "revision": "f7f8ed4d1e24"
+  },
+  "git": {
+    "branch": "task-05-combat-timing",
+    "base_commit": "ac4465af80ac521a1305dbe375b77c5192c89851",
+    "commit_or_push_performed": false
+  },
+  "test_suites": {
+    "editmode": {
+      "total": 632,
+      "passed": 632,
+      "failed": 0,
+      "skipped": 0
+    },
+    "playmode": {
+      "total": 60,
+      "passed": 60,
+      "failed": 0,
+      "skipped": 0
+    },
+    "python": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "task_08_new_cases": {
+    "editmode": 144,
+    "playmode": 4
+  },
+  "prior_test_identities_preserved": {
+    "editmode": 488,
+    "playmode": 56
+  },
+  "baseline": {
+    "ok": true,
+    "project_root": "/mnt/c/users/cld-main/desktop/github-projects/infinity-redux",
+    "direct_packages": 48,
+    "resolved_packages": 65,
+    "asset_guids": 139,
+    "git_checked": true,
+    "errors": []
+  },
+  "prototype_content": {
+    "decks": [
+      "Sword",
+      "Shield",
+      "Polearm",
+      "Hammer"
+    ],
+    "patterns_per_deck": 3,
+    "steps_per_pattern": [
+      1,
+      2,
+      3
+    ],
+    "content_revision": "prototype-enemy-decks-v1",
+    "balance_revision": "task08-balance-2026-09-29-v1",
+    "default_seed": 20260929,
+    "difficulty_input_range": [
+      0,
+      5
+    ],
+    "cooldowns_us": [
+      0,
+      4000000,
+      6000000
+    ],
+    "base_weights": [
+      120,
+      80,
+      50
+    ],
+    "history_depth": 2,
+    "rng": "xorshift32 with zero normalized to 0x6D2B79F5, draw-minus-one upper-tail rejection on 4294967295 states",
+    "committed_sequence_admission": "3*N+1 milestones atomically, selector mutation after admission",
+    "approved_observations": [
+      "player_health",
+      "guard",
+      "dodge_charges",
+      "focus",
+      "last_resolved_defense_outcome",
+      "last_resolved_player_attack_direction"
+    ],
+    "unfinished_input_reaches_selector": false
+  },
+  "literal_replay": {
+    "cases": 4,
+    "source": "final native XML TestContext output",
+    "seed": 1234567,
+    "identical_outcomes": true,
+    "path": "docs/acceptance/evidence/task-08-replay.json"
+  },
+  "test_first": {
+    "compile_red_exit_code": 1,
+    "functional_ownership_red": {
+      "total": 632,
+      "passed": 631,
+      "failed": 1
+    },
+    "sole_functional_failure": "CanceledWakeCanBeReplacedWithExactForeignValuesAndSurviveDispose",
+    "fix": "unique ArrivalOrder admission identity"
+  },
+  "independent_review": {
+    "final_additional_p1_p2_found": 0,
+    "scope": "read-only source review; native tests executed by root"
+  },
+  "preservation": {
+    "before_count": 429,
+    "preserved_count": 422,
+    "changes": [
+      {
+        "path": "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+        "before_sha256": "f843c8ce4afbfd527a2cb0823ad8fa4b119574615e2adf6f57c85616285a84a4",
+        "after_sha256": "dd912fd213e0ce6297bab9bdc1cee51baefc83bacaaffba2e9e516b5c80229e2"
+      },
+      {
+        "path": "Assets/Game/Runtime/Application/Combat/CombatOpeningController.cs",
+        "before_sha256": "68d712470505277ce118b11977dd7f1f45626bfe5f1e38feb567f7b256348747",
+        "after_sha256": "394265f0394f65ef8c579b43e70a6cf106628d18d77026b08cc65660e3c73394"
+      },
+      {
+        "path": "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+        "before_sha256": "b96308c8130c158dac90886692ad5439eea66cf6afb16a1bb4401b020519520d",
+        "after_sha256": "31c4420ffb54be4363f62af287fce8c6975e9cc601982b9c2da4056e1887f9ee"
+      },
+      {
+        "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+        "before_sha256": "66224445484703a44a2dab700b9f98caa0720eb95e9565d9815ea1ebe354cc5f",
+        "after_sha256": "a1b86dd60cf990eadb834a6539d8ce8596eb5d739db74d79d30536076c7842b4"
+      },
+      {
+        "path": "Assets/Game/Tests/EditMode/Praxen.Game.Tests.EditMode.asmdef",
+        "before_sha256": "b51e254e1ea3c28bd8d73c00dcdb4d5e7763d09eb9e53d1a72d372617c7b30e8",
+        "after_sha256": "70a84a9d98725a32b25ec881e0bd3ae822b97f2b2ca824ab4ed73da5f4d25cca"
+      },
+      {
+        "path": "README.md",
+        "before_sha256": "41b25f116f18d249babe286b2a0b2b1da91657dbb95505aea46a95971b82c98f",
+        "after_sha256": "b353491386649f6f0c21b59cd3271162ca3c17923610989dfc4dcb04786a3fc4"
+      },
+      {
+        "path": "docs/production/asset-readiness.md",
+        "before_sha256": "aad7a40936a3fcfe69b9d7321c68990562c2183fe9e0c35a54391d12cd2796e8",
+        "after_sha256": "4ebe2bfa13b2996a2d046c0db72fd7d7d31df2652b6aa520e1924b7a23391b2c"
+      }
+    ],
+    "changed_paths": [
+      "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+      "Assets/Game/Runtime/Application/Combat/CombatOpeningController.cs",
+      "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "Assets/Game/Tests/EditMode/Praxen.Game.Tests.EditMode.asmdef",
+      "README.md",
+      "docs/production/asset-readiness.md"
+    ],
+    "missing_paths": [],
+    "alternate_source_files_preserved": 62,
+    "prior_metadata_guids_unchanged": true,
+    "editor_packages_project_settings_scenes_pipeline_control_unchanged": true,
+    "historical_acceptance_receipts_unchanged": true,
+    "prior_test_sources_unchanged": true,
+    "before_inventory": "task-08-before-source-hashes.json"
+  },
+  "qualification": {
+    "physical_phone": "UNRUN",
+    "player_build": "UNRUN",
+    "full_prototype_gate": "unaccepted",
+    "next_work_order": "09",
+    "scriptable_object_authoring_and_validators": "Task13",
+    "persistent_difficulty_scaling_and_abilities": "Task22",
+    "finished_regular_archetypes": "Tasks26-29"
+  },
+  "art_generation_or_purchase": false,
+  "artifacts": [
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatEncounter.cs",
+      "bytes": 5990,
+      "sha256": "dd912fd213e0ce6297bab9bdc1cee51baefc83bacaaffba2e9e516b5c80229e2"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/CombatOpeningController.cs",
+      "bytes": 17333,
+      "sha256": "394265f0394f65ef8c579b43e70a6cf106628d18d77026b08cc65660e3c73394"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/EnemyPatternDirector.cs",
+      "bytes": 9986,
+      "sha256": "605252c8aa7159bbe06812257636d016101a730e937c7d3ff4f15a973f178d26"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/EnemyPatternDirector.cs.meta",
+      "bytes": 60,
+      "sha256": "48f7f52097955155362e163619ba91bc747e03fcc4f10d851978a6956b8bf930"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/EnemySequenceAdmission.cs",
+      "bytes": 2115,
+      "sha256": "785f721256816f9ecca06942b88c7b255e0880b3bd099ed1420a78e20607525b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Combat/EnemySequenceAdmission.cs.meta",
+      "bytes": 60,
+      "sha256": "5f3f0e054b5c8878183dee6f24cbb16d1ce880ba10b1463c4892aec98b7c0847"
+    },
+    {
+      "path": "Assets/Game/Runtime/Content/Combat.meta",
+      "bytes": 172,
+      "sha256": "724aec6f2be26d6619a078d184c6d3f23080e0da1a85b3165c05f4891925628e"
+    },
+    {
+      "path": "Assets/Game/Runtime/Content/Combat/PrototypeEnemyDecks.cs",
+      "bytes": 6228,
+      "sha256": "4351105a960fb0ab4c918c22d2d907387a71b14ff348da82217e4ae7f51e6232"
+    },
+    {
+      "path": "Assets/Game/Runtime/Content/Combat/PrototypeEnemyDecks.cs.meta",
+      "bytes": 60,
+      "sha256": "1ccb1a90c7fc06e6ef043b76dd630f81d032194d818bc5e038bcc85da49bdb1c"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatTimeline.cs",
+      "bytes": 10938,
+      "sha256": "31c4420ffb54be4363f62af287fce8c6975e9cc601982b9c2da4056e1887f9ee"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/EnemyPatternSelector.cs",
+      "bytes": 8259,
+      "sha256": "3d81f4560a6325f7d140d141258f2689c218dc2a295824869192185fdd3ab23e"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/EnemyPatternSelector.cs.meta",
+      "bytes": 60,
+      "sha256": "ed1375ee7fc98c6c519f7761c81f28e2a28cb9ed6da74ca8d2cd5d93ccb7dcce"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/EnemyPatternValues.cs",
+      "bytes": 10954,
+      "sha256": "0193571cd10541fbbfe8daedce823739f32de24c33a65d2d97bbda4c252a4ded"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/EnemyPatternValues.cs.meta",
+      "bytes": 60,
+      "sha256": "9bd9e99e4df2099c7a45b62f607a81ed76760c30ff57d0991e21205210776634"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/ScheduledEnemyStrike.cs",
+      "bytes": 879,
+      "sha256": "a3b18c46a73dc01b78a3699e40157ced33283d47956ac9a9c4fb7539d2862cc2"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/ScheduledEnemyStrike.cs.meta",
+      "bytes": 60,
+      "sha256": "36a9eaa87de31142d9c0bab868cf83e8ab97403c42738c8150f58ab95000d393"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "bytes": 9736,
+      "sha256": "a1b86dd60cf990eadb834a6539d8ce8596eb5d739db74d79d30536076c7842b4"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternDefinitionTests.cs",
+      "bytes": 16266,
+      "sha256": "e2044c85b4100408f55fde30e59ff3946bb90c186681cb4de09cc1cf9af24838"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternDefinitionTests.cs.meta",
+      "bytes": 60,
+      "sha256": "ea89183b50416c93a3aadcfd1a7dd867399d0b8ca64b1f291f867d6dfb0a62fc"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternDirectorTests.cs",
+      "bytes": 21624,
+      "sha256": "f406a14a9fb966b0afaae9969c03ee498f9b7caf2ff6cffcb1ac3114ad93f5a4"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternDirectorTests.cs.meta",
+      "bytes": 60,
+      "sha256": "c4555ba35e73a99fcc8dfcdf8852f7d9bbe8d6cd82fd1b60641652297847e5cc"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternReplayTests.cs",
+      "bytes": 4102,
+      "sha256": "dcbdb0108ddacb4e65fda67d069000fea705087f9eb69715f9ee6ba81c003249"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternReplayTests.cs.meta",
+      "bytes": 60,
+      "sha256": "e1ceebf5700d7d0c2909dee6dc698986ff14e2ddeac2fc4f6d4f461bdab7e2f5"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternSelectorTests.cs",
+      "bytes": 21265,
+      "sha256": "5b504c3b8dce476bace8a46c6554a260a99a43660ce536c16991b18bcef715ef"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemyPatternSelectorTests.cs.meta",
+      "bytes": 60,
+      "sha256": "0b326b56f4f83b6ecc7422e9ce1c42cc0b219d32b29e75a58b9cdf9eadfc27ba"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemySequenceAdmissionTests.cs",
+      "bytes": 7612,
+      "sha256": "6ce359f6736dc352bd466879d2376e392ea12aefbf20ddfd39f7fc03e6204b67"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/EnemySequenceAdmissionTests.cs.meta",
+      "bytes": 60,
+      "sha256": "a807ca78702b23c2c950144cdbc46e75352f0887a991cf634c1c7e32bf3adc7a"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/Praxen.Game.Tests.EditMode.asmdef",
+      "bytes": 684,
+      "sha256": "70a84a9d98725a32b25ec881e0bd3ae822b97f2b2ca824ab4ed73da5f4d25cca"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/EnemyPatternInputIntegrationTests.cs",
+      "bytes": 7414,
+      "sha256": "5024b10cdff198d948e44b6987b740ef358ea8e70ecc2b185ca1bc7b38d99505"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/EnemyPatternInputIntegrationTests.cs.meta",
+      "bytes": 60,
+      "sha256": "9e0046d646a71702048004bfd25f22c4a107b0b919699403e0c77d55888eb119"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "bytes": 2163,
+      "sha256": "7c1d4fefe451304e62ee44a7af2b6cd29f02ff9bb5eec10c8954f2c2f70cfd19"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "bytes": 14545,
+      "sha256": "6ed5a6e196a05468fbdc56b8fcf23dfb3861bbcef8d32aed989d144e99e6b13b"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "bytes": 83,
+      "sha256": "39584c3e6c1e571d53a79ef2dd6ea91c0568ac086792cc435e86401a0ba824ed"
+    },
+    {
+      "path": "README.md",
+      "bytes": 30454,
+      "sha256": "b353491386649f6f0c21b59cd3271162ca3c17923610989dfc4dcb04786a3fc4"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-baseline.json",
+      "bytes": 212,
+      "sha256": "786afebe5a1f6716803d29609cf5ebb3f8a6db1bbd148924eca5b98915271103"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-before-source-hashes.json",
+      "bytes": 52423,
+      "sha256": "629e964a36c5de0b558872978f8e792ed77b22d60d063e14dae817450bfa067f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-editmode.xml",
+      "bytes": 518168,
+      "sha256": "2833cee24b3e4df2a3876a133081f546b89a78da711deab68570d28ec356da62"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-missing-api-red.log",
+      "bytes": 9097,
+      "sha256": "450e9e7fefcf044c29578c2340686e9883b6c78e7abff2c11a728e3756484757"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-playmode.xml",
+      "bytes": 51842,
+      "sha256": "4d36fab022d20cfae9113c72f8f9fa7053e508542b7fb52e63a73d3e843cda7d"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-python.log",
+      "bytes": 198,
+      "sha256": "ee7e3c154b51e70f82973198153fe1af81adbd3cee4ca36094f912b878ae6d4f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-replay.json",
+      "bytes": 2141,
+      "sha256": "8611bb58d78a1c65a576fae7a6bf08d6a72ee7cf9a20cc01766749a04a4bda6d"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-review.md",
+      "bytes": 1367,
+      "sha256": "7936779ca9a7a190f720b6dcecf659f227d87a521a3f082494c0b611207bfaab"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-source-preservation.json",
+      "bytes": 2643,
+      "sha256": "d7632797e878b68a03c492e7acbb79f0103124b965689048239c2cac90ccd78c"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-test-first.md",
+      "bytes": 632,
+      "sha256": "72e538ddda1ea4ddc7a38f1b0f2d0d2e9f6385bd3fe45c88cf2173827e041866"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-08-wake-ownership-red.xml",
+      "bytes": 519403,
+      "sha256": "55b357183587734e119719d924e5ac93662dbb6305213cbe922a556e3c835f27"
+    },
+    {
+      "path": "docs/acceptance/task-08-enemy-patterns.md",
+      "bytes": 5390,
+      "sha256": "6ba70e6798543bd30632f9c3019d61ad6fdf65a086c0d32d3f01a002d8abeee2"
+    },
+    {
+      "path": "docs/architecture/enemy-pattern-selection.md",
+      "bytes": 9965,
+      "sha256": "70a42d4b8655a23897a814128ee11b46366f7dd6981f641be3547cb94299ec60"
+    },
+    {
+      "path": "docs/media/forever-we-reign-task-08-graybox.png",
+      "bytes": 161865,
+      "sha256": "4b54a9651d6e0adb0a78ea51bb7d2112d73264d0d95c7b62804a2f698c9c834d"
+    },
+    {
+      "path": "docs/production/asset-readiness.md",
+      "bytes": 7917,
+      "sha256": "4ebe2bfa13b2996a2d046c0db72fd7d7d31df2652b6aa520e1924b7a23391b2c"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-29-task-08-enemy-patterns.md",
+      "bytes": 5140,
+      "sha256": "001a972600ccb723377dbc70e5c3ad665252c5a3733f8baf0863e1052f3a3aa4"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-29-task-08-enemy-patterns-design.md",
+      "bytes": 5240,
+      "sha256": "f578d0ff3808d49e22b49dacca30e3676ac7470737d19f3d990fe9aa9d9c0fdc"
+    }
+  ]
+}

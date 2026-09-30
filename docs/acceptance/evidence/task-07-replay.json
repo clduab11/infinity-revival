@@ -1,0 +1,88 @@
+{
+  "source": "Actual TestContext output extracted from final native Edit Mode XML",
+  "presentation_rates": [
+    30,
+    60,
+    120,
+    "jitter"
+  ],
+  "all_literal_outcomes_identical": true,
+  "replays": [
+    {
+      "task": 7,
+      "replay": "opening-offense",
+      "presentation_fps": 30,
+      "jittered": false,
+      "enemy_health": 38,
+      "player_health": 100,
+      "balance": 25,
+      "focus": 25,
+      "outcome": "Running",
+      "events": [
+        "500000:Left:20:80",
+        "1000000:Right:20:60",
+        "1500000:Left:22:38",
+        "2300000:EnemySequence"
+      ],
+      "test_case": "Praxen.Game.Tests.EditMode.OpeningEncounterTests.LiteralOffenseReplayMatchesAtThirtySixtyOneTwentyAndJitter(30)",
+      "result": "Passed"
+    },
+    {
+      "task": 7,
+      "replay": "opening-offense",
+      "presentation_fps": 60,
+      "jittered": false,
+      "enemy_health": 38,
+      "player_health": 100,
+      "balance": 25,
+      "focus": 25,
+      "outcome": "Running",
+      "events": [
+        "500000:Left:20:80",
+        "1000000:Right:20:60",
+        "1500000:Left:22:38",
+        "2300000:EnemySequence"
+      ],
+      "test_case": "Praxen.Game.Tests.EditMode.OpeningEncounterTests.LiteralOffenseReplayMatchesAtThirtySixtyOneTwentyAndJitter(60)",
+      "result": "Passed"
+    },
+    {
+      "task": 7,
+      "replay": "opening-offense",
+      "presentation_fps": 120,
+      "jittered": false,
+      "enemy_health": 38,
+      "player_health": 100,
+      "balance": 25,
+      "focus": 25,
+      "outcome": "Running",
+      "events": [
+        "500000:Left:20:80",
+        "1000000:Right:20:60",
+        "1500000:Left:22:38",
+        "2300000:EnemySequence"
+      ],
+      "test_case": "Praxen.Game.Tests.EditMode.OpeningEncounterTests.LiteralOffenseReplayMatchesAtThirtySixtyOneTwentyAndJitter(120)",
+      "result": "Passed"
+    },
+    {
+      "task": 7,
+      "replay": "opening-offense",
+      "presentation_fps": 0,
+      "jittered": true,
+      "enemy_health": 38,
+      "player_health": 100,
+      "balance": 25,
+      "focus": 25,
+      "outcome": "Running",
+      "events": [
+        "500000:Left:20:80",
+        "1000000:Right:20:60",
+        "1500000:Left:22:38",
+        "2300000:EnemySequence"
+      ],
+      "test_case": "Praxen.Game.Tests.EditMode.OpeningEncounterTests.LiteralOffenseReplayMatchesAtThirtySixtyOneTwentyAndJitter(0)",
+      "result": "Passed"
+    }
+  ]
+}
