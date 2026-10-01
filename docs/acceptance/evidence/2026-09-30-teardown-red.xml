@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Failed(Child)" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.5050977">
+  <test-suite type="TestSuite" id="1103" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.505098" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1198" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.496246" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="6160" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1199" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.494694" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1200" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.492798" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1201" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.491628" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1202" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.490174" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1113" name="CombatTimingIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.486264" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1131" name="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.479874" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1128" name="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(0,False)" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(0,False)" methodname="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1493193080" result="Failed" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.374940" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Teardown must not sample an ended epoch.
+  Expected: 3
+  But was:  4
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource (System.Int64 resetTime, System.Boolean sourceThrows) [0x000ea] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs:304
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: deviceNowUs
+Praxen.Game.Domain.Combat.CombatClock.ValidateDeviceTime (System.Int64 deviceNowUs) (at Assets/Game/Runtime/Domain/Combat/CombatClock.cs:152)
+Praxen.Game.Domain.Combat.CombatClock.Suspend (System.Int64 deviceNowUs, Praxen.Game.Domain.Combat.CombatSuspensionReason reason) (at Assets/Game/Runtime/Domain/Combat/CombatClock.cs:81)
+Praxen.Game.Application.Combat.CombatSession.Suspend (System.Int64 deviceNowUs, Praxen.Game.Domain.Combat.CombatSuspensionReason reason) (at Assets/Game/Runtime/Application/Combat/CombatSession.cs:38)
+Praxen.Game.Presentation.Combat.CombatTimingDriver.OnDisable () (at Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs:241)
+UnityEngine.Behaviour:set_enabled(Boolean)
+Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests:DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(Int64, Boolean) (at Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs:303)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+]]></output>
+                  </test-case>
+                  <test-case id="1129" name="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(-1,False)" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(-1,False)" methodname="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="2069201366" result="Failed" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.047381" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Teardown must not sample an ended epoch.
+  Expected: 3
+  But was:  4
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource (System.Int64 resetTime, System.Boolean sourceThrows) [0x000ea] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs:304
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: deviceNowUs
+Praxen.Game.Domain.Combat.CombatClock.ValidateDeviceTime (System.Int64 deviceNowUs) (at Assets/Game/Runtime/Domain/Combat/CombatClock.cs:152)
+Praxen.Game.Domain.Combat.CombatClock.Suspend (System.Int64 deviceNowUs, Praxen.Game.Domain.Combat.CombatSuspensionReason reason) (at Assets/Game/Runtime/Domain/Combat/CombatClock.cs:81)
+Praxen.Game.Application.Combat.CombatSession.Suspend (System.Int64 deviceNowUs, Praxen.Game.Domain.Combat.CombatSuspensionReason reason) (at Assets/Game/Runtime/Application/Combat/CombatSession.cs:38)
+Praxen.Game.Presentation.Combat.CombatTimingDriver.OnDisable () (at Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs:241)
+UnityEngine.Behaviour:set_enabled(Boolean)
+Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests:DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(Int64, Boolean) (at Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs:303)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+]]></output>
+                  </test-case>
+                  <test-case id="1130" name="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(0,True)" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(0,True)" methodname="DisableFreezesAcceptedTimeWithoutReadingUnavailableSource" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1560300137" result="Failed" start-time="2026-09-30 05:25:58Z" end-time="2026-09-30 05:25:58Z" duration="0.043952" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Teardown must not sample an ended epoch.
+  Expected: 3
+  But was:  4
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DisableFreezesAcceptedTimeWithoutReadingUnavailableSource (System.Int64 resetTime, System.Boolean sourceThrows) [0x000ea] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs:304
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[InvalidOperationException: Source epoch ended.
+Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests+<>c__DisplayClass25_0.<DisableFreezesAcceptedTimeWithoutReadingUnavailableSource>b__0 () (at Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs:290)
+Praxen.Game.Presentation.Combat.CombatTimingDriver.OnDisable () (at Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs:241)
+UnityEngine.Behaviour:set_enabled(Boolean)
+Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests:DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(Int64, Boolean) (at Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs:303)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbafc6c9b95428182ad6de3932c5e18, type: 3}
+  m_Name: defense.prototype
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.DefenseDefinition
+  Id: defense.prototype
+  Version: 1
+  LocalizationKey: content.defense.prototype
+  MaximumHealth: 100
+  MaximumGuard: 100
+  MaximumDodgeCharges: 3
+  GuardStaggerUs: 600000
+  DodgeDurationUs: 360000
+  DodgeAvoidanceStartUs: 50000
+  DodgeAvoidanceEndUs: 230000
+  ParryWindowUs: 140000
+  ParryRecoveryUs: 250000
+  HitRecoveryUs: 200000
+  DodgeRechargeUs: 3000000

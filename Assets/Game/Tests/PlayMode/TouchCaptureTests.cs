@@ -30,7 +30,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator SetUp()
         {
             yield return SceneManager.LoadSceneAsync("Bootstrap", LoadSceneMode.Single);
-            root = Object.FindFirstObjectByType<BootstrapCompositionRoot>();
+            root = Object.FindAnyObjectByType<BootstrapCompositionRoot>();
             root.SetFocused(true);
             root.SetPaused(false);
             root.InteractionPhase.SetPhase(new InteractionPhase(1, InteractionPhaseKind.EnemySequence));

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="75" result="Passed" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.8547839">
+  <test-suite type="TestSuite" id="1094" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.854784" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1180" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/Desktop/github-projects/infinity-redux/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.847002" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="70668" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1181" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.845612" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1182" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.844629" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1183" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.843712" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1184" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:48Z" duration="5.842547" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1095" name="BootstrapTests" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:43Z" duration="1.064018" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1099" name="DestroyingCompositionRootShutsDownOwnedServices" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.DestroyingCompositionRootShutsDownOwnedServices" methodname="DestroyingCompositionRootShutsDownOwnedServices" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="507036007" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:42Z" duration="0.209815" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1101" name="FocusReturnWhilePausedDoesNotResume" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.FocusReturnWhilePausedDoesNotResume" methodname="FocusReturnWhilePausedDoesNotResume" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="1195659973" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:42Z" duration="0.032442" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1102" name="MissingCameraShowsGenericFailureWithoutClaimingRefuge" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.MissingCameraShowsGenericFailureWithoutClaimingRefuge" methodname="MissingCameraShowsGenericFailureWithoutClaimingRefuge" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="716847101" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:42Z" duration="0.037491" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1100" name="MissingViewFailsAndRetryRecoversAfterBinding" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.MissingViewFailsAndRetryRecoversAfterBinding" methodname="MissingViewFailsAndRetryRecoversAfterBinding" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="65002127" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:42Z" duration="0.031656" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1097" name="OverlappingFocusAndPauseResumeOnlyWhenBothClear" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.OverlappingFocusAndPauseResumeOnlyWhenBothClear" methodname="OverlappingFocusAndPauseResumeOnlyWhenBothClear" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="1732266265" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:42Z" duration="0.034469" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1103" name="RemovingOnlyCompositionComponentHidesItsOwnedView" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.RemovingOnlyCompositionComponentHidesItsOwnedView" methodname="RemovingOnlyCompositionComponentHidesItsOwnedView" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="1591839064" result="Passed" start-time="2026-09-30 03:16:42Z" end-time="2026-09-30 03:16:43Z" duration="0.030838" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1098" name="RepeatedInitializeKeepsOneViewAndStateHistory" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.RepeatedInitializeKeepsOneViewAndStateHistory" methodname="RepeatedInitializeKeepsOneViewAndStateHistory" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="1485671009" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:43Z" duration="0.034523" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1096" name="SavedSceneReachesOneEmptyRefugeScreen" fullname="Praxen.Game.Tests.PlayMode.BootstrapTests.SavedSceneReachesOneEmptyRefugeScreen" methodname="SavedSceneReachesOneEmptyRefugeScreen" classname="Praxen.Game.Tests.PlayMode.BootstrapTests" runstate="Runnable" seed="137610006" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:43Z" duration="0.633115" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1104" name="CombatTimingIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:44Z" duration="0.548719" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1109" name="BeforeUpdateStallGatePreventsDelayedBatchRecognitionAndImpact" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.BeforeUpdateStallGatePreventsDelayedBatchRecognitionAndImpact" methodname="BeforeUpdateStallGatePreventsDelayedBatchRecognitionAndImpact" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="132243901" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:43Z" duration="0.238471" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1113" name="DynamicInputUpdateAutomaticallyAdvancesComposedTimeline" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DynamicInputUpdateAutomaticallyAdvancesComposedTimeline" methodname="DynamicInputUpdateAutomaticallyAdvancesComposedTimeline" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="598290158" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:43Z" duration="0.058385" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1112" name="ExplicitStallResumeAndEndUseFreshPhaseIdentities" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.ExplicitStallResumeAndEndUseFreshPhaseIdentities" methodname="ExplicitStallResumeAndEndUseFreshPhaseIdentities" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1868301051" result="Passed" start-time="2026-09-30 03:16:43Z" end-time="2026-09-30 03:16:44Z" duration="0.032256" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1110" name="FocusResumeCancelsHeldGestureAndRearmsTypedWarningAfterCountdown" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.FocusResumeCancelsHeldGestureAndRearmsTypedWarningAfterCountdown" methodname="FocusResumeCancelsHeldGestureAndRearmsTypedWarningAfterCountdown" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1790276257" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.035376" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1111" name="LifecycleFlagsOnlyResumeAfterBothPermitInput" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.LifecycleFlagsOnlyResumeAfterBothPermitInput" methodname="LifecycleFlagsOnlyResumeAfterBothPermitInput" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1050834354" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.033653" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1108" name="RealQueuedGestureResolvesAtItsTimestampBeforeTiedImpact" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.RealQueuedGestureResolvesAtItsTimestampBeforeTiedImpact" methodname="RealQueuedGestureResolvesAtItsTimestampBeforeTiedImpact" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1560145835" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.037307" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1106" name="ReenablingInactiveDriverRestoresRefugeCapture" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.ReenablingInactiveDriverRestoresRefugeCapture" methodname="ReenablingInactiveDriverRestoresRefugeCapture" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="808466990" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.037850" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1105" name="RefugeComposesAnInactiveTimingDriver" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.RefugeComposesAnInactiveTimingDriver" methodname="RefugeComposesAnInactiveTimingDriver" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="391412668" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.036539" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1107" name="StallInsideInputBatchEmitsSuspensionBeforeAnyImpact" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.StallInsideInputBatchEmitsSuspensionBeforeAnyImpact" methodname="StallInsideInputBatchEmitsSuspensionBeforeAnyImpact" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="180412882" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.033549" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1114" name="EnemyPatternInputIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" classname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.502897" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1116" name="CompletedParryRewardsPlayerWithoutChangingCommittedDefinitionOrDeadline" fullname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests.CompletedParryRewardsPlayerWithoutChangingCommittedDefinitionOrDeadline" methodname="CompletedParryRewardsPlayerWithoutChangingCommittedDefinitionOrDeadline" classname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" runstate="Runnable" seed="197107849" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.272781" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1118" name="OldPhaseContactCannotAffectNextSeededPattern" fullname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests.OldPhaseContactCannotAffectNextSeededPattern" methodname="OldPhaseContactCannotAffectNextSeededPattern" classname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" runstate="Runnable" seed="1884785705" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.116442" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1117" name="RestartResetsEncounterSeedHistoryAndFirstTeachingStrike" fullname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests.RestartResetsEncounterSeedHistoryAndFirstTeachingStrike" methodname="RestartResetsEncounterSeedHistoryAndFirstTeachingStrike" classname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" runstate="Runnable" seed="1985317346" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.057562" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1115" name="UnfinishedAndCancelledContactsLeaveCommittedStrikeAndRngUntouched" fullname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests.UnfinishedAndCancelledContactsLeaveCommittedStrikeAndRngUntouched" methodname="UnfinishedAndCancelledContactsLeaveCommittedStrikeAndRngUntouched" classname="Praxen.Game.Tests.PlayMode.EnemyPatternInputIntegrationTests" runstate="Runnable" seed="1592304115" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.053273" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1119" name="GestureTraceTests" fullname="Praxen.Game.Tests.PlayMode.GestureTraceTests" classname="Praxen.Game.Tests.PlayMode.GestureTraceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.260406" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1121" name="TraceExpiresWithoutFurtherInput" fullname="Praxen.Game.Tests.PlayMode.GestureTraceTests.TraceExpiresWithoutFurtherInput" methodname="TraceExpiresWithoutFurtherInput" classname="Praxen.Game.Tests.PlayMode.GestureTraceTests" runstate="Runnable" seed="1496908202" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.255362" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1120" name="TraceRemapsNormalizedEndpointsWhenItsSurfaceResizes" fullname="Praxen.Game.Tests.PlayMode.GestureTraceTests.TraceRemapsNormalizedEndpointsWhenItsSurfaceResizes" methodname="TraceRemapsNormalizedEndpointsWhenItsSurfaceResizes" classname="Praxen.Game.Tests.PlayMode.GestureTraceTests" runstate="Runnable" seed="640057625" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:44Z" duration="0.003673" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1122" name="GrayboxEncounterTests" fullname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" classname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:45Z" duration="0.259825" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1125" name="DisablingViewDoesNotAlterAuthoredDamageOrGuard" fullname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests.DisablingViewDoesNotAlterAuthoredDamageOrGuard" methodname="DisablingViewDoesNotAlterAuthoredDamageOrGuard" classname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" runstate="Runnable" seed="1571657000" result="Passed" start-time="2026-09-30 03:16:44Z" end-time="2026-09-30 03:16:45Z" duration="0.022678" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1124" name="DodgePoseContinuesThroughRecoveryAndReturnsAtActionEnd" fullname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests.DodgePoseContinuesThroughRecoveryAndReturnsAtActionEnd" methodname="DodgePoseContinuesThroughRecoveryAndReturnsAtActionEnd" classname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" runstate="Runnable" seed="110950335" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.048290" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1123" name="SavedGrayboxStartsOwnedPrimitivesAndCorrectTitle" fullname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests.SavedGrayboxStartsOwnedPrimitivesAndCorrectTitle" methodname="SavedGrayboxStartsOwnedPrimitivesAndCorrectTitle" classname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" runstate="Runnable" seed="368860788" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.125689" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1126" name="UnloadRestoresRefugeAndReleasesEncounterObjects" fullname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests.UnloadRestoresRefugeAndReleasesEncounterObjects" methodname="UnloadRestoresRefugeAndReleasesEncounterObjects" classname="Praxen.Game.Tests.PlayMode.GrayboxEncounterTests" runstate="Runnable" seed="1641132502" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.060929" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1127" name="InputCompositionTests" fullname="Praxen.Game.Tests.PlayMode.InputCompositionTests" classname="Praxen.Game.Tests.PlayMode.InputCompositionTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.050453" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1128" name="InvalidTuningFailsCleanlyAndRetryUsesReplacement" fullname="Praxen.Game.Tests.PlayMode.InputCompositionTests.InvalidTuningFailsCleanlyAndRetryUsesReplacement" methodname="InvalidTuningFailsCleanlyAndRetryUsesReplacement" classname="Praxen.Game.Tests.PlayMode.InputCompositionTests" runstate="Runnable" seed="1633435063" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.033376" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1129" name="PortraitHudIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:46Z" duration="1.547220" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1138" name="AbilityButtonEmitsOneIntentFromNativeUiTouch" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AbilityButtonEmitsOneIntentFromNativeUiTouch" methodname="AbilityButtonEmitsOneIntentFromNativeUiTouch" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="599799006" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.060047" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1133" name="AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" methodname="AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1909034286" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.047045" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1144" name="BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" methodname="BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="934578239" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.056706" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1142" name="CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" methodname="CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="975488840" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.048837" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1134" name="CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" methodname="CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="799550038" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.048421" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1130" name="DefaultRightHandMirrorPreservesSemanticControlObjects" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DefaultRightHandMirrorPreservesSemanticControlObjects" methodname="DefaultRightHandMirrorPreservesSemanticControlObjects" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1592577705" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.049149" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1135" name="ExplorationSwitchEndsCombatAndCancelsOldContact" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationSwitchEndsCombatAndCancelsOldContact" methodname="ExplorationSwitchEndsCombatAndCancelsOldContact" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="521325226" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.049575" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1137" name="ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" methodname="ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1356628261" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.053372" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1143" name="ExplorationUsesBoundCameraWithAnotherMainCameraPresent" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationUsesBoundCameraWithAnotherMainCameraPresent" methodname="ExplorationUsesBoundCameraWithAnotherMainCameraPresent" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1514304699" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.059350" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1140" name="FocusCancellationRequiresFreshNativeResumePress" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.FocusCancellationRequiresFreshNativeResumePress" methodname="FocusCancellationRequiresFreshNativeResumePress" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1097411416" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.059783" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1139" name="LayoutChangeCancelsHeldNativeAbilityPress" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.LayoutChangeCancelsHeldNativeAbilityPress" methodname="LayoutChangeCancelsHeldNativeAbilityPress" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="2011634042" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:45Z" duration="0.055769" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1141" name="NativeCameraCapturesBothReferenceProfilesAndMenus" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.NativeCameraCapturesBothReferenceProfilesAndMenus" methodname="NativeCameraCapturesBothReferenceProfilesAndMenus" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1080170670" result="Passed" start-time="2026-09-30 03:16:45Z" end-time="2026-09-30 03:16:46Z" duration="0.781376" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1132" name="PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" methodname="PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="587916025" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:46Z" duration="0.058938" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1136" name="ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" methodname="ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1903873121" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:46Z" duration="0.061003" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1131" name="UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" methodname="UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1083848670" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:46Z" duration="0.052151" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1145" name="TimestampedDefenseIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:47Z" duration="0.607781" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1154" name="DelayedOldEndCannotReleaseAFreshGuardContact" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.DelayedOldEndCannotReleaseAFreshGuardContact" methodname="DelayedOldEndCannotReleaseAFreshGuardContact" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="366811287" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:46Z" duration="0.055373" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1155" name="DisablingCaptureReleasesGuardAndAllowsFreshControlAfterReenable" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.DisablingCaptureReleasesGuardAndAllowsFreshControlAfterReenable" methodname="DisablingCaptureReleasesGuardAndAllowsFreshControlAfterReenable" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="1899930648" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:46Z" duration="0.053548" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1153" name="FullDriverInboxRetainsTerminalGuardRelease" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.FullDriverInboxRetainsTerminalGuardRelease" methodname="FullDriverInboxRetainsTerminalGuardRelease" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="32707472" result="Passed" start-time="2026-09-30 03:16:46Z" end-time="2026-09-30 03:16:47Z" duration="0.075013" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1156" name="GameplayBeginCannotBecomeGuardByTravelingIntoItsUiZone" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.GameplayBeginCannotBecomeGuardByTravelingIntoItsUiZone" methodname="GameplayBeginCannotBecomeGuardByTravelingIntoItsUiZone" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="1227821532" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.047396" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1146" name="GuardBeginUsesSourceTimestampAndKeepsOwnershipWhenDraggedIntoDodge" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.GuardBeginUsesSourceTimestampAndKeepsOwnershipWhenDraggedIntoDodge" methodname="GuardBeginUsesSourceTimestampAndKeepsOwnershipWhenDraggedIntoDodge" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="1285220307" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.053621" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1147" name="GuardReleaseAtImpactTimestampResolvesBeforeDamage" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.GuardReleaseAtImpactTimestampResolvesBeforeDamage" methodname="GuardReleaseAtImpactTimestampResolvesBeforeDamage" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="983987707" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.046382" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1150" name="PauseCancelsHeldGuardAndResumeCountdownRequiresFreshBegin" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.PauseCancelsHeldGuardAndResumeCountdownRequiresFreshBegin" methodname="PauseCancelsHeldGuardAndResumeCountdownRequiresFreshBegin" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="1518806093" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.045109" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1151" name="RemovedDeviceCancelsHeldGuardAndNewDeviceCanAcquireOwnership" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.RemovedDeviceCancelsHeldGuardAndNewDeviceCanAcquireOwnership" methodname="RemovedDeviceCancelsHeldGuardAndNewDeviceCanAcquireOwnership" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="750358466" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.046729" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1148" name="SafeLeftDodgeCommitsAtSourceBeginAndAvoidsAuthoredImpact" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.SafeLeftDodgeCommitsAtSourceBeginAndAvoidsAuthoredImpact" methodname="SafeLeftDodgeCommitsAtSourceBeginAndAvoidsAuthoredImpact" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="720787763" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.060536" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1152" name="SecondContactCannotStealControlOrReleaseTheFirstContactsGuard" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.SecondContactCannotStealControlOrReleaseTheFirstContactsGuard" methodname="SecondContactCannotStealControlOrReleaseTheFirstContactsGuard" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="253765284" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.066234" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1149" name="UnsafeRightDodgeSpendsChargeAndTakesFullAuthoredDamage" fullname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests.UnsafeRightDodgeSpendsChargeAndTakesFullAuthoredDamage" methodname="UnsafeRightDodgeSpendsChargeAndTakesFullAuthoredDamage" classname="Praxen.Game.Tests.PlayMode.TimestampedDefenseIntegrationTests" runstate="Runnable" seed="327679161" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.053722" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1157" name="TimestampedOffenseIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.433449" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1158" name="BatchBeginningAtOpeningBoundaryCapturesNewPhaseAtSourceTime" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.BatchBeginningAtOpeningBoundaryCapturesNewPhaseAtSourceTime" methodname="BatchBeginningAtOpeningBoundaryCapturesNewPhaseAtSourceTime" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="378542945" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.056784" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1159" name="ContactBeginningBeforeOpeningCannotBecomeAnAttackInsideSameBatch" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.ContactBeginningBeforeOpeningCannotBecomeAnAttackInsideSameBatch" methodname="ContactBeginningBeforeOpeningCannotBecomeAnAttackInsideSameBatch" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="567311157" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.047440" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1160" name="ContactCrossingOpeningEndDoesNotLeakIntoNextEnemySequence" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.ContactCrossingOpeningEndDoesNotLeakIntoNextEnemySequence" methodname="ContactCrossingOpeningEndDoesNotLeakIntoNextEnemySequence" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="1298185594" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.047780" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1161" name="FirstBufferedSwipeWinsAndStartsAtExactRecoveryBoundary" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.FirstBufferedSwipeWinsAndStartsAtExactRecoveryBoundary" methodname="FirstBufferedSwipeWinsAndStartsAtExactRecoveryBoundary" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="1792261083" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.045907" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1164" name="InboxDroppingTerminalDoesNotStrandTheNextGameplayContact" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.InboxDroppingTerminalDoesNotStrandTheNextGameplayContact" methodname="InboxDroppingTerminalDoesNotStrandTheNextGameplayContact" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="1436356378" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.079324" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1162" name="PauseClearsBufferedSwipeAndRetainsCommittedRecoveryAndOpeningTime" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.PauseClearsBufferedSwipeAndRetainsCommittedRecoveryAndOpeningTime" methodname="PauseClearsBufferedSwipeAndRetainsCommittedRecoveryAndOpeningTime" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="1193770646" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.049885" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1165" name="RemovingGameplayDeviceOutsideInputUpdateAllowsFreshContact" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.RemovingGameplayDeviceOutsideInputUpdateAllowsFreshContact" methodname="RemovingGameplayDeviceOutsideInputUpdateAllowsFreshContact" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="813504062" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.048501" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1163" name="SuccessfulRawParryAccumulatesBalanceAndFocusBeforeOpening" fullname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests.SuccessfulRawParryAccumulatesBalanceAndFocusBeforeOpening" methodname="SuccessfulRawParryAccumulatesBalanceAndFocusBeforeOpening" classname="Praxen.Game.Tests.PlayMode.TimestampedOffenseIntegrationTests" runstate="Runnable" seed="71134813" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.054484" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1166" name="TouchCaptureTests" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:48Z" duration="0.563568" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1179" name="AcceptedCommandShowsShortDirectionTrace" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.AcceptedCommandShowsShortDirectionTrace" methodname="AcceptedCommandShowsShortDirectionTrace" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="1577395595" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.072836" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1169" name="BeginInGameplayRemainsOwnedWhenCrossingIntoUi" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.BeginInGameplayRemainsOwnedWhenCrossingIntoUi" methodname="BeginInGameplayRemainsOwnedWhenCrossingIntoUi" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="402029667" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:47Z" duration="0.040244" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1168" name="BeginOnUiRemainsUiOwnedAfterCrossingIntoGameplay" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.BeginOnUiRemainsUiOwnedAfterCrossingIntoGameplay" methodname="BeginOnUiRemainsUiOwnedAfterCrossingIntoGameplay" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="213736080" result="Passed" start-time="2026-09-30 03:16:47Z" end-time="2026-09-30 03:16:48Z" duration="0.042320" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1170" name="ChangedPhaseNeverTurnsOldParryIntoAttack" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.ChangedPhaseNeverTurnsOldParryIntoAttack" methodname="ChangedPhaseNeverTurnsOldParryIntoAttack" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="908074479" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.035937" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1172" name="DeviceResetCancelsWithoutGeneratingCommand" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.DeviceResetCancelsWithoutGeneratingCommand" methodname="DeviceResetCancelsWithoutGeneratingCommand" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="573581066" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.037753" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1175" name="MultipleLeasesRestorePriorMergingOnlyAfterLastRelease" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.MultipleLeasesRestorePriorMergingOnlyAfterLastRelease" methodname="MultipleLeasesRestorePriorMergingOnlyAfterLastRelease" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="242389694" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.036546" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1167" name="QueuedMovesPreserveCrossingSampleAndItsSourceTimestamp" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.QueuedMovesPreserveCrossingSampleAndItsSourceTimestamp" methodname="QueuedMovesPreserveCrossingSampleAndItsSourceTimestamp" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="1466942709" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.038925" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1174" name="ReenableWhileHeldCannotManufactureNewGesture" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.ReenableWhileHeldCannotManufactureNewGesture" methodname="ReenableWhileHeldCannotManufactureNewGesture" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="406193627" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.038096" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1173" name="RemovedTouchscreenReleasesOwnershipForNewDevice" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.RemovedTouchscreenReleasesOwnershipForNewDevice" methodname="RemovedTouchscreenReleasesOwnershipForNewDevice" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="226528789" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.037928" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1178" name="SecondaryHeldContactIsNotPromotedWhenPrimaryEnds" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.SecondaryHeldContactIsNotPromotedWhenPrimaryEnds" methodname="SecondaryHeldContactIsNotPromotedWhenPrimaryEnds" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="1413447034" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.036846" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1176" name="SettingsReplacementPreservesSamplesAndRestoresBothObjects" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.SettingsReplacementPreservesSamplesAndRestoresBothObjects" methodname="SettingsReplacementPreservesSamplesAndRestoresBothObjects" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="1040004574" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.038776" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1171" name="SuspensionDropsHeldGestureAndRequiresReleaseBeforeRestart" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.SuspensionDropsHeldGestureAndRequiresReleaseBeforeRestart" methodname="SuspensionDropsHeldGestureAndRequiresReleaseBeforeRestart" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="895682118" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.048759" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1177" name="UpdateModeChangesCancelHeldContactWithoutInventingSamples" fullname="Praxen.Game.Tests.PlayMode.TouchCaptureTests.UpdateModeChangesCancelHeldContactWithoutInventingSamples" methodname="UpdateModeChangesCancelHeldContactWithoutInventingSamples" classname="Praxen.Game.Tests.PlayMode.TouchCaptureTests" runstate="Runnable" seed="705984473" result="Passed" start-time="2026-09-30 03:16:48Z" end-time="2026-09-30 03:16:48Z" duration="0.053652" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

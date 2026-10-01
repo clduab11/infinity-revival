@@ -4,7 +4,7 @@ namespace Praxen.Game.Domain.Input
 {
     public enum SamplePhase { Began, Moved, Ended, Cancelled }
     public enum PointerOwnerKind { Gameplay, Ui, Excluded }
-    public enum InteractionPhaseKind { Inactive, EnemySequence, PlayerOpening }
+    public enum InteractionPhaseKind { Inactive, EnemySequence, PlayerOpening, Exploration }
     public enum SwipeDirection { Left, Right, Up, Down }
     public enum GestureIntent { Parry, Attack }
 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.0868467">
+  <test-suite type="TestSuite" id="1155" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.086847" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1302" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.074932" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="80460" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1303" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.072816" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1304" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.070300" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1305" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.068360" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1306" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-09-30 21:01:08Z" end-time="2026-09-30 21:01:11Z" duration="2.066132" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1165" name="CombatCameraMotionIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-09-30 21:01:09Z" end-time="2026-09-30 21:01:09Z" duration="0.770845" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1173" name="OversizedProfileFocusDistanceCannotCreateAnUnboundedOrbit" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.OversizedProfileFocusDistanceCannotCreateAnUnboundedOrbit" methodname="OversizedProfileFocusDistanceCannotCreateAnUnboundedOrbit" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="1848850760" result="Failed" start-time="2026-09-30 21:01:09Z" end-time="2026-09-30 21:01:09Z" duration="0.745658" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: less than 0.850000024f
+  But was:  68.2846985f
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.OversizedProfileFocusDistanceCannotCreateAnUnboundedOrbit () [0x00089] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:114
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1179" name="CombatPresentationIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-30 21:01:09Z" end-time="2026-09-30 21:01:11Z" duration="1.278237" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1180" name="ConfirmedBlockReactsThenReturnsToHeldGuard" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.ConfirmedBlockReactsThenReturnsToHeldGuard" methodname="ConfirmedBlockReactsThenReturnsToHeldGuard" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="1219618268" result="Failed" start-time="2026-09-30 21:01:09Z" end-time="2026-09-30 21:01:11Z" duration="1.263085" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  A confirmed block needs a short braced recoil.
+  Expected string length 3 but was 5. Strings differ at index 0.
+  Expected: "Hit"
+  But was:  "Guard"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.ConfirmedBlockReactsThenReturnsToHeldGuard () [0x00084] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:61
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

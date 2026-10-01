@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="10" result="Failed(Child)" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.0722673">
+  <test-suite type="TestSuite" id="1131" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.072267" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1254" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.059818" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="14736" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1255" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.057558" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1256" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.056103" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1257" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.054671" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1258" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.053649" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1141" name="CombatPresentationIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.050407" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1152" name="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.031465" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1148" name="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(30)" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(30)" methodname="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="1963616773" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.018643" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1149" name="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(60)" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(60)" methodname="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="189937006" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.001563" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1150" name="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(120)" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(120)" methodname="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="456410885" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.001096" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1151" name="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(0)" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay(0)" methodname="EnabledAndDisabledPresentationPreserveCompleteAuthoredReplay" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="804346553" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.000766" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1142" name="ImportedActorsPlayAcceptedDodgeAndIgnoreRejectedButtons" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.ImportedActorsPlayAcceptedDodgeAndIgnoreRejectedButtons" methodname="ImportedActorsPlayAcceptedDodgeAndIgnoreRejectedButtons" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="82309563" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.001062" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1147" name="NativeRenderContainsBothImportedHumanoids" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.NativeRenderContainsBothImportedHumanoids" methodname="NativeRenderContainsBothImportedHumanoids" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="1084358186" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.002680" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1143" name="PlayerCutSamplesAuthoredContactAtLogicalImpactAndMovesTheRealHand" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.PlayerCutSamplesAuthoredContactAtLogicalImpactAndMovesTheRealHand" methodname="PlayerCutSamplesAuthoredContactAtLogicalImpactAndMovesTheRealHand" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="190909092" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.000681" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1145" name="ReenableSamplesCurrentActionWithoutReplayingOldImpactsAndRestartRestoresCamera" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.ReenableSamplesCurrentActionWithoutReplayingOldImpactsAndRestartRestoresCamera" methodname="ReenableSamplesCurrentActionWithoutReplayingOldImpactsAndRestartRestoresCamera" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="2013522496" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.000746" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1144" name="SuspendAndCountdownFreezePoseCameraAndEffectTime" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.SuspendAndCountdownFreezePoseCameraAndEffectTime" methodname="SuspendAndCountdownFreezePoseCameraAndEffectTime" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="1806110710" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.000735" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1146" name="UnloadDestroysOwnedGraphsAndPreservesTheRefuge" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.UnloadDestroysOwnedGraphsAndPreservesTheRefuge" methodname="UnloadDestroysOwnedGraphsAndPreservesTheRefuge" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="1460529899" result="Failed" start-time="2026-09-30 14:38:39Z" end-time="2026-09-30 14:38:39Z" duration="0.000614" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   Task12 must save a separate playable prototype scene.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<SetUp>d__3.MoveNext () [0x00044] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:31
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="28" result="Failed(Child)" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.0709541">
+  <test-suite type="TestSuite" id="1119" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.070954" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1230" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.059733" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29012" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1231" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.057158" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1232" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.054867" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1233" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.052641" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1234" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.050578" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1163" name="PortraitHudIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:37Z" duration="4.044386" total="28" passed="18" failed="10" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1188" name="AbilityButtonEmitsOneIntentFromNativeUiTouch" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AbilityButtonEmitsOneIntentFromNativeUiTouch" methodname="AbilityButtonEmitsOneIntentFromNativeUiTouch" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1500424140" result="Passed" start-time="2026-09-30 05:29:33Z" end-time="2026-09-30 05:29:34Z" duration="1.324797" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1183" name="AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" methodname="AbilityIntentIsGatedAndDoesNotSpendFutureAbilityResources" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1208474781" result="Passed" start-time="2026-09-30 05:29:34Z" end-time="2026-09-30 05:29:35Z" duration="0.130652" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1194" name="BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" methodname="BothCanvasesUseCameraRaycastersWithStaticMenuOnTop" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="939008644" result="Passed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.099453" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1192" name="CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" methodname="CalibrationActionsMirrorWithoutChangingApplyAndCancelMeaning" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1217483959" result="Passed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.075352" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1184" name="CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" methodname="CalibrationNeedsThreeFreshTapsAndCancelPreservesSettings" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1056541082" result="Passed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.078902" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1180" name="DefaultRightHandMirrorPreservesSemanticControlObjects" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DefaultRightHandMirrorPreservesSemanticControlObjects" methodname="DefaultRightHandMirrorPreservesSemanticControlObjects" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="561201632" result="Passed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.082112" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1179" name="DimDodgeControlsRetainNativeUiPointerOwnership" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DimDodgeControlsRetainNativeUiPointerOwnership" methodname="DimDodgeControlsRetainNativeUiPointerOwnership" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="411408428" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.081926" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DimDodgeControlsRetainNativeUiPointerOwnership () [0x00137] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:150
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1177" name="DodgeControlsBecomeAvailableAtExactActionEnd" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsBecomeAvailableAtExactActionEnd" methodname="DodgeControlsBecomeAvailableAtExactActionEnd" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="2055793423" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.060945" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsBecomeAvailableAtExactActionEnd () [0x0008a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:112
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1173" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.396691" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1167" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Dodging)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Dodging)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1877639233" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.058531" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1168" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Recovery)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Recovery)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1365640332" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.062611" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1169" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Staggered)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Staggered)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="105034367" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.068888" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1170" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Attacking)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Attacking)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="391459574" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.064037" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1171" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Parrying)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Parrying)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1338010268" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.060473" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1172" name="DodgeControlsDimDuringActionLockoutWithChargesRemaining(Dead)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining(Dead)" methodname="DodgeControlsDimDuringActionLockoutWithChargesRemaining" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="802949596" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:35Z" duration="0.078291" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimDuringActionLockoutWithChargesRemaining (Praxen.Game.Domain.Combat.PlayerCombatState state) [0x00078] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:85
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1176" name="DodgeControlsDimWhenClockCannotAcceptInput" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimWhenClockCannotAcceptInput" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:36Z" duration="0.136529" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1174" name="DodgeControlsDimWhenClockCannotAcceptInput(Suspended)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimWhenClockCannotAcceptInput(Suspended)" methodname="DodgeControlsDimWhenClockCannotAcceptInput" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="508032345" result="Failed" start-time="2026-09-30 05:29:35Z" end-time="2026-09-30 05:29:36Z" duration="0.067498" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimWhenClockCannotAcceptInput (Praxen.Game.Domain.Combat.CombatClockState state) [0x00077] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:99
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1175" name="DodgeControlsDimWhenClockCannotAcceptInput(Countdown)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimWhenClockCannotAcceptInput(Countdown)" methodname="DodgeControlsDimWhenClockCannotAcceptInput" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1131193906" result="Failed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.066959" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Dodge left
+  Expected: RGBA(0.176, 0.176, 0.176, 0.902)
+  But was:  RGBA(0.090, 0.106, 0.118, 0.902)
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.AssertDodgeControlColors (UnityEngine.Color expected) [0x00080] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:160
+at Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsDimWhenClockCannotAcceptInput (Praxen.Game.Domain.Combat.CombatClockState state) [0x00077] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs:99
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1178" name="DodgeControlsRemainDimWithNoChargesAfterActionEnd" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsRemainDimWithNoChargesAfterActionEnd" methodname="DodgeControlsRemainDimWithNoChargesAfterActionEnd" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1771725816" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.069181" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1166" name="DodgeControlsShowAvailabilityForAdmittedStates" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsShowAvailabilityForAdmittedStates" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.131656" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1164" name="DodgeControlsShowAvailabilityForAdmittedStates(Ready)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsShowAvailabilityForAdmittedStates(Ready)" methodname="DodgeControlsShowAvailabilityForAdmittedStates" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="81692247" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.063001" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1165" name="DodgeControlsShowAvailabilityForAdmittedStates(Guarding)" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.DodgeControlsShowAvailabilityForAdmittedStates(Guarding)" methodname="DodgeControlsShowAvailabilityForAdmittedStates" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="3073835" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.066834" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1185" name="ExplorationSwitchEndsCombatAndCancelsOldContact" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationSwitchEndsCombatAndCancelsOldContact" methodname="ExplorationSwitchEndsCombatAndCancelsOldContact" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="571454201" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.074768" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1187" name="ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" methodname="ExplorationTapSelectsButDragOnlyInspectsAndUiCannotSelect" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="518779073" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.074107" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1193" name="ExplorationUsesBoundCameraWithAnotherMainCameraPresent" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ExplorationUsesBoundCameraWithAnotherMainCameraPresent" methodname="ExplorationUsesBoundCameraWithAnotherMainCameraPresent" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="348115060" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.083474" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1190" name="FocusCancellationRequiresFreshNativeResumePress" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.FocusCancellationRequiresFreshNativeResumePress" methodname="FocusCancellationRequiresFreshNativeResumePress" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1044382907" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.073791" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1189" name="LayoutChangeCancelsHeldNativeAbilityPress" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.LayoutChangeCancelsHeldNativeAbilityPress" methodname="LayoutChangeCancelsHeldNativeAbilityPress" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="73828836" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:36Z" duration="0.074229" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1191" name="NativeCameraCapturesBothReferenceProfilesAndMenus" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.NativeCameraCapturesBothReferenceProfilesAndMenus" methodname="NativeCameraCapturesBothReferenceProfilesAndMenus" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1646035104" result="Passed" start-time="2026-09-30 05:29:36Z" end-time="2026-09-30 05:29:37Z" duration="0.740799" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1182" name="PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" methodname="PauseCancelsHeldGuardAndLayoutChangesKeepClockFrozen" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1785516146" result="Passed" start-time="2026-09-30 05:29:37Z" end-time="2026-09-30 05:29:37Z" duration="0.066807" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1186" name="ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" methodname="ThreeFreshCalibrationTapsApplyAndDragDoesNotCount" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="695347207" result="Passed" start-time="2026-09-30 05:29:37Z" end-time="2026-09-30 05:29:37Z" duration="0.088912" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1181" name="UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" fullname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests.UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" methodname="UserPauseSurvivesFocusReturnAndExplicitResumeKeepsCountdown" classname="Praxen.Game.Tests.PlayMode.PortraitHudIntegrationTests" runstate="Runnable" seed="1544914246" result="Passed" start-time="2026-09-30 05:29:37Z" end-time="2026-09-30 05:29:37Z" duration="0.066998" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

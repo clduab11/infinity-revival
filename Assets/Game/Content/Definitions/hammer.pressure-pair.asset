@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a19305297c44d3fb66ae6d3df55fc9b, type: 3}
+  m_Name: hammer.pressure-pair
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.EnemyPatternDefinition
+  Id: hammer.pressure-pair
+  Version: 1
+  LocalizationKey: content.hammer.pressure-pair
+  Steps:
+  - Attack: {fileID: 11400000, guid: 1889010cbbe9ddc408a7f05a717d677c, type: 2}
+    GapBeforeUs: 0
+  - Attack: {fileID: 11400000, guid: edc2f6eabd567324db841eba5ff558ff, type: 2}
+    GapBeforeUs: 200000
+  Weight: 50
+  CooldownUs: 6000000
+  MinimumGuard: 0
+  MinimumDodgeCharges: 0
+  MinimumFocus: 0
+  MinimumTier: 1
+  MaximumTier: 5
+  HasPreferredDefenseOutcome: 1
+  PreferredDefenseOutcome: 4

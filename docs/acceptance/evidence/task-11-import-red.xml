@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="17" result="Failed(Child)" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.1730896">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="687" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.173090" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1797" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="686" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.138731" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="61228" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1798" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="686" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.124775" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1799" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="686" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.098953" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1800" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="686" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.087071" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1801" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="686" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.068357" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1763" name="PrototypePairImportTests" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.048459" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1773" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.026070" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1767" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,0)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1044392379" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.015142" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1768" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,1)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1225450020" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000407" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1769" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,2)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="491579451" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000276" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1770" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,0)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="271256352" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000187" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1771" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,1)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="545676075" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000210" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1772" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,2)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="490995860" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000178" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion (System.String actor, System.Int32 lod) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:54
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1766" name="ImportedPairHasValidHumanoidAvatars" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.002131" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1764" name="ImportedPairHasValidHumanoidAvatars(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars(&quot;Soldier&quot;)" methodname="ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="660787527" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000672" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars (System.String actor) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:37
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1765" name="ImportedPairHasValidHumanoidAvatars(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars(&quot;Captain&quot;)" methodname="ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1803070748" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000258" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars (System.String actor) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:37
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1780" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.001834" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1778" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Soldier&quot;)" methodname="LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1351733127" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000981" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers (System.String actor) [0x00011] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:115
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1779" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Captain&quot;)" methodname="LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="72914284" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000210" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers (System.String actor) [0x00011] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:115
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1777" name="PairUsesTheSameNamedBoneHierarchyAndBindPose" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.PairUsesTheSameNamedBoneHierarchyAndBindPose" methodname="PairUsesTheSameNamedBoneHierarchyAndBindPose" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="175344481" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.001511" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Model (System.String actor, System.Int32 lod) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:22
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.PairUsesTheSameNamedBoneHierarchyAndBindPose () [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:90
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1776" name="RepresentativeClipsAreHumanAndBoundedToPresentation" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.002522" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1774" name="RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Soldier&quot;)" methodname="RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="96321990" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.001346" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier Idle
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation (System.String actor) [0x00011] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:77
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1775" name="RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Captain&quot;)" methodname="RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1053223400" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000309" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Captain Idle
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation (System.String actor) [0x00011] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:77
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1785" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.002844" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1781" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutUp&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="477106197" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.001083" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier CutUp
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot (System.String action) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:131
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1782" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutDown&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1172443691" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000242" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier CutDown
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot (System.String action) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:131
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1783" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutLeft&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1199056612" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000274" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier CutLeft
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot (System.String action) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:131
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1784" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutRight&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1838721331" result="Failed" start-time="2026-09-30 06:00:48Z" end-time="2026-09-30 06:00:48Z" duration="0.000203" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier CutRight
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.Clip (System.String actor, System.String action) [0x0002f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:29
+at Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot (System.String action) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:131
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="24" result="Failed(Child)" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.5633349">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="842" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.563335" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1987" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="841" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.518152" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="63616" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1988" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="841" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.502903" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1989" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="841" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.474755" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1990" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="841" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.461180" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1991" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="841" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.447066" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1956" name="WeaponPilotImportTests" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.418641" total="24" passed="22" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1966" name="EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.158750" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1964" name="EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration(&quot;AxePilot&quot;,0.6d)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration(&quot;AxePilot&quot;,0.6d)" methodname="EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="867762762" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.086022" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1965" name="EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration(&quot;MacePilot&quot;,0.7d)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration(&quot;MacePilot&quot;,0.7d)" methodname="EveryFamilyHasThirteenHumanClipsWithItsOwnAttackDuration" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="666343857" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.047003" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1983" name="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.084969" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1979" name="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;AxePilot&quot;,&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;AxePilot&quot;,&quot;Soldier&quot;)" methodname="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="2024731842" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.052274" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1980" name="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;AxePilot&quot;,&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;AxePilot&quot;,&quot;Captain&quot;)" methodname="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1747092345" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.018266" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1981" name="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;MacePilot&quot;,&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;MacePilot&quot;,&quot;Soldier&quot;)" methodname="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1707431442" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.006556" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1982" name="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;MacePilot&quot;,&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift(&quot;MacePilot&quot;,&quot;Captain&quot;)" methodname="FamilyCutsRetargetOntoBothAcceptedAvatarsWithoutRootDrift" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="854037574" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.004595" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1978" name="FamilyHeadsTravelWithTheCutAndContinuePastContact" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.051394" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1970" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutUp&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="250807518" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.017142" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1971" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutDown&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1342440004" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.004616" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1972" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutLeft&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="291290824" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.004767" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1973" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;AxePilot&quot;,0.15d,0.6d,&quot;CutRight&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="943389516" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:27Z" duration="0.004008" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1974" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutUp&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1372716133" result="Passed" start-time="2026-10-01 03:39:27Z" end-time="2026-10-01 03:39:28Z" duration="0.006701" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1975" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutDown&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1736614982" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.002193" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1976" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutLeft&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="703510433" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.003399" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1977" name="FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyHeadsTravelWithTheCutAndContinuePastContact(&quot;MacePilot&quot;,0.18d,0.7d,&quot;CutRight&quot;)" methodname="FamilyHeadsTravelWithTheCutAndContinuePastContact" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="441478510" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.003095" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1963" name="FamilyLodsHaveControlledHumanoidImports" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.014066" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1957" name="FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,0)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,0)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1818090162" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.006455" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1958" name="FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,1)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,1)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1085222534" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.000967" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1959" name="FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,2)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;AxePilot&quot;,2)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1037576656" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.000658" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1960" name="FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,0)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,0)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="890186529" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.000251" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1961" name="FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,1)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,1)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="708336270" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.000549" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1962" name="FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,2)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyLodsHaveControlledHumanoidImports(&quot;MacePilot&quot;,2)" methodname="FamilyLodsHaveControlledHumanoidImports" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="1634998302" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.000670" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1969" name="FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.076349" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1967" name="FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton(&quot;AxePilot&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton(&quot;AxePilot&quot;)" methodname="FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="460139920" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.049959" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1968" name="FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton(&quot;MacePilot&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton(&quot;MacePilot&quot;)" methodname="FamilyPrefabsShareTheAcceptedBindPoseAndOneAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="2078201760" result="Passed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.025034" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1986" name="OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.020949" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1984" name="OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip(&quot;AxePilot&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip(&quot;AxePilot&quot;)" methodname="OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="755426844" result="Failed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.014490" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Expected: less than 0.0299999993f
+  But was:  0.707404971f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.WeaponPilotImportTests.OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip (System.String actor) [0x00114] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\WeaponPilotImportTests.cs:235
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1985" name="OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip(&quot;MacePilot&quot;)" fullname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests.OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip(&quot;MacePilot&quot;)" methodname="OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip" classname="Praxen.Game.Tests.EditMode.WeaponPilotImportTests" runstate="Runnable" seed="81292244" result="Failed" start-time="2026-10-01 03:39:28Z" end-time="2026-10-01 03:39:28Z" duration="0.004947" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Expected: less than 0.0299999993f
+  But was:  0.60998404f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.WeaponPilotImportTests.OriginalFamilySilhouettesHaveAStrikingHeadAndStableLodGrip (System.String actor) [0x00114] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\WeaponPilotImportTests.cs:235
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

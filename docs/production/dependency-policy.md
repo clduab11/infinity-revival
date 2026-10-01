@@ -15,10 +15,20 @@ The baseline is Unity **6000.6.0f1 (f7f8ed4d1e24)** at the outer repository root
 | `com.unity.test-framework` | `1.8.0` |
 | `com.unity.nuget.newtonsoft-json` | `3.2.2` |
 | `com.unity.pipeline` | `0.8.0-exp.1` |
+| `com.unity.ai.assistant` | `2.20.0-pre.1` |
+| `com.unity.ai.inference` | `2.6.1` |
 
 `com.unity.animation.rigging` at `6.6.0` is explicitly deferred until contact correction needs it. The experimental Pipeline package remains an exact baseline pin; its presence is not evidence of production suitability or authorization to enable services.
 
 Pin direct dependencies to exact versions. Do not use floating Git refs, version ranges, or unreviewed registry changes. Preserve the existing exact engine-module and editor-tool pins unless an approved change requires them.
+
+## Unity AI retention, 2026-09-30
+
+The operator explicitly approved retaining the installed Unity AI packages and updating this baseline. Assistant supports the existing Editor AI workflow; Inference is retained with that installation. Their installed `LICENSE.md` files identify the Unity Terms of Service. This approval does not authorize spending AI credits or enabling a service.
+
+Unity resolved the existing manifest and lockfile to **50 direct dependencies and 69 resolved packages**. Added lock entries are Assistant `2.20.0-pre.1`, Inference `2.6.1`, App UI `2.1.11`, and 2D Sprite `1.0.0`; the versions of all previously resolved packages remain unchanged. Dependency depths changed for Burst, Collections, Mathematics, and the performance test framework. The approved fingerprint records the complete resolved graph.
+
+Assistant is a prerelease package used for the Editor workflow. Both retained AI packages and their dependencies include runtime assemblies; gameplay does not invoke them, and built-player inclusion and stripping require release evidence. Assistant's installed `Unity.AI.MCP.Runtime` assembly has no platform or define restriction, while its Assistant runtime assembly uses `UNITY_EDITOR || UNITY_AI_ASSISTANT_RUNTIME`. Keep release runtime acceptance UNRUN until built-player contents and active endpoints are inspected. No existing dependency changed major version. The original package-set receipts remain historical evidence.
 
 ## Changing dependencies
 

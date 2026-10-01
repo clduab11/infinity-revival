@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.1069747">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="694" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.106975" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1806" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="693" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.080746" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31600" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1807" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="693" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.074650" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1808" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="693" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.069685" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1809" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="693" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.064842" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1810" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="693" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.060084" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1130" name="CombatPresentationAdmissionTests" fullname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" classname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.040727" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1133" name="BufferedAttackNotifiesAtActualAdmissionAndCannotLeakWrongPhaseIntent" fullname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.BufferedAttackNotifiesAtActualAdmissionAndCannotLeakWrongPhaseIntent" methodname="BufferedAttackNotifiesAtActualAdmissionAndCannotLeakWrongPhaseIntent" classname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" runstate="Runnable" seed="1515899499" result="Failed" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.019837" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Missing accepted-action observation: PlayerAttackStarted
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.Subscribe (System.Object owner, System.String name, System.Delegate handler) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:114
+at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.BufferedAttackNotifiesAtActualAdmissionAndCannotLeakWrongPhaseIntent () [0x0003c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:65
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1131" name="OnlyAcceptedDefenseControlsNotifyAtTheirResolvedTimestamp" fullname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.OnlyAcceptedDefenseControlsNotifyAtTheirResolvedTimestamp" methodname="OnlyAcceptedDefenseControlsNotifyAtTheirResolvedTimestamp" classname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" runstate="Runnable" seed="1610919488" result="Failed" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.000740" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Missing accepted-action observation: DefenseControlAccepted
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.Subscribe (System.Object owner, System.String name, System.Delegate handler) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:114
+at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.OnlyAcceptedDefenseControlsNotifyAtTheirResolvedTimestamp () [0x0002b] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:25
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1132" name="RejectedAndRepeatedParriesCannotStartPresentation" fullname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.RejectedAndRepeatedParriesCannotStartPresentation" methodname="RejectedAndRepeatedParriesCannotStartPresentation" classname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" runstate="Runnable" seed="372979644" result="Failed" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.000756" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Missing accepted-action observation: ParryAccepted
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.Subscribe (System.Object owner, System.String name, System.Delegate handler) [0x0000c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:114
+at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.RejectedAndRepeatedParriesCannotStartPresentation () [0x0002b] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:43
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1134" name="SavedPresentationProfileReferencesBothHumanoidsAndAllThirteenMotionClips" fullname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.SavedPresentationProfileReferencesBothHumanoidsAndAllThirteenMotionClips" methodname="SavedPresentationProfileReferencesBothHumanoidsAndAllThirteenMotionClips" classname="Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests" runstate="Runnable" seed="281960874" result="Failed" start-time="2026-09-30 14:21:42Z" end-time="2026-09-30 14:21:42Z" duration="0.001111" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Task12 presentation profile must be a saved asset.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.CombatPresentationAdmissionTests.SavedPresentationProfileReferencesBothHumanoidsAndAllThirteenMotionClips () [0x0000a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\CombatPresentationAdmissionTests.cs:86
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

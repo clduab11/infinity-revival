@@ -1,0 +1,239 @@
+{
+  "record_date": "2026-09-30",
+  "scope": "Task11 original humanoid pair and controlled import pipeline; melee loot/upgrade design documentation",
+  "unity_version": "6000.6.0f1",
+  "unity_revision": "f7f8ed4d1e24",
+  "blender_version": "5.2.1 LTS",
+  "source_version": "prototype-pair-1.0.1",
+  "blender_mcp": "CONNECTED, source scene authored and saved",
+  "unity_mcp": "UNAVAILABLE; native isolated Editor used",
+  "native_test_project": "C:\\Users\\cld-main\\AppData\\Local\\Temp\\forever-we-reign-clock-check-cdqftnfa",
+  "operator_editor_preserved": true,
+  "artifacts": {
+    "docs/acceptance/evidence/task-11-import-red.xml": {
+      "sha256": "5133944472c542f7674ce78c46df5e4ae8188a386f650e75c7515b12d67eef6c",
+      "result": "Failed(Child)",
+      "total": 17,
+      "passed": 0,
+      "failed": 17,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-prefab-red.xml": {
+      "sha256": "283f05bdb902d76a50b9bac2f22c447d456b1bfa3250404d736c886a806f66e4",
+      "result": "Failed(Child)",
+      "total": 19,
+      "passed": 17,
+      "failed": 2,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-bind-pose-red.xml": {
+      "sha256": "502bb593bd9271f6b2774a7c643366f854b229a910e8d16d32c2df18f1fe67d5",
+      "result": "Failed(Child)",
+      "total": 689,
+      "passed": 688,
+      "failed": 1,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-import-focused.xml": {
+      "sha256": "cd4631f22864ef530c2dbb7973b0b4bb85aee0060d8fec1be060c1599d136702",
+      "result": "Passed",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-editmode.xml": {
+      "sha256": "795ef19ca9f4df70f8a60805942923218738de55e9be4a66ff39addfbfab00b1",
+      "result": "Passed",
+      "total": 689,
+      "passed": 689,
+      "failed": 0,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-playmode.xml": {
+      "sha256": "925b5963b5a3be9df9c4b2b3249fff3c09ccda6fcbb8f4656ea1884033129742",
+      "result": "Passed",
+      "total": 95,
+      "passed": 95,
+      "failed": 0,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/task-11-baseline.json": {
+      "sha256": "d3a5ec549901aef7b4b8997943852c1f3d78b8dd4b17ec85f75e5eb8a122c315"
+    },
+    "docs/acceptance/evidence/task-11-python.log": {
+      "sha256": "3ce597add05e2a22ae4a9d0dbb5ed12f93b0a2436b20657e7ea607b8e19a6dd4"
+    },
+    "docs/acceptance/evidence/task-11-before-source-hashes.json": {
+      "sha256": "a5a41d03f8b4fd51a230618b5288d58e97b9e491c8dd8436ef8827fb0a665f11"
+    },
+    "docs/acceptance/evidence/task-11-blender-prototype-pair.png": {
+      "sha256": "7e66d9ebbef2867ab5eca006f4b4fe60b8e51bd93c8a368bc86194be94ecc285",
+      "type": "Blender source preview, not Unity gameplay"
+    }
+  },
+  "test_identity_preservation": {
+    "EditMode": {
+      "prior": 669,
+      "preserved": 669,
+      "new": 20,
+      "missing": []
+    },
+    "PlayMode": {
+      "prior": 95,
+      "preserved": 95,
+      "new": 0,
+      "missing": []
+    }
+  },
+  "python_checks": {
+    "total": 12,
+    "passed": 12
+  },
+  "structural_validator": {
+    "ok": true,
+    "project_root": "/mnt/c/users/cld-main/desktop/github-projects/infinity-redux",
+    "direct_packages": 50,
+    "resolved_packages": 69,
+    "asset_guids": 172,
+    "git_checked": true,
+    "errors": []
+  },
+  "final_native_log_checks": {
+    "task11-editmode-final2": {
+      "compiler_error_count": 0,
+      "clock_exception_count": 0,
+      "missing_reference_count": 0,
+      "import_error_count": 0
+    },
+    "task11-playmode-final": {
+      "compiler_error_count": 0,
+      "clock_exception_count": 0,
+      "missing_reference_count": 0,
+      "import_error_count": 0
+    }
+  },
+  "game_cs_sources_matched": 102,
+  "game_cs_source_map_sha256": "80322804021a7581512625294205c3541c4ade1957d4f3087f989946fbf3ecbd",
+  "pre_existing_source_files_preserved": 323,
+  "pre_existing_source_changes": [],
+  "new_source_sha256": {
+    "Assets/Game/Content/Characters/PrototypePair/Brass.mat": "58275934b9c3b75637e901039159b21341570c3e640ecdb93df5382efe89b874",
+    "Assets/Game/Content/Characters/PrototypePair/Brass.mat.meta": "bf49d2d7f7f671b05f8107e748b39731543b54997bce24db26c4f08e7e7d04f4",
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab": "9244a840730dde313431e3ceb265edc5c3bcc390a729563579b20bcbaff075db",
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab.meta": "b4bd12b735588abc6c8ed0a9e2da138af8b308891cc85dd5001a0ca8b1427620",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx": "e8030fada5998779e5ac813ee5e5fb8cd3422f50024e38e5a53f65b7f54c8f6e",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx.meta": "86b165d5ba7d0365defe497c934c08547fb416fffe279c085f13e4f1e3f1b7e3",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx": "0c80caa5d6036e85bbc42191777835678898d90a40bc499e3fda50148eaf7a3f",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx.meta": "67e9dc68361d4e172e62f653189d7b8b01288e10b3acc1a5d69f2d2b9c0b12cd",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx": "ef422f5f0124cacdcfe3fc7dc53badc09c478bfab5b0da94685ee2a9ad3c1a96",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx.meta": "4ac8ec6223e0f490d1c77677457a0579f2958e85db4abad22bab60f8d848f286",
+    "Assets/Game/Content/Characters/PrototypePair/Ceramic.mat": "a0a6e68e8347c718dab84028f633a67a50ce029d9c55cd9b7441d8e2112223b9",
+    "Assets/Game/Content/Characters/PrototypePair/Ceramic.mat.meta": "007695f085939b619a0f2e83854020663c218e7d3df8f054ac6345e9501187b4",
+    "Assets/Game/Content/Characters/PrototypePair/Cloth.mat": "6fe38291494c21ed21b4f5ed3df8e7996028371958ca45fb2e6e4154f0623f3e",
+    "Assets/Game/Content/Characters/PrototypePair/Cloth.mat.meta": "32745407cc0fdd95f065b6982d68b9dae8a55cbb60fdff5a6c7e08b8ccc9b2ef",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab": "6b740ef3443146cb3a232bf24864a1deee89379e09bb81381f25c7f7ad126122",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab.meta": "9668ad4c56a5e1855502b10415cf0bedecc9965e8689026a365c6a8ebaee112d",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx": "3c6486421476f9f6f396ebffb819feb01f328707e76ed5ce5447f96d4e6ee4cd",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx.meta": "8a82a90dfd0c2858779e22680b481ce9c570890938604d92ee818cdaa8455319",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx": "ce2483d84a555a57accc8ea7bb74c0766df579648ed7b5a92e5cb1f5719f7af6",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx.meta": "56ceda66f7f27f2e445dec1d2b152a82d240aea58988e54389762c7ee2ca92c6",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx": "4248ca3ea09e68fbb55b0756d605d30a97814f489a12fdf2801e7da9481c9581",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx.meta": "bbaf13628868896f4b07123eb5331e34594bc37f16589818e2639be8a73f27cd",
+    "Assets/Game/Content/Characters/PrototypePair.meta": "55808cd48be46bea1eeeb92d77674ffec7eda28d0fc6d06d1d3017ec8bfc8235",
+    "Assets/Game/Content/Characters.meta": "b3fd3845ade8fa6f9b3aac182e5e63cc2ef02d2bd9862632d0d4ebf22f8b131e",
+    "Assets/Game/Editor/PrototypePairAuthoring.cs": "4e65f27caf123ef24c9f7f89b135fbf99e48ffe0d83003ae57b01d0742558dbb",
+    "Assets/Game/Editor/PrototypePairAuthoring.cs.meta": "35f9180c961c5bd44e74901cfd34c18523922c5d6d932d3b2fe49242f8347cb1",
+    "Assets/Game/Editor/PrototypePairImportPolicy.cs": "fbf484b8ece6b156e64dca91a0891c3912af404474895a176a97892423a7b261",
+    "Assets/Game/Editor/PrototypePairImportPolicy.cs.meta": "8d7f49eacf4272ea55298e538b41aaf359e65466e4d4481b5b99c797786499df",
+    "Assets/Game/Scenes/PrototypePairReview.unity": "0a7931322b50184c92949a641a5ee2bf14dd51ce46b86ca8cbc460b97d4372bb",
+    "Assets/Game/Scenes/PrototypePairReview.unity.meta": "4e83b6ad4cb326cddd0eb264e9931ef81bb5ef35cf8519cb91d09732887a13a7",
+    "Assets/Game/Tests/EditMode/PrototypePairImportTests.cs": "923b863644b5ca5f996ea68f6e47212a0646bcb1f42ee3776b5304de85666dce",
+    "Assets/Game/Tests/EditMode/PrototypePairImportTests.cs.meta": "15f40766f18516f791ebec1f0a3ed35970596a0fef19271a95ec3ed2a0222868",
+    "SourceArt/Characters/PrototypePair.blend": "354ac5f41976927361a98cdf4a07b2be910b672609451c080b813deeba6f0a6d",
+    "SourceArt/Characters/prototype-pair-source.json": "a3dcc76c49623f7211aaf862f26efd829a24b2d0125b3be1b994c5190514cced",
+    "tools/content/build_prototype_pair.py": "da66f4ed8785a728e619778cfc2a32ea161ba087439a9fb3a227d507bdfe4077",
+    "tools/content/prototype-export.json": "c39ceac8a97b248365809de6c58a18a3bea9f1d1ba4cb7addc75ffc7fd425209"
+  },
+  "new_unity_guids": {
+    "Assets/Game/Content/Characters/PrototypePair/Brass.mat.meta": "9d36fe92ae32a1f43916c36182f2573f",
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab.meta": "ab9c705555cd3d440bf9d62805f914e4",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx.meta": "68fded6541ef4a218d2134aebd8cf6de",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx.meta": "bc45bb80c22042fc927976a7d2323bc8",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx.meta": "1bdf83d55e84448db76b79d0b3526772",
+    "Assets/Game/Content/Characters/PrototypePair/Ceramic.mat.meta": "ff5b6c9e1c2bfe949950c382d2dc04ae",
+    "Assets/Game/Content/Characters/PrototypePair/Cloth.mat.meta": "d15fd66411d76224b8f2cc091a59923d",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab.meta": "02fe8ec9eeda5de4b936659cc51dee64",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx.meta": "99b43fd108a64735b610166d9e1af65e",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx.meta": "9dc43f2f859042baa9d1e13df3c80c2a",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx.meta": "749e529ca36c4783b49bd5c6e7face46",
+    "Assets/Game/Content/Characters/PrototypePair.meta": "87abcb6dc7844530abed20a6f5bda158",
+    "Assets/Game/Content/Characters.meta": "08a7a18bbbb04326851b4cf2c4f99190",
+    "Assets/Game/Editor/PrototypePairAuthoring.cs.meta": "c391babf7a184599a863c199765be97e",
+    "Assets/Game/Editor/PrototypePairImportPolicy.cs.meta": "374982727bfe42c4850f567051ddcf69",
+    "Assets/Game/Scenes/PrototypePairReview.unity.meta": "ad557b9a2b7efaf409d1ebb11e3287a2",
+    "Assets/Game/Tests/EditMode/PrototypePairImportTests.cs.meta": "5e8ec927b0b7430e87e60f5ff68d509b"
+  },
+  "pair": {
+    "actors": [
+      "Soldier",
+      "Captain"
+    ],
+    "shared_bones": 23,
+    "humanoid_bones": 21,
+    "equipment_socket_bones": 2,
+    "lods_per_actor": 3,
+    "clips_per_actor": 13,
+    "source_max_influences": 2,
+    "import_max_influences": 4,
+    "source_triangles": {
+      "Soldier": [
+        1832,
+        1208,
+        740
+      ],
+      "Captain": [
+        1892,
+        1268,
+        800
+      ]
+    },
+    "native_valid_humanoid": true,
+    "bind_pose_and_hierarchy_all_meshes_all_lods": "PASS",
+    "soldier_cuts_retarget_to_both_avatars": "PASS",
+    "root_motion": "IN_PLACE, applyRootMotion=false",
+    "gameplay_animation_events": 0,
+    "review_scene_portrait_bounds": "PASS at synthetic9:16; physical UNRUN",
+    "source_scene": "FWR_PrototypePair",
+    "original_blender_scene": "Scene preserved with Cube,Camera,Light"
+  },
+  "authoring": "Native isolated executeMethod exit0; two prefabs,three URP materials,separate review scene",
+  "regressions_fixed": [
+    "Batch scene authoring cannot open additively beside unsaved startup scene: use Single in isolated batch, guarded Additive interactively",
+    "All loaded interactive scenes must be saved before writes",
+    "FBX default animation pose differs across LODs: restore from actual skin bind matrices and bump postprocessor version2"
+  ],
+  "review": "Independent read-only review after fixes: no actionable P0/P1/P2 findings",
+  "maintainability_followup": "Before expanding the generator, extract per-actor build from its approximately60-line main entrypoint",
+  "physical_task09_acceptance": "DEFERRED, execution UNRUN",
+  "task10_device_qualification": "DEFERRED, execution UNRUN",
+  "pair_visual_contact_deformation_acceptance": "DEFERRED, execution UNRUN",
+  "final_art_release_eligibility": "UNVERIFIED",
+  "consolidated_checkpoint": "After Task12, before Task13; original thresholds preserved",
+  "task12_presentation_implemented": false,
+  "loot_weapon_upgrade_document": "docs/production/melee-loot-and-upgrades.md",
+  "loot_progression_implemented": false,
+  "weapon_catalog": {
+    "swords": 4,
+    "one_handed_axes": 4,
+    "maces_warhammers": 4,
+    "other_equipment": 22,
+    "total": 34,
+    "ranged": 0
+  },
+  "ai_credits_spent": 0,
+  "asset_purchases": 0,
+  "external_image_video_generations": 0,
+  "package_change_this_task": false,
+  "commit_or_push_performed": false
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Failed(Child)" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.3699581">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="708" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.369958" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1823" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="707" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.309173" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="86436" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1824" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="707" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.273696" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1825" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="707" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.255464" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1826" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="707" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.219866" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1827" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="707" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.193257" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1795" name="PrototypeSwordMotionTests" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.144347" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1802" name="ImportedRestPoseUsesAnatomicalHandSides" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.133522" total="6" passed="0" failed="6" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1796" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,0)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1846525263" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.054298" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1797" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,1)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="2112385105" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.005112" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1798" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Soldier&quot;,2)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="502802174" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.007520" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1799" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,0)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1318652200" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.019793" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1800" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,1)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="783231407" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.005576" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1801" name="ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides(&quot;Captain&quot;,2)" methodname="ImportedRestPoseUsesAnatomicalHandSides" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="44491227" result="Failed" start-time="2026-09-30 21:17:09Z" end-time="2026-09-30 21:17:09Z" duration="0.005019" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Anatomical right must match the actor's right axis.
+  Expected: greater than 0.400000006f
+  But was:  -0.699999869f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.ImportedRestPoseUsesAnatomicalHandSides (System.String actor, System.Int32 lod) [0x0007a] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:35
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Failed(Child)" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 20:58:35Z" end-time="2026-09-30 20:58:36Z" duration="0.462256">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="702" result="Failed" site="Child" start-time="2026-09-30 20:58:35Z" end-time="2026-09-30 20:58:36Z" duration="0.462256" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1816" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="701" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.398680" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="82732" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1817" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="701" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.377771" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1818" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="701" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.341417" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1819" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="701" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.322020" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1820" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="701" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.267480" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1795" name="PrototypeSwordMotionTests" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.250336" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1804" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.238860" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1796" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutUp&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1224028377" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.143666" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  4.7027271E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1797" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutDown&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="86558769" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.003772" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  6.33606078E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1798" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutLeft&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1341598976" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.003108" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  1.68587391E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1799" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Soldier&quot;,&quot;CutRight&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="528648058" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.004118" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  5.47097898E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1800" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutUp&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1506324589" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.043709" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  4.7027271E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1801" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutDown&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="774245655" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.003356" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  6.33606078E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1802" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutLeft&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="103756424" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.003855" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  1.68587391E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1803" name="SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough(&quot;Captain&quot;,&quot;CutRight&quot;)" methodname="SwordCutsHaveDirectionalTravelAndMovingFollowThrough" classname="Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests" runstate="Runnable" seed="1880181837" result="Failed" start-time="2026-09-30 20:58:36Z" end-time="2026-09-30 20:58:36Z" duration="0.003551" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  The blade must continue past contact instead of holding then rewinding.
+  Expected: greater than 0.0250000004f
+  But was:  5.47097898E-07f
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypeSwordMotionTests.SwordCutsHaveDirectionalTravelAndMovingFollowThrough (System.String actor, System.String cut) [0x00157] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypeSwordMotionTests.cs:53
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

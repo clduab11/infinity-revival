@@ -1,0 +1,207 @@
+{
+  "record_date": "2026-09-30",
+  "scope": "anchored sword motion, anatomical hands, block recoil, bounded camera, original lore and image prompt",
+  "technical_acceptance": "PASS",
+  "physical_and_final_visual_acceptance": "UNRUN",
+  "unity_version": "6000.6.0f1",
+  "unity_revision": "f7f8ed4d1e24",
+  "blender_version": "5.2.1 LTS",
+  "source_version": "prototype-pair-1.0.3",
+  "native_graphics_enabled": true,
+  "native_project": "C:\\Users\\cld-main\\AppData\\Local\\Temp\\forever-we-reign-clock-check-cdqftnfa",
+  "operator_editors_preserved": true,
+  "interactive_blender_dirty_session_preserved": true,
+  "commit_or_push_performed": false,
+  "paid_generations_or_purchases": 0,
+  "dependencies": {
+    "direct": 50,
+    "resolved": 69,
+    "changed": false
+  },
+  "game_csharp_sources": 115,
+  "unity_asset_guids": 192,
+  "test_runs": {
+    "melee-motion-camera-red.xml": {
+      "total": 9,
+      "passed": 0,
+      "failed": 9,
+      "skipped": 0
+    },
+    "melee-motion-sword-red.xml": {
+      "total": 8,
+      "passed": 0,
+      "failed": 8,
+      "skipped": 0
+    },
+    "melee-motion-bounds-block-red.xml": {
+      "total": 2,
+      "passed": 0,
+      "failed": 2,
+      "skipped": 0
+    },
+    "melee-motion-horizontal-binding-red.xml": {
+      "total": 701,
+      "passed": 697,
+      "failed": 4,
+      "skipped": 0
+    },
+    "melee-motion-focused.xml": {
+      "total": 26,
+      "passed": 26,
+      "failed": 0,
+      "skipped": 0
+    },
+    "melee-motion-handedness-red.xml": {
+      "total": 6,
+      "passed": 0,
+      "failed": 6,
+      "skipped": 0
+    },
+    "melee-motion-before-handedness-editmode.xml": {
+      "total": 701,
+      "passed": 701,
+      "failed": 0,
+      "skipped": 0
+    },
+    "melee-motion-before-handedness-playmode.xml": {
+      "total": 125,
+      "passed": 125,
+      "failed": 0,
+      "skipped": 0
+    },
+    "melee-motion-editmode.xml": {
+      "total": 707,
+      "passed": 707,
+      "failed": 0,
+      "skipped": 0
+    },
+    "melee-motion-playmode.xml": {
+      "total": 125,
+      "passed": 125,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "python_tests": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "source_contract_validation": "PASS, 13 clips, 100 FPS, frame-10 contact",
+  "test_identity_preservation": {
+    "editmode": {
+      "prior": 693,
+      "preserved": 693,
+      "new": 14,
+      "missing": []
+    },
+    "playmode": {
+      "prior": 113,
+      "preserved": 113,
+      "new": 12,
+      "missing": []
+    }
+  },
+  "preflight_preservation": {
+    "recorded_files": 402,
+    "protected_files": 265,
+    "protected_content": "Domain, Application, packages, project settings, existing scenes and metadata",
+    "unchanged": true
+  },
+  "geometry_and_hierarchy": "23 names/parents, LOD geometry counts/material family/timing preserved; lateral bind and equipment positions deliberately reflected to correct handedness",
+  "user_video": {
+    "file": "20260930-2026-31.3079065.mp4",
+    "sha256": "cc317f9ce213e3ba774ac2d7e5119361912cc0cdc0787851468c78e8ec08e14c",
+    "bytes": 22409896,
+    "seconds": 45.119979,
+    "dimensions": [
+      1912,
+      1028
+    ],
+    "fps": 30,
+    "context": "informal landscape Editor feedback"
+  },
+  "source_sha256": {
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab": "4b3db4fe7e082b480ea06dc63fcdcc8a5fe6c2c9a62c44997f15afc582c0071e",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx": "a90c7a569ed79a19a2784326cc925150d3ee7f8e9fdcdfd576394010b81fef43",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx": "43a0845b4bcea4087ecfa5df1e5c67d8430404de8c9d2f1d7ad04af8ae6fef65",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx": "6aeccaea8500208f099dfbb9c5758eed84a4617dddfed4cf8d113e7f761ed906",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab": "b46595c03af0aa69fa6c7b0a161e42a919d2ac6a9fd3ba26b65c6c2a8281c2c4",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx": "5a553830a0fe7b18676f14593950868347242ff578c5d8d51b88d015fdf6cf24",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx": "2ede966eb3179ce732aa36a0583eaa20e65cb2bab305deff3b7313d5adaa503d",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx": "6c94aaaf07fe5e90fab1c617ac85987c943eab76c2ec830dc006ebe1554da333",
+    "Assets/Game/Content/CombatPresentationProfile.asset": "638ddc86b9042edf5be63aca87eaae4666afe852bb9771f86ed209164a9b26e1",
+    "Assets/Game/Editor/CombatPrototypeAuthoring.cs": "7f26b90f90a83028630e9e9fda0fe2ebe76887bfce08a57b2e123d78332ad034",
+    "Assets/Game/Runtime/Presentation/Combat/CombatCameraMotion.cs": "4240c3d1f251e74a767f757a908eaea7bc172374cdd66616f82874b988dda159",
+    "Assets/Game/Runtime/Presentation/Combat/CombatPresentation.cs": "3d3f8c54bff21924b17ae6aaa77bc42221b3de9e2a3e5637d5e87b62fe45826c",
+    "Assets/Game/Runtime/Presentation/Combat/CombatPresentationObserver.cs": "1b8729fa2da7b26f857398138535f1e1ee462bf79fb8cf119faa0e54cd002c79",
+    "Assets/Game/Runtime/Presentation/Combat/CombatPresentationProfile.cs": "5e7f50803c74f345e1b2b45e7c5fb7764e6f26d75d19184fee17a01f3008c9f9",
+    "Assets/Game/Tests/EditMode/PrototypeSwordMotionTests.cs": "6a5d000764226b6314fe405bc60cb3bef10efbd7a407c563dd8a37d78ab4b4d9",
+    "Assets/Game/Tests/PlayMode/CombatCameraMotionIntegrationTests.cs": "0f8eb0a28c1837fece0f0c08eaf7a0300b29a189239d8c2e4bd1e4fbdf0cfc04",
+    "Assets/Game/Tests/PlayMode/CombatPresentationIntegrationTests.cs": "dcd332039354f0ec40b01e25b6ce4c9ddf39f81bfd7f6a09a629892f10f26365",
+    "README.md": "d67e867016ed83efb54eff77bf341f3898497441a25e6638584d0c89a84bcd32",
+    "SourceArt/Characters/PrototypePair.blend": "fde5451d94fe1a7577dd08458e5e2580d7c4c0f4a0847f030fbb7c59d6c81633",
+    "SourceArt/Characters/prototype-pair-source.json": "71ed3a4e69d9d2b3b8585880f73e8180e670a4dab8271e0268c216878ae21d5f",
+    "docs/design/forever-we-reign-lore-bible.md": "e5036ae8343a3af38bccb58a14eb90ad6e83c39e87cc12a717ceb1393e960132",
+    "docs/design/melee-combat-direction.md": "8786a61d0eb3fda12372982fa1cfe9fed59f87998aa581a7a90bd242b7cf5815",
+    "docs/media/forever-we-reign-image-prompt.md": "2b92f2858a497f579743765fcfd293a27cefc38445dcb206253a87128bea4852",
+    "docs/research/2026-09-30-chivalry-melee-reference.md": "d6640a8f65652dfe1005c95e21fe148f8120a4d6560b45c7a0f67d324eedb1f6",
+    "docs/research/2026-09-30-fantasy-lore-foundations.md": "f75d090a2b195409398f693e6dc61707c5efce0c296abfb7986ffe7fa4a78a04",
+    "tools/content/build_prototype_pair.py": "c3e5ab5acb199304955cd480d4cfbf556158e21e47ac46932cbb90eb56d0a246",
+    "tools/content/prototype-export.json": "dc6c84deff21f4b4e3c3abdb96d93190bab00e7e391e0d7182036d8397b512e3",
+    "tools/content/prototype_motion.py": "90dbe95c550df413eb69fbd943d7c98801a7f20020f7f7e836819ceed4b8f807"
+  },
+  "portable_evidence_sha256": {
+    "docs/acceptance/evidence/melee-motion-before-handedness-editmode.xml": "16a794c18a52ac82bc034a763561d38597d19a8c5111d4d74c1ebe1191e50697",
+    "docs/acceptance/evidence/melee-motion-before-handedness-playmode.xml": "1a7f158414c364c97865652e019e4c9943d1bc346567393b3df074288a65f12a",
+    "docs/acceptance/evidence/melee-motion-block-recoil.png": "44302ab3604807a91e31df48e49815cb5a9270336e8762d37fb80d5d8be2b17d",
+    "docs/acceptance/evidence/melee-motion-bounds-block-red.xml": "bf0d32c99515dc30b757ce2c9bf99ccf07b06877d8fe7f940ea7902105aa7ddb",
+    "docs/acceptance/evidence/melee-motion-camera-red.xml": "ae0099d1d4db424844c1b1a02320ac2374d16e9a2826cd4a60ff14a4621d2239",
+    "docs/acceptance/evidence/melee-motion-current-combat.png": "86896716ebc3ec215ce96b74b6b8dbaa9f47b20456c7f61e7adff6abe4372917",
+    "docs/acceptance/evidence/melee-motion-cut-Down-follow.png": "be4408db2f344a54ec1c8cac626fb4436770cb183182d0767fb780c1d90bc5b4",
+    "docs/acceptance/evidence/melee-motion-cut-Down-windup.png": "fa33b6a187102848a43a754f277027860ba7f42434e4571a7baf99173bf16482",
+    "docs/acceptance/evidence/melee-motion-cut-Left-follow.png": "68875725d8fa44b6a9920bc9d66ea8e2f7585baa188263572793b6ce636b4db9",
+    "docs/acceptance/evidence/melee-motion-cut-Left-windup.png": "f54bc712615a6a67e278efa8bf9fdb7589d68b924fbc8bfadb01d7ec31339370",
+    "docs/acceptance/evidence/melee-motion-cut-Right-follow.png": "6aaff2d060a577bd122b7d2ccf7d2a8f7bfa98f10d5aee58d4bf9352584e28b6",
+    "docs/acceptance/evidence/melee-motion-cut-Right-windup.png": "28056a6c9db3637fc149d1674c80508a32c398982ca1faefd4b946309722373e",
+    "docs/acceptance/evidence/melee-motion-cut-Up-follow.png": "64e5c0eed9bf599423a32d2f3088a313b1f47fa3f2435243208a2a7d2ce9039b",
+    "docs/acceptance/evidence/melee-motion-cut-Up-windup.png": "9192d159e3d2a13672c9bbea23d6ed6fc6fa40141ce892937efbbead0e3761f2",
+    "docs/acceptance/evidence/melee-motion-editmode.xml": "aba26661142357ef78ccb21912f8844dd60dfd0371344864a22dc78043012bd3",
+    "docs/acceptance/evidence/melee-motion-focused.xml": "23c9be771ad37c659bc0f17d15901ca4df81b02a99a0d685817b99cbc9c2629c",
+    "docs/acceptance/evidence/melee-motion-guard.png": "12a1ad703042bd27e0fad8f0844301dd83364c58711ac45be295d3ad50f385e5",
+    "docs/acceptance/evidence/melee-motion-handedness-red.xml": "6ec37489f85f62f3bc22e7565f8699de2b9c6e6fcfc6d703fe19548ce0c64351",
+    "docs/acceptance/evidence/melee-motion-horizontal-binding-red.xml": "0fa961183ed336c6ded46ccb917d1ee63633c86d8db1c3088f3f475f3a251d39",
+    "docs/acceptance/evidence/melee-motion-playmode.xml": "ac5390e30e7ee7f38d51e9d02561d4da4928c257c0f97a3e71c9158fdf1bb3ba",
+    "docs/acceptance/evidence/melee-motion-sword-path-Captain-CutDown.json": "76c2a34b5ae86650138024b8995c4e2068bd257160fbde60b6709083d964fa2f",
+    "docs/acceptance/evidence/melee-motion-sword-path-Captain-CutLeft.json": "f1f166f7a6e755bc6f36a388fe5fc1dcafba0475a30ad056813bb3af3c561096",
+    "docs/acceptance/evidence/melee-motion-sword-path-Captain-CutRight.json": "3f52985ef2988fccb917831005881b835e18be898336c23fe44f325ab85d387c",
+    "docs/acceptance/evidence/melee-motion-sword-path-Captain-CutUp.json": "8a2c50caa81dc43e19e72a2d40f72f6e34aa447acd8223a5986b101698e1633e",
+    "docs/acceptance/evidence/melee-motion-sword-path-Soldier-CutDown.json": "e199e972a4ad0df8b1603b316e3ca563a60bdf1b6fab7a623fc93e7e1482c7fb",
+    "docs/acceptance/evidence/melee-motion-sword-path-Soldier-CutLeft.json": "835457cec6264c597ac7ab57120733f1063e5ab8befda2761d70ccdc5effd278",
+    "docs/acceptance/evidence/melee-motion-sword-path-Soldier-CutRight.json": "85b2c9f5c933587f70f38a8a4a960fd12ff32db33ef4980630512189401d7154",
+    "docs/acceptance/evidence/melee-motion-sword-path-Soldier-CutUp.json": "18bf0e06431c87dd7c51193c5d1a3dbe81ea0dd7a532a6deaf1627c7dcbea923",
+    "docs/acceptance/evidence/melee-motion-sword-red.xml": "2088711876323d128e3f8eedb50c96a9d58f8f574b3b6f66e6b8224e77b63347",
+    "docs/acceptance/evidence/melee-motion-task12-replay-0.json": "abd36500b9bcea3b8e4108092d4d361f64b861dd830863069e52d226d4c62de6",
+    "docs/acceptance/evidence/melee-motion-task12-replay-120.json": "672613f9b8bc6639a6d022e34e01f9748a3ebb48cb82bca9c4dba339db415a9b",
+    "docs/acceptance/evidence/melee-motion-task12-replay-30.json": "a2041aebd3c31a3e01b12082b52b9a38fea6d99918fd29c47cf0bc01c23a833b",
+    "docs/acceptance/evidence/melee-motion-task12-replay-60.json": "30aecf52dbdbaead0ca80f83be415fea2e7eb13570ffd028ded7119c41ce6c97",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Defeat-0.json": "8367aeb0c023b63932983c05a6a9ecf56724b0dd16f876bf692fecdedcf43d7a",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Defeat-120.json": "722accf854fb20c049d9a1b2892f4fba748cdc8592f898ae3f44b46a8ad75271",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Defeat-30.json": "65887d5ec8db5f10ac9637f5f92427acdea771ecba674a4f2f510887710da3a5",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Defeat-60.json": "2c5ff7b70999703c34208b123da90d2ab829178d69c934b0f9ca37612c3de6fb",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Dodge-0.json": "5c267d494c4dd730d3e5943bdaa3843106638e5c8fc34494b6b1230ae669a3c2",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Dodge-120.json": "3c9aa742672dd4f9d12639873f5a2ed910ab8fc869f736417c7f9af557d2fe88",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Dodge-30.json": "8293f51590f2e01b7116e03bd67c2adba90e271d802a7838d031494ab1150f11",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Dodge-60.json": "aff29015eaa5d078f222a9bd3c5dc3e849655ee70e8a0f71b3473f7fec8a8373",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Guard-0.json": "c294ffa29d9c64521b913954a3cea2f88446045708a871fadd0e1863c721a787",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Guard-120.json": "83c53d7de86fb7b299d58dafd933634ddb20306168b571ba6b1667258cc56677",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Guard-30.json": "91e626893e4169d3835f854d2c066aa0bcc5358170eefed67a15bfe3f123b750",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Guard-60.json": "86796bc0696b5ea0a600f6857cb133542244da9224352152e01a48c07a11fd6c",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Victory-0.json": "ac179c44bf699268b5b8937cf541f62d549ce4c26498171342cd454299294df4",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Victory-120.json": "1946ed8f9e6f5d0b5ef47509c739c3c3751e253a352fefa226a0b48ba3e49faf",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Victory-30.json": "f250b956c8098508d27a33efd70632df6236e678b4613eccbc713c3998032bd5",
+    "docs/acceptance/evidence/melee-motion-task12-terminal-Victory-60.json": "91ca7fa02b46e23525d5aff823dd2da816695d9a2810a3173a27c66048ffe2c4"
+  },
+  "next_task": "Task13 definitions, validated timing/contact bindings and representative sword/axe/mace pilot, after outstanding checkpoint",
+  "art_limit": "prototype geometry/materials; generated README concept remains historical; replacement prompt only"
+}

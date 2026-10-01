@@ -31,6 +31,14 @@ A normal interaction sequence is:
 8. Receive equipment, currency, mastery, and character XP.
 9. Continue or stop at the newly committed checkpoint.
 
+Earned equipment rewards add melee-family choices, authored cache/boss pools,
+duplicate protection, and skippable reveals to this loop. Baseline currency,
+character XP, and eligible mastery do not depend on a lucky equipment drop.
+The catalog stays at 34 definitions, including twelve melee weapons across
+swords, one-handed axes, and one-handed maces/warhammers. Ranged weapons are
+excluded. The design, tuning hypotheses, and atomic reward contract are in the
+[melee equipment and earned loot specification](../melee-loot-and-upgrades.md).
+
 ## 2.2 Session design
 
 | Session | Target experience |

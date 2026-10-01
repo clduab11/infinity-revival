@@ -17,6 +17,8 @@ namespace Praxen.Game.Application.Combat
         public bool HasCommittedStrike => strikes.Count > 0;
         public event Action<DefenseResolution> StrikeResolved;
         public event Action<EnemyStrike> TelegraphStarted;
+        public event Action<DefenseCommand, long> DefenseControlAccepted;
+        public event Action<GestureCommand, long> ParryAccepted;
 
         public CombatEncounter(CombatSession session, InteractionPhase encounterPhase,
             CombatDefenseTuning tuning = null)
@@ -57,7 +59,10 @@ namespace Praxen.Game.Application.Combat
             Player.AdvanceTo(record.TimeUs);
             if (record.DefenseCommand.HasValue && (phase.Kind == InteractionPhaseKind.EnemySequence ||
                 record.DefenseCommand.Value.Kind == DefenseCommandKind.GuardRelease))
-                Player.ApplyControl(record.DefenseCommand.Value, record.TimeUs);
+            {
+                if (Player.ApplyControl(record.DefenseCommand.Value, record.TimeUs))
+                    DefenseControlAccepted?.Invoke(record.DefenseCommand.Value, record.TimeUs);
+            }
             else if (record.Command.HasValue)
                 InterpretGesture(record.Command.Value, record.TimeUs);
             else if (record.Milestone.HasValue)
@@ -82,7 +87,10 @@ namespace Praxen.Game.Application.Combat
             var id = (incoming.Id - 1) / 3 + 1;
             if (!ownedMilestones.Contains(incoming.Id)) return;
             if (strikes.TryGetValue(id, out var strike))
-                Player.TryParry(strike, incoming.TimeUs, command.Direction, timeUs);
+            {
+                if (Player.TryParry(strike, incoming.TimeUs, command.Direction, timeUs))
+                    ParryAccepted?.Invoke(command, timeUs);
+            }
         }
 
         private void ResolveMilestone(CombatMilestone milestone)

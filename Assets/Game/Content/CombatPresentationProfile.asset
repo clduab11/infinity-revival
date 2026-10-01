@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad70c6a0e6e65211b3a991026b9b1fbd, type: 3}
+  m_Name: CombatPresentationProfile
+  m_EditorClassIdentifier: Praxen.Game.Presentation::Praxen.Game.Presentation.Combat.CombatPresentationProfile
+  Soldier: {fileID: 4003723704787781391, guid: 02fe8ec9eeda5de4b936659cc51dee64, type: 3}
+  Captain: {fileID: 3946584419168205254, guid: ab9c705555cd3d440bf9d62805f914e4, type: 3}
+  SoldierMotions:
+  - Key: Idle
+    Clip: {fileID: -3100369314251171874, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: Guard
+    Clip: {fileID: -3260646018562980696, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: Parry
+    Clip: {fileID: 5987634597008431552, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: DodgeLeft
+    Clip: {fileID: 7849272648206702947, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: DodgeRight
+    Clip: {fileID: 4761915719394628313, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: CutUp
+    Clip: {fileID: 516844403585125193, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: CutDown
+    Clip: {fileID: 1153444682023446455, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: CutLeft
+    Clip: {fileID: -6370075751204139015, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: CutRight
+    Clip: {fileID: -6230941014240595202, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: Hit
+    Clip: {fileID: -1304387373167265313, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: Death
+    Clip: {fileID: 4348485665485846014, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: EnemyTell
+    Clip: {fileID: -8139398739787445934, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  - Key: EnemyAttack
+    Clip: {fileID: -3189543450004216711, guid: 99b43fd108a64735b610166d9e1af65e, type: 3}
+  CaptainMotions:
+  - Key: Idle
+    Clip: {fileID: -3100369314251171874, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: Guard
+    Clip: {fileID: -3260646018562980696, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: Parry
+    Clip: {fileID: 5987634597008431552, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: DodgeLeft
+    Clip: {fileID: 7849272648206702947, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: DodgeRight
+    Clip: {fileID: 4761915719394628313, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: CutUp
+    Clip: {fileID: 516844403585125193, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: CutDown
+    Clip: {fileID: 1153444682023446455, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: CutLeft
+    Clip: {fileID: -6370075751204139015, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: CutRight
+    Clip: {fileID: -6230941014240595202, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: Hit
+    Clip: {fileID: -1304387373167265313, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: Death
+    Clip: {fileID: 4348485665485846014, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: EnemyTell
+    Clip: {fileID: -8139398739787445934, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  - Key: EnemyAttack
+    Clip: {fileID: -3189543450004216711, guid: 68fded6541ef4a218d2134aebd8cf6de, type: 3}
+  Sounds:
+  - Kind: 0
+    Clip: {fileID: 8300000, guid: c8314bb10b0657bc9fe0d80175371ff7, type: 3}
+  - Kind: 1
+    Clip: {fileID: 8300000, guid: 929f4a716ba154b381c7da206c95e477, type: 3}
+  - Kind: 2
+    Clip: {fileID: 8300000, guid: dc8abf96f5e55ddab916c97a0d50a901, type: 3}
+  - Kind: 3
+    Clip: {fileID: 8300000, guid: dc8abf96f5e55ddab916c97a0d50a901, type: 3}
+  - Kind: 4
+    Clip: {fileID: 8300000, guid: 929f4a716ba154b381c7da206c95e477, type: 3}
+  - Kind: 5
+    Clip: {fileID: 8300000, guid: 0f3fe31f529453a0bffb2d49a6f571c3, type: 3}
+  - Kind: 6
+    Clip: {fileID: 8300000, guid: 0f3fe31f529453a0bffb2d49a6f571c3, type: 3}
+  - Kind: 7
+    Clip: {fileID: 8300000, guid: c8314bb10b0657bc9fe0d80175371ff7, type: 3}
+  - Kind: 8
+    Clip: {fileID: 8300000, guid: dc8abf96f5e55ddab916c97a0d50a901, type: 3}
+  EnableCameraOrbit: 1
+  CameraOrbitDegrees: 3
+  CameraFocusDistance: 8

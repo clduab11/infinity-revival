@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "source_version": "prototype-pair-1.0.3",
+  "blender_version": "5.2.1 LTS",
+  "units": "meters",
+  "height_m": 1.8,
+  "forward": "-Y",
+  "up": "Z",
+  "bones": [
+    [
+      "Hips",
+      null,
+      [
+        0,
+        0,
+        0.91
+      ],
+      [
+        0,
+        0,
+        1.01
+      ]
+    ],
+    [
+      "Spine",
+      "Hips",
+      [
+        0,
+        0,
+        1.01
+      ],
+      [
+        0,
+        0,
+        1.19
+      ]
+    ],
+    [
+      "Chest",
+      "Spine",
+      [
+        0,
+        0,
+        1.19
+      ],
+      [
+        0,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "Neck",
+      "Chest",
+      [
+        0,
+        0,
+        1.4
+      ],
+      [
+        0,
+        0,
+        1.53
+      ]
+    ],
+    [
+      "Head",
+      "Neck",
+      [
+        0,
+        0,
+        1.53
+      ],
+      [
+        0,
+        0,
+        1.78
+      ]
+    ],
+    [
+      "LeftShoulder",
+      "Chest",
+      [
+        0.04,
+        0,
+        1.4
+      ],
+      [
+        0.18,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftUpperArm",
+      "LeftShoulder",
+      [
+        0.18,
+        0,
+        1.4
+      ],
+      [
+        0.45,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftLowerArm",
+      "LeftUpperArm",
+      [
+        0.45,
+        0,
+        1.4
+      ],
+      [
+        0.7,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftHand",
+      "LeftLowerArm",
+      [
+        0.7,
+        0,
+        1.4
+      ],
+      [
+        0.83,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftUpperLeg",
+      "Hips",
+      [
+        0.1,
+        0,
+        0.91
+      ],
+      [
+        0.1,
+        0,
+        0.5
+      ]
+    ],
+    [
+      "LeftLowerLeg",
+      "LeftUpperLeg",
+      [
+        0.1,
+        0,
+        0.5
+      ],
+      [
+        0.1,
+        0,
+        0.12
+      ]
+    ],
+    [
+      "LeftFoot",
+      "LeftLowerLeg",
+      [
+        0.1,
+        0,
+        0.12
+      ],
+      [
+        0.1,
+        -0.14,
+        0.05
+      ]
+    ],
+    [
+      "LeftToes",
+      "LeftFoot",
+      [
+        0.1,
+        -0.14,
+        0.05
+      ],
+      [
+        0.1,
+        -0.24,
+        0.05
+      ]
+    ],
+    [
+      "RightShoulder",
+      "Chest",
+      [
+        -0.04,
+        0,
+        1.4
+      ],
+      [
+        -0.18,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightUpperArm",
+      "RightShoulder",
+      [
+        -0.18,
+        0,
+        1.4
+      ],
+      [
+        -0.45,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightLowerArm",
+      "RightUpperArm",
+      [
+        -0.45,
+        0,
+        1.4
+      ],
+      [
+        -0.7,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightHand",
+      "RightLowerArm",
+      [
+        -0.7,
+        0,
+        1.4
+      ],
+      [
+        -0.83,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightUpperLeg",
+      "Hips",
+      [
+        -0.1,
+        0,
+        0.91
+      ],
+      [
+        -0.1,
+        0,
+        0.5
+      ]
+    ],
+    [
+      "RightLowerLeg",
+      "RightUpperLeg",
+      [
+        -0.1,
+        0,
+        0.5
+      ],
+      [
+        -0.1,
+        0,
+        0.12
+      ]
+    ],
+    [
+      "RightFoot",
+      "RightLowerLeg",
+      [
+        -0.1,
+        0,
+        0.12
+      ],
+      [
+        -0.1,
+        -0.14,
+        0.05
+      ]
+    ],
+    [
+      "RightToes",
+      "RightFoot",
+      [
+        -0.1,
+        -0.14,
+        0.05
+      ],
+      [
+        -0.1,
+        -0.24,
+        0.05
+      ]
+    ],
+    [
+      "WeaponSocket",
+      "RightHand",
+      [
+        -0.79,
+        0,
+        1.4
+      ],
+      [
+        -0.79,
+        0,
+        1.46
+      ]
+    ],
+    [
+      "ShieldSocket",
+      "LeftHand",
+      [
+        0.79,
+        0,
+        1.4
+      ],
+      [
+        0.79,
+        -0.06,
+        1.4
+      ]
+    ]
+  ],
+  "characters": {
+    "Soldier": {
+      "rig": "Soldier_Rig",
+      "clips": {
+        "Idle": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            1,
+            101
+          ]
+        },
+        "Guard": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            111,
+            211
+          ]
+        },
+        "Parry": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            221,
+            251
+          ]
+        },
+        "DodgeLeft": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            261,
+            297
+          ]
+        },
+        "DodgeRight": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            307,
+            343
+          ]
+        },
+        "CutUp": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            353,
+            403
+          ],
+          "impact_frame": 10
+        },
+        "CutDown": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            413,
+            463
+          ],
+          "impact_frame": 10
+        },
+        "CutLeft": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            473,
+            523
+          ],
+          "impact_frame": 10
+        },
+        "CutRight": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            533,
+            583
+          ],
+          "impact_frame": 10
+        },
+        "Hit": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            593,
+            623
+          ]
+        },
+        "Death": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            633,
+            733
+          ]
+        },
+        "EnemyTell": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            743,
+            803
+          ]
+        },
+        "EnemyAttack": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            813,
+            863
+          ],
+          "impact_frame": 10
+        }
+      },
+      "markers": [
+        "Soldier_WeaponTip",
+        "Soldier_WeaponSocket",
+        "Soldier_ShieldSocket"
+      ],
+      "lods": [
+        {
+          "file": "Soldier_LOD0.fbx",
+          "vertices": 976,
+          "triangles": 1832,
+          "max_influences": 2
+        },
+        {
+          "file": "Soldier_LOD1.fbx",
+          "vertices": 664,
+          "triangles": 1208,
+          "max_influences": 2
+        },
+        {
+          "file": "Soldier_LOD2.fbx",
+          "vertices": 430,
+          "triangles": 740,
+          "max_influences": 2
+        }
+      ]
+    },
+    "Captain": {
+      "rig": "Captain_Rig",
+      "clips": {
+        "Idle": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            1,
+            101
+          ]
+        },
+        "Guard": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            111,
+            211
+          ]
+        },
+        "Parry": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            221,
+            251
+          ]
+        },
+        "DodgeLeft": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            261,
+            297
+          ]
+        },
+        "DodgeRight": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            307,
+            343
+          ]
+        },
+        "CutUp": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            353,
+            403
+          ],
+          "impact_frame": 10
+        },
+        "CutDown": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            413,
+            463
+          ],
+          "impact_frame": 10
+        },
+        "CutLeft": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            473,
+            523
+          ],
+          "impact_frame": 10
+        },
+        "CutRight": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            533,
+            583
+          ],
+          "impact_frame": 10
+        },
+        "Hit": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            593,
+            623
+          ]
+        },
+        "Death": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            633,
+            733
+          ]
+        },
+        "EnemyTell": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            743,
+            803
+          ]
+        },
+        "EnemyAttack": {
+          "duration_frames": 50,
+          "duration_seconds": 0.5,
+          "action_frames": [
+            0,
+            50
+          ],
+          "nla_frames": [
+            813,
+            863
+          ],
+          "impact_frame": 10
+        }
+      },
+      "markers": [
+        "Captain_WeaponTip",
+        "Captain_WeaponSocket",
+        "Captain_ShieldSocket"
+      ],
+      "lods": [
+        {
+          "file": "Captain_LOD0.fbx",
+          "vertices": 1004,
+          "triangles": 1892,
+          "max_influences": 2
+        },
+        {
+          "file": "Captain_LOD1.fbx",
+          "vertices": 692,
+          "triangles": 1268,
+          "max_influences": 2
+        },
+        {
+          "file": "Captain_LOD2.fbx",
+          "vertices": 458,
+          "triangles": 800,
+          "max_influences": 2
+        }
+      ]
+    }
+  },
+  "original_art": true,
+  "external_textures": false,
+  "configuration": {
+    "schema_version": 1,
+    "source_version": "prototype-pair-1.0.3",
+    "scene": "FWR_PrototypePair",
+    "fps": 100,
+    "units": "meters",
+    "character_height_m": 1.8,
+    "characters": [
+      "Soldier",
+      "Captain"
+    ],
+    "lod_segments": [
+      12,
+      8,
+      5
+    ],
+    "material_slots": [
+      "Ceramic",
+      "Brass",
+      "Cloth"
+    ],
+    "export_directory": "Assets/Game/Content/Characters/PrototypePair",
+    "source_file": "SourceArt/Characters/PrototypePair.blend",
+    "source_manifest": "SourceArt/Characters/prototype-pair-source.json",
+    "clips": {
+      "Idle": 100,
+      "Guard": 100,
+      "Parry": 30,
+      "DodgeLeft": 36,
+      "DodgeRight": 36,
+      "CutUp": 50,
+      "CutDown": 50,
+      "CutLeft": 50,
+      "CutRight": 50,
+      "Hit": 30,
+      "Death": 100,
+      "EnemyTell": 60,
+      "EnemyAttack": 50
+    },
+    "cut_impact_frame": 10,
+    "frame_convention": "Keys from frame 0 through duration_frames inclusive; duration = duration_frames / fps.",
+    "fbx": {
+      "axis_forward": "-Z",
+      "axis_up": "Y",
+      "apply_unit_scale": true,
+      "add_leaf_bones": false,
+      "bake_anim_use_all_actions": false,
+      "bake_anim_use_nla_strips": true,
+      "animation_lods": [
+        0
+      ]
+    }
+  },
+  "sha256": {
+    "SourceArt\\Characters\\PrototypePair.blend": "fde5451d94fe1a7577dd08458e5e2580d7c4c0f4a0847f030fbb7c59d6c81633",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Soldier_LOD0.fbx": "5a553830a0fe7b18676f14593950868347242ff578c5d8d51b88d015fdf6cf24",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Soldier_LOD1.fbx": "2ede966eb3179ce732aa36a0583eaa20e65cb2bab305deff3b7313d5adaa503d",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Soldier_LOD2.fbx": "6c94aaaf07fe5e90fab1c617ac85987c943eab76c2ec830dc006ebe1554da333",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Captain_LOD0.fbx": "a90c7a569ed79a19a2784326cc925150d3ee7f8e9fdcdfd576394010b81fef43",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Captain_LOD1.fbx": "43a0845b4bcea4087ecfa5df1e5c67d8430404de8c9d2f1d7ad04af8ae6fef65",
+    "Assets\\Game\\Content\\Characters\\PrototypePair\\Captain_LOD2.fbx": "6aeccaea8500208f099dfbb9c5758eed84a4617dddfed4cf8d113e7f761ed906"
+  },
+  "recipe_sha256": "c3e5ab5acb199304955cd480d4cfbf556158e21e47ac46932cbb90eb56d0a246",
+  "config_sha256": "dc6c84deff21f4b4e3c3abdb96d93190bab00e7e391e0d7182036d8397b512e3",
+  "motion_recipe_sha256": "90dbe95c550df413eb69fbd943d7c98801a7f20020f7f7e836819ceed4b8f807"
+}

@@ -16,7 +16,7 @@ The approved launch scope is:
 | Intellectual property | Original world, characters, writing, equipment, environments, audio, and visual identity |
 | Campaign | Two regions, branching routes, four bosses |
 | Regular enemies | Four archetypes, with elite variations |
-| Player combat | One sword-and-shield style |
+| Player combat | One one-handed melee-and-shield style: swords, axes, maces/warhammers |
 | Phones | Portrait, playable with one thumb |
 | iPad | Landscape presentation using the same combat rules |
 | PC | Landscape, mouse/keyboard and controller support |
@@ -35,7 +35,17 @@ This plan covers development through release. Chris explicitly authorized the in
 
 ## Current state and source
 
-Tasks 01 through 04 are complete. Task 05 is next; the campaign, combat encounter, saves, progression, and platform releases below remain planned. [Current repository README](../../README.md) and [Task 04 acceptance](../acceptance/task-04-readiness-2026-09-29.md) record the implemented scope.
+Tasks 01 through 09 provide the application and graybox combat foundations.
+Task 11 adds a separate original prototype pair and shared humanoid import
+pipeline. Task 12 connects its presentation; Task 13 supplies validated content,
+immutable admission and three weapon-family pilots. Hands-on Task 09 acceptance,
+Task 10 qualification and final pair review remain deferred at the
+[checkpoint after Task 12](../acceptance/post-task-12-checkpoint.md). The operator
+authorized Task 13 before that outstanding checkpoint; physical execution remains
+UNRUN. Task 14 loading scopes and leases are next. Saves, progression, campaign
+production and platform releases remain planned. The [repository README](../../README.md)
+links dated evidence and the [parallel development contract](../handoffs/parallel-development-contract.md)
+defines the separate technical and art conversations.
 
 This is the supplied September 29 development plan split into chapters for navigation. The full product/design scope is retained. Chapter 5 corrects the obsolete nested project layout to the verified single-root checkout. Original research citations are retained from the supplied plan, not newly verified for this publication.
 

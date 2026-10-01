@@ -39,7 +39,7 @@ namespace Praxen.Game.Editor
         public static void ConfigureInput()
         {
             var scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
-            var root = Object.FindFirstObjectByType<BootstrapCompositionRoot>();
+            var root = Object.FindAnyObjectByType<BootstrapCompositionRoot>();
             if (root == null) throw new System.InvalidOperationException("Bootstrap root is missing.");
             root.BindInputTuning(LoadTuning());
             EditorUtility.SetDirty(root);

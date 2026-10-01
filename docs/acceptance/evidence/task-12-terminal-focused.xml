@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.9659303">
+  <test-suite type="TestSuite" id="1140" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.965930" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1272" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.954775" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="74944" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1273" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.952378" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1274" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.950980" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1275" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.949593" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1276" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="113" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.948380" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1166" name="CombatPresentationTerminalReplayTests" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" classname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:46Z" duration="3.943450" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1169" name="DefeatReplayPreservesTerminalStateAndSamplesDeath" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests.DefeatReplayPreservesTerminalStateAndSamplesDeath" methodname="DefeatReplayPreservesTerminalStateAndSamplesDeath" classname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" runstate="Runnable" seed="798678110" result="Passed" start-time="2026-09-30 15:14:42Z" end-time="2026-09-30 15:14:43Z" duration="1.639415" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1168" name="DodgeReplayPreservesLiteralAvoidanceAndCharge" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests.DodgeReplayPreservesLiteralAvoidanceAndCharge" methodname="DodgeReplayPreservesLiteralAvoidanceAndCharge" classname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" runstate="Runnable" seed="314331725" result="Passed" start-time="2026-09-30 15:14:43Z" end-time="2026-09-30 15:14:44Z" duration="0.679047" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1167" name="GuardReplayPreservesLiteralBlockAndResources" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests.GuardReplayPreservesLiteralBlockAndResources" methodname="GuardReplayPreservesLiteralBlockAndResources" classname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" runstate="Runnable" seed="1837808328" result="Passed" start-time="2026-09-30 15:14:44Z" end-time="2026-09-30 15:14:45Z" duration="0.547346" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1170" name="VictoryReplayPreservesTerminalStateAndSamplesDeath" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests.VictoryReplayPreservesTerminalStateAndSamplesDeath" methodname="VictoryReplayPreservesTerminalStateAndSamplesDeath" classname="Praxen.Game.Tests.PlayMode.CombatPresentationTerminalReplayTests" runstate="Runnable" seed="1026673226" result="Passed" start-time="2026-09-30 15:14:45Z" end-time="2026-09-30 15:14:46Z" duration="1.055905" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

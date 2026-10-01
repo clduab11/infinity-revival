@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.4343085">
+  <test-suite type="TestSuite" id="1135" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.434309" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1262" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.424446" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="60556" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1263" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.422023" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1264" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.420404" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1265" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.418618" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1266" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.416909" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1145" name="CombatPresentationIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.410090" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1153" name="RemovingPresentationComponentDestroysItsOwnedAudioVoices" fullname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.RemovingPresentationComponentDestroysItsOwnedAudioVoices" methodname="RemovingPresentationComponentDestroysItsOwnedAudioVoices" classname="Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests" runstate="Runnable" seed="862616177" result="Failed" start-time="2026-09-30 15:12:56Z" end-time="2026-09-30 15:12:58Z" duration="1.383393" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: No Exception to be thrown
+  But was:  <UnityEngine.MissingReferenceException: The object of type 'Praxen.Game.Presentation.Combat.CombatPresentation' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x00065] in <d5ea965f39d74501b56f4006ef80da34>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x0000a] in <d5ea965f39d74501b56f4006ef80da34>:0 
+  at UnityEngine.Behaviour.get_isActiveAndEnabled () [0x00006] in <d5ea965f39d74501b56f4006ef80da34>:0 
+  at Praxen.Game.Presentation.Combat.CombatPresentation.RenderCurrent () [0x0003b] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Runtime\Presentation\Combat\CombatPresentation.cs:107 
+  at Praxen.Game.Presentation.Combat.CombatPresentation.Bind (Praxen.Game.Application.Combat.CombatEncounter combatEncounter, Praxen.Game.Application.Combat.CombatOpeningController duel) [0x00054] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Runtime\Presentation\Combat\CombatPresentation.cs:88 
+  at Praxen.Game.Presentation.Combat.GrayboxEncounterRoot.RestartEncounter (System.Func`1[TResult] timestampProvider, System.Nullable`1[T] seed, System.Nullable`1[T] archetype, System.Nullable`1[T] tier) [0x0026f] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Runtime\Presentation\Combat\GrayboxEncounterRoot.cs:127 
+  at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests.<RemovingPresentationComponentDestroysItsOwnedAudioVoices>b__12_1 () [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:205 
+  at NUnit.Framework.Constraints.ThrowsConstraint+VoidInvocationDescriptor.Invoke () [0x00001] in <8b63e8ac0a4746599ed207982825ae6c>:0 
+  at NUnit.Framework.Constraints.ThrowsConstraint+ExceptionInterceptor.Intercept (System.Object invocation) [0x00050] in <8b63e8ac0a4746599ed207982825ae6c>:0 >
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatPresentationIntegrationTests+<RemovingPresentationComponentDestroysItsOwnedAudioVoices>d__12.MoveNext () [0x00122] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatPresentationIntegrationTests.cs:205
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

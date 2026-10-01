@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a19305297c44d3fb66ae6d3df55fc9b, type: 3}
+  m_Name: hammer.heavy-overhead
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.EnemyPatternDefinition
+  Id: hammer.heavy-overhead
+  Version: 1
+  LocalizationKey: content.hammer.heavy-overhead
+  Steps:
+  - Attack: {fileID: 11400000, guid: 79c8ae4664f8b324ca0be33eb5b559b6, type: 2}
+    GapBeforeUs: 0
+  Weight: 80
+  CooldownUs: 4000000
+  MinimumGuard: 30
+  MinimumDodgeCharges: 0
+  MinimumFocus: 0
+  MinimumTier: 0
+  MaximumTier: 5
+  HasPreferredDefenseOutcome: 0
+  PreferredDefenseOutcome: 0

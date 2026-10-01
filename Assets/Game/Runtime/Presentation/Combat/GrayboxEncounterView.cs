@@ -11,60 +11,46 @@ namespace Praxen.Game.Presentation.Combat
     {
         private const float DodgeDisplacement = 0.65f;
         private static readonly Vector3 PlayerOrigin = new Vector3(-0.8f, 1f, 0f);
-        private static readonly Color Ink = new Color32(23, 27, 30, 255);
-        private static readonly Color Bone = new Color32(226, 229, 225, 255);
         private readonly List<Material> ownedMaterials = new List<Material>();
-        private Canvas canvas;
-        private Font font;
-        private Text status;
-        private Text telegraph;
-        private Text outcome;
-        private Text clockStatus;
-        private Text offenseStatus;
         private Transform playerSword;
         private Transform shield;
-        private Image guardImage;
-        private Image dodgeLeftImage;
-        private Image dodgeRightImage;
-
-        public RectTransform GuardZone { get; private set; }
-        public RectTransform DodgeLeftZone { get; private set; }
-        public RectTransform DodgeRightZone { get; private set; }
-        public Button ResumeButton { get; private set; }
-        public Button RestartButton { get; private set; }
+        private bool prototypeVisuals;
+        public PortraitCombatHud Hud { get; private set; }
+        public RectTransform GuardZone => Hud.GuardZone;
+        public RectTransform DodgeLeftZone => Hud.DodgeLeftZone;
+        public RectTransform DodgeRightZone => Hud.DodgeRightZone;
+        public Button ResumeButton => Hud.ResumeButton;
+        public Button RestartButton => Hud.RestartButton;
         public Transform PlayerAnchor { get; private set; }
         public Transform EnemyAnchor { get; private set; }
-        public string StatusText => status != null ? status.text : string.Empty;
-        public string TelegraphText => telegraph != null ? telegraph.text : string.Empty;
-        public string OffenseStatusText => offenseStatus != null ? offenseStatus.text : string.Empty;
+        public string StatusText => Hud != null ? Hud.StatusText : string.Empty;
+        public string TelegraphText => Hud != null ? Hud.TelegraphText : string.Empty;
+        public string OffenseStatusText => Hud != null ? Hud.OffenseStatusText : string.Empty;
+
+        public void SetPrototypeVisuals(bool visible)
+        {
+            prototypeVisuals = visible;
+            foreach (var renderer in PlayerAnchor.GetComponentsInChildren<MeshRenderer>()) renderer.enabled = !visible;
+            foreach (var renderer in EnemyAnchor.GetComponentsInChildren<MeshRenderer>()) renderer.enabled = !visible;
+            EnemyAnchor.localPosition = visible ? new Vector3(.5f, 1, 1.8f) : new Vector3(.6f, 1, 3);
+        }
 
         public void Build(Camera camera)
         {
             if (camera == null) throw new ArgumentNullException(nameof(camera));
-            if (canvas == null)
+            if (Hud == null)
             {
-                font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
                 BuildStage();
-                BuildCanvas();
+                Hud = gameObject.AddComponent<PortraitCombatHud>();
             }
-            canvas.renderMode = RenderMode.ScreenSpaceCamera;
-            canvas.worldCamera = camera;
-            canvas.planeDistance = 1f;
+            Hud.Build(camera);
         }
 
         public void Show(DefenseCombatant combatant, string tell, string outcome, CombatClock clock)
         {
-            if (combatant == null) throw new ArgumentNullException(nameof(combatant));
-            if (clock == null) throw new ArgumentNullException(nameof(clock));
-            if (canvas == null) throw new InvalidOperationException("Build the encounter view first.");
-            status.text = $"HP {combatant.Health}   GUARD {combatant.Guard}   " +
-                $"DODGE {combatant.DodgeCharges}/{combatant.Tuning.MaximumDodgeCharges}\n" +
-                $"{combatant.State.ToString().ToUpperInvariant()}   {combatant.TimeUs / 1000000d:0.00}s";
-            telegraph.text = tell ?? string.Empty;
-            this.outcome.text = outcome ?? string.Empty;
-            ShowClock(clock);
+            if (Hud == null) throw new InvalidOperationException("Build the encounter view first.");
+            Hud.Show(combatant, tell, outcome, clock);
             ShowPlayerPose(combatant);
-            ShowControlState(combatant);
         }
 
         public void ShowOffense(OffenseCombatant offense, CombatMomentum momentum,
@@ -72,11 +58,7 @@ namespace Praxen.Game.Presentation.Combat
         {
             if (offense == null) throw new ArgumentNullException(nameof(offense));
             if (momentum == null) throw new ArgumentNullException(nameof(momentum));
-            offenseStatus.text = $"ENEMY HP {offense.EnemyHealth}   BALANCE {momentum.Balance}\n" +
-                $"FOCUS {momentum.Focus}/{offense.Tuning.FocusMaximum}   " +
-                (phase.Kind == InteractionPhaseKind.PlayerOpening ? $"OPEN {openingRemainingUs / 1000000d:0.00}s" :
-                    phase.Kind == InteractionPhaseKind.Inactive ? "ENCOUNTER ENDED" : "DEFEND") +
-                (offense.HasBuffer ? "\nATTACK BUFFERED" : string.Empty);
+            Hud.ShowOffense(offense, momentum, phase, openingRemainingUs);
             float angle = -12f;
             if (offense.ActiveAttack.HasValue)
             {
@@ -147,60 +129,9 @@ namespace Praxen.Game.Presentation.Combat
                 new Vector3(0, -0.43f, 0), new Vector3(0.09f, 0.25f, 0.08f), grip);
         }
 
-        private void BuildCanvas()
-        {
-            var ui = new GameObject("Graybox encounter canvas", typeof(RectTransform),
-                typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
-            ui.transform.SetParent(transform, false);
-            canvas = ui.GetComponent<Canvas>();
-            var scaler = ui.GetComponent<CanvasScaler>();
-            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            scaler.referenceResolution = new Vector2(720, 1280);
-            scaler.matchWidthOrHeight = 0.5f;
-            Label("Game title", ui.transform, "FOREVER WE REIGN", 34,
-                new Vector2(0.025f, 0.90f), new Vector2(0.975f, 0.96f));
-            status = Label("Resources and state", ui.transform, string.Empty, 22,
-                new Vector2(0.025f, 0.825f), new Vector2(0.975f, 0.90f));
-            clockStatus = Label("Combat clock", ui.transform, string.Empty, 18,
-                new Vector2(0.025f, 0.795f), new Vector2(0.975f, 0.825f));
-            telegraph = Label("Attack direction and allowed defenses", ui.transform, string.Empty, 24,
-                new Vector2(0.025f, 0.705f), new Vector2(0.975f, 0.795f));
-            outcome = Label("Defense result", ui.transform, string.Empty, 20,
-                new Vector2(0.025f, 0.665f), new Vector2(0.975f, 0.705f));
-            offenseStatus = Label("Enemy balance and Focus", ui.transform, string.Empty, 22,
-                new Vector2(0.025f, 0.585f), new Vector2(0.975f, 0.665f));
-            BuildControls(ui.transform);
-        }
-
-        private void BuildControls(Transform parent)
-        {
-            Label("Test control caption", parent, "Temporary test controls", 18,
-                new Vector2(0.025f, 0.245f), new Vector2(0.975f, 0.28f));
-            DodgeLeftZone = Control("Dodge left", parent, "DODGE\nLEFT",
-                new Vector2(0.025f, 0.065f), new Vector2(0.315f, 0.235f), out dodgeLeftImage);
-            GuardZone = Control("Hold guard", parent, "HOLD\nGUARD",
-                new Vector2(0.355f, 0.065f), new Vector2(0.645f, 0.235f), out guardImage);
-            DodgeRightZone = Control("Dodge right", parent, "DODGE\nRIGHT",
-                new Vector2(0.685f, 0.065f), new Vector2(0.975f, 0.235f), out dodgeRightImage);
-            ResumeButton = ActionButton("Resume", parent,
-                new Vector2(0.025f, 0.012f), new Vector2(0.315f, 0.05f));
-            RestartButton = ActionButton("Restart", parent,
-                new Vector2(0.685f, 0.012f), new Vector2(0.975f, 0.05f));
-            ResumeButton.gameObject.SetActive(false);
-        }
-
-        private void ShowClock(CombatClock clock)
-        {
-            bool suspended = clock.State == CombatClockState.Suspended;
-            ResumeButton.gameObject.SetActive(suspended);
-            clockStatus.text = clock.State == CombatClockState.Countdown
-                ? $"RESUMING IN {Mathf.CeilToInt(clock.CountdownRemainingUs / 1000000f)}"
-                : suspended ? $"SUSPENDED: {clock.SuspensionReason}" : string.Empty;
-        }
-
         private void ShowPlayerPose(DefenseCombatant combatant)
         {
-            var position = PlayerOrigin;
+            var position = prototypeVisuals ? new Vector3(-.5f, 1, .2f) : PlayerOrigin;
             if (combatant.DodgeSide != DodgeSide.None)
             {
                 float progress = Mathf.Clamp01((float)(
@@ -213,59 +144,6 @@ namespace Praxen.Game.Presentation.Combat
             PlayerAnchor.localPosition = position;
             shield.localPosition = new Vector3(-0.42f, combatant.GuardHeld ? 0.2f : 0f, 0.08f);
             shield.localRotation = Quaternion.Euler(0, combatant.GuardHeld ? -25f : 0f, 0);
-        }
-
-        private void ShowControlState(DefenseCombatant combatant)
-        {
-            guardImage.color = combatant.GuardHeld ? new Color32(73, 91, 102, 255) : Ink;
-            Color dodgeColor = combatant.DodgeCharges > 0 ? Ink : (Color)new Color32(54, 54, 54, 255);
-            dodgeLeftImage.color = dodgeColor;
-            dodgeRightImage.color = dodgeColor;
-        }
-
-        private Text Label(string name, Transform parent, string value, int size,
-            Vector2 minimum, Vector2 maximum)
-        {
-            var rect = Rect(name, parent, minimum, maximum);
-            var label = rect.gameObject.AddComponent<Text>();
-            label.font = font;
-            label.fontSize = size;
-            label.alignment = TextAnchor.MiddleCenter;
-            label.color = Bone;
-            label.raycastTarget = false;
-            label.text = value;
-            return label;
-        }
-
-        private RectTransform Control(string name, Transform parent, string caption,
-            Vector2 minimum, Vector2 maximum, out Image image)
-        {
-            var rect = Rect(name, parent, minimum, maximum);
-            image = rect.gameObject.AddComponent<Image>();
-            image.color = Ink;
-            image.raycastTarget = true;
-            Label(name + " caption", rect, caption, 24, Vector2.zero, Vector2.one);
-            return rect;
-        }
-
-        private Button ActionButton(string caption, Transform parent, Vector2 minimum, Vector2 maximum)
-        {
-            var rect = Control(caption, parent, caption.ToUpperInvariant(), minimum, maximum,
-                out var image);
-            var button = rect.gameObject.AddComponent<Button>();
-            button.targetGraphic = image;
-            return button;
-        }
-
-        private static RectTransform Rect(string name, Transform parent, Vector2 minimum, Vector2 maximum)
-        {
-            var rect = new GameObject(name, typeof(RectTransform)).GetComponent<RectTransform>();
-            rect.SetParent(parent, false);
-            rect.anchorMin = minimum;
-            rect.anchorMax = maximum;
-            rect.offsetMin = Vector2.zero;
-            rect.offsetMax = Vector2.zero;
-            return rect;
         }
 
         private Material CreateMaterial(string name, Color color)

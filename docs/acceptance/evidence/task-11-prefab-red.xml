@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="19" result="Failed(Child)" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.2738386">
+  <test-suite type="TestSuite" id="1000" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="689" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.273839" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1800" name="Praxen.Game.Tests.EditMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.EditMode.dll" runstate="Runnable" testcasecount="688" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.254854" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="54124" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1801" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="688" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.232791" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1802" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="688" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.220155" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1803" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="688" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.194624" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1804" name="EditMode" fullname="Praxen.Game.Tests.EditMode" runstate="Runnable" testcasecount="688" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.181466" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1763" name="PrototypePairImportTests" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.159493" total="19" passed="17" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1783" name="AssembledPairHasThreeLodsSharingTheAnimatedSkeleton" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.AssembledPairHasThreeLodsSharingTheAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.024164" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1781" name="AssembledPairHasThreeLodsSharingTheAnimatedSkeleton(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.AssembledPairHasThreeLodsSharingTheAnimatedSkeleton(&quot;Soldier&quot;)" methodname="AssembledPairHasThreeLodsSharingTheAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1952893476" result="Failed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.014799" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Soldier assembled prefab
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.AssembledPairHasThreeLodsSharingTheAnimatedSkeleton (System.String actor) [0x0001c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:130
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1782" name="AssembledPairHasThreeLodsSharingTheAnimatedSkeleton(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.AssembledPairHasThreeLodsSharingTheAnimatedSkeleton(&quot;Captain&quot;)" methodname="AssembledPairHasThreeLodsSharingTheAnimatedSkeleton" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="2011998427" result="Failed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.000414" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Captain assembled prefab
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.EditMode.PrototypePairImportTests.AssembledPairHasThreeLodsSharingTheAnimatedSkeleton (System.String actor) [0x0001c] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\EditMode\PrototypePairImportTests.cs:130
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1773" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.025111" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1767" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,0)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="827922390" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.014993" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1768" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,1)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1552671666" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001746" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1769" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Soldier&quot;,2)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="894561110" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.000872" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1770" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,0)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,0)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1332906225" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.002224" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1771" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,1)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,1)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1878800969" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001576" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1772" name="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,2)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ControlledImportsExcludeEmbeddedMaterialsAndRootMotion(&quot;Captain&quot;,2)" methodname="ControlledImportsExcludeEmbeddedMaterialsAndRootMotion" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="517688376" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001489" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1766" name="ImportedPairHasValidHumanoidAvatars" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.005336" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1764" name="ImportedPairHasValidHumanoidAvatars(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars(&quot;Soldier&quot;)" methodname="ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1460652712" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.003784" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1765" name="ImportedPairHasValidHumanoidAvatars(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.ImportedPairHasValidHumanoidAvatars(&quot;Captain&quot;)" methodname="ImportedPairHasValidHumanoidAvatars" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1557464290" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.000479" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1780" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.006254" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1778" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Soldier&quot;)" methodname="LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="99852359" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.004785" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1779" name="LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.LowerLodsReduceGeometryAndKeepEquipmentMarkers(&quot;Captain&quot;)" methodname="LowerLodsReduceGeometryAndKeepEquipmentMarkers" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1480160941" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.000417" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1777" name="PairUsesTheSameNamedBoneHierarchyAndBindPose" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.PairUsesTheSameNamedBoneHierarchyAndBindPose" methodname="PairUsesTheSameNamedBoneHierarchyAndBindPose" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1490220384" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.004438" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1776" name="RepresentativeClipsAreHumanAndBoundedToPresentation" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.040162" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1774" name="RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Soldier&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Soldier&quot;)" methodname="RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1581249031" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.022096" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1775" name="RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Captain&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.RepresentativeClipsAreHumanAndBoundedToPresentation(&quot;Captain&quot;)" methodname="RepresentativeClipsAreHumanAndBoundedToPresentation" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="163103095" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.017106" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1788" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.041258" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1784" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutUp&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutUp&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1091547601" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.034418" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1785" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutDown&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutDown&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="873857" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001604" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1786" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutLeft&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutLeft&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1121216793" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001606" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1787" name="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutRight&quot;)" fullname="Praxen.Game.Tests.EditMode.PrototypePairImportTests.SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot(&quot;CutRight&quot;)" methodname="SoldierCutsRetargetOntoBothAvatarsWithoutMovingTheRoot" classname="Praxen.Game.Tests.EditMode.PrototypePairImportTests" runstate="Runnable" seed="1801698939" result="Passed" start-time="2026-09-30 06:13:51Z" end-time="2026-09-30 06:13:51Z" duration="0.001852" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -25,9 +25,15 @@ This brief records that approval; it does not substitute new lore for it.
 | Final discovery | The throne is cursed |
 | Forward hook | The discovery sets up the next game |
 
-The soldier's name, history, and reason for losing the throne are unassigned.
-The bosses' personal names and relationship to the throne are unassigned.
-The curse's origin, mechanism, effects, and resolution are unassigned.
+The [original lore bible](../design/forever-we-reign-lore-bible.md) proposes names,
+background, factions, boss motivations, and a curse mechanism inside this envelope.
+These additions are authored proposals, not additional approved canon or live
+campaign content. The [research foundations](../research/2026-09-30-fantasy-lore-foundations.md)
+separate historical themes from original invention.
+
+The soldier's name, history, and reason for losing the throne are not yet approved.
+The bosses' personal names and relationship to the throne are not yet approved.
+The curse's origin, mechanism, effects, and resolution are not yet approved.
 The next game's title, scope, and story are unassigned.
 
 ## Existing production envelope
@@ -36,7 +42,7 @@ Retain the original industrial fantasy art direction and bounded campaign:
 
 - Two regions with branching authored routes.
 - Four humanoid bosses using one shared skeleton family.
-- One sword-and-shield player combat style.
+- One one-handed melee-and-shield player combat style, with swords, axes, and maces/warhammers.
 - A storm-battered foundry and coastal machinery district for region one.
 - An elevated observatory and weather-engine complex for region two.
 - Ceramic armor, worked brass, dark stone, weathered fabric, and restrained luminous glass.

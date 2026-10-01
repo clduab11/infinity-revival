@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Praxen.Game.Domain.Combat;
 using Praxen.Game.Domain.Input;
 
@@ -23,11 +24,16 @@ namespace Praxen.Game.Presentation.Combat
             }
         }
 
-        public static string Describe(EnemyStrike strike) =>
-            $"STRIKE {strike.Id}: {strike.AllowedDefenses}\n" +
-            (((strike.AllowedDefenses & DefenseMask.Parry) != 0) ?
-                $"PARRY {strike.RequiredParryDirection.ToString().ToUpperInvariant()}   " : "") +
-            (((strike.AllowedDefenses & DefenseMask.Dodge) != 0) ?
-                $"DODGE {strike.SafeDodgeSides.ToString().ToUpperInvariant()}" : "");
+        public static string Describe(EnemyStrike strike)
+        {
+            var defenses = new List<string>();
+            if ((strike.AllowedDefenses & DefenseMask.Guard) != 0)
+                defenses.Add(HudText.Get("tell.guard"));
+            if ((strike.AllowedDefenses & DefenseMask.Parry) != 0)
+                defenses.Add(HudText.Format("tell.parry", HudText.Get("direction." + strike.RequiredParryDirection).ToUpperInvariant()));
+            if ((strike.AllowedDefenses & DefenseMask.Dodge) != 0)
+                defenses.Add(HudText.Format("tell.dodge", HudText.Get("dodge." + strike.SafeDodgeSides)));
+            return string.Join("   ", defenses);
+        }
     }
 }

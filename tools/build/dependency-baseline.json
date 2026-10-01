@@ -49,11 +49,11 @@
     "com.unity.render-pipelines.universal": "17.6.0",
     "com.unity.test-framework": "1.8.0",
     "com.unity.timeline": "6.6.0",
-    "com.unity.ugui": "2.6.0"
+    "com.unity.ugui": "2.6.0",
+    "com.unity.ai.assistant": "2.20.0-pre.1",
+    "com.unity.ai.inference": "2.6.1"
   },
   "forbidden_packages": [
-    "com.unity.ai.assistant",
-    "com.unity.ai.inference",
     "com.unity.ai.navigation",
     "com.unity.visualscripting"
   ],
@@ -61,5 +61,5 @@
     "com.unity.animation.rigging": "6.6.0, add only when contact correction is needed"
   },
   "manifest_options": {},
-  "resolved_lock_fingerprint_sha256": "98cd45400f7c2cc7737969d6c433b89a2ebcda1848bc730222e1288260a3bd6f"
+  "resolved_lock_fingerprint_sha256": "51467ea76baca5eee9d791c2170690615dd4f6b3360799653c01280e93e9271d"
 }

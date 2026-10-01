@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "source_version": "task12-feedback-tones-1.0.0",
+  "created_on": "2026-09-30",
+  "owner": "Chris, Praxen LLC",
+  "creator": "Project-authored procedural tone recipe implemented by Codex for Praxen",
+  "purpose": "Quiet prototype combat feedback, not final Foley or perceptual acceptance",
+  "external_assets": [],
+  "purchases": [],
+  "generative_model_credits_used": 0,
+  "generator": "Python 3 standard library math, struct, wave",
+  "recipe_path": "tools/content/build_feedback_tones.py",
+  "recipe_sha256": "e093890a042936b5fd9ab5c2f444ff0248d444624bdcbaa39c9af5e79ebe57dd",
+  "format": {
+    "encoding": "linear PCM signed little-endian",
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "bits_per_sample": 16
+  },
+  "envelope": {
+    "attack_seconds": 0.006,
+    "release_seconds": 0.02,
+    "formula": "min(1,t/attack)*min(1,(duration-t)/release)*(1-progress)^decay"
+  },
+  "signal": "gain*envelope*sum(weight*sin(multiple*2*pi*(start_hz*t+0.5*slope*t*t)))/sum(abs(weight))",
+  "phase_slope": "(end_hz-start_hz)/((sample_count-1)/sample_rate)",
+  "quantization": "round(32767*value), no random input, dither, noise, external samples or normalization",
+  "unity_import": {
+    "load_type": "DecompressOnLoad",
+    "compression": "PCM",
+    "force_to_mono": true,
+    "preload_audio_data": true,
+    "load_in_background": false,
+    "scope": "Only the four Task12*.wav files; other importer defaults retained"
+  },
+  "cue_mapping": {
+    "Telegraph": "Tell",
+    "Attack": "Swing",
+    "Parry": "Clash",
+    "Block": "Clash",
+    "Dodge": "Swing",
+    "Hit": "Impact",
+    "Death": "Impact",
+    "Opening": "Tell",
+    "Guard": "Clash"
+  },
+  "audio_folder_guid": "ba09b1384f505bbab672d74380d8ac09",
+  "tones": [
+    {
+      "name": "Tell",
+      "path": "Assets/Game/Content/Audio/Task12Tell.wav",
+      "sha256": "3cc7257911cdc71a8dfb908ecc8bfb5d502bf060f07ff7e54bcc9f5ac6d75e5f",
+      "unity_guid": "c8314bb10b0657bc9fe0d80175371ff7",
+      "sample_count": 4800,
+      "peak_fraction": 0.081939697265625,
+      "rms_fraction": 0.030386378801730427,
+      "recipe": {
+        "duration_ms": 100,
+        "start_hz": 880,
+        "end_hz": 1040,
+        "gain": 0.1,
+        "decay": 1.2,
+        "partials": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Swing",
+      "path": "Assets/Game/Content/Audio/Task12Swing.wav",
+      "sha256": "b0779d878a35b1ff9946e4781c888da3857abefe1fd87d2364b1753c45f4d5a4",
+      "unity_guid": "929f4a716ba154b381c7da206c95e477",
+      "sample_count": 5280,
+      "peak_fraction": 0.0726318359375,
+      "rms_fraction": 0.028829696669622287,
+      "recipe": {
+        "duration_ms": 110,
+        "start_hz": 700,
+        "end_hz": 140,
+        "gain": 0.085,
+        "decay": 1,
+        "partials": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0.15
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Clash",
+      "path": "Assets/Game/Content/Audio/Task12Clash.wav",
+      "sha256": "ddce06c3fccf28f09692a8740da162cb5f9fd4282b3f5cb4e39165ccd96e3957",
+      "unity_guid": "dc8abf96f5e55ddab916c97a0d50a901",
+      "sample_count": 6720,
+      "peak_fraction": 0.0751953125,
+      "rms_fraction": 0.016382276975478588,
+      "recipe": {
+        "duration_ms": 140,
+        "start_hz": 2100,
+        "end_hz": 1700,
+        "gain": 0.095,
+        "decay": 3,
+        "partials": [
+          [
+            1,
+            1
+          ],
+          [
+            1.4142,
+            0.35
+          ],
+          [
+            2.1,
+            0.15
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Impact",
+      "path": "Assets/Game/Content/Audio/Task12Impact.wav",
+      "sha256": "f604a9c2f9055f4cbe43d1ea5264bc179e0e4f4e3d0a9870484aead8384279dc",
+      "unity_guid": "0f3fe31f529453a0bffb2d49a6f571c3",
+      "sample_count": 8640,
+      "peak_fraction": 0.085784912109375,
+      "rms_fraction": 0.020347316343088527,
+      "recipe": {
+        "duration_ms": 180,
+        "start_hz": 160,
+        "end_hz": 70,
+        "gain": 0.1,
+        "decay": 3,
+        "partials": [
+          [
+            1,
+            1
+          ],
+          [
+            2.7,
+            0.25
+          ]
+        ]
+      }
+    }
+  ],
+  "acceptance": {
+    "source_reproduction": "Verify with build_feedback_tones.py --check",
+    "native_import": "Requires isolated Unity authoring and root task evidence",
+    "perceived_readability_and_final_foley": "UNRUN"
+  }
+}

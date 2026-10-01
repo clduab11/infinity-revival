@@ -28,7 +28,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator SetUp()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            root = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            root = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             root.SetLifecycle(false, true);
             mode = InputSystem.settings.updateMode;
             background = InputSystem.settings.backgroundBehavior;

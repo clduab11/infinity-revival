@@ -1,0 +1,77 @@
+{
+    "Family": "axe",
+    "Replays": [
+        {
+            "Fps": 30,
+            "PresentationEnabled": true,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 30,
+            "PresentationEnabled": false,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 60,
+            "PresentationEnabled": true,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 60,
+            "PresentationEnabled": false,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 120,
+            "PresentationEnabled": true,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 120,
+            "PresentationEnabled": false,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 0,
+            "PresentationEnabled": true,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        },
+        {
+            "Fps": 0,
+            "PresentationEnabled": false,
+            "Trace": [
+                "attack:1200000:1350000:1800000",
+                "hit:1350000:20:80",
+                "final:80:75:PlayerOpening"
+            ]
+        }
+    ]
+}

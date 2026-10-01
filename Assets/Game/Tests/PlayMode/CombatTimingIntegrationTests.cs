@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using NUnit.Framework;
 using Praxen.Game.Domain.Combat;
 using Praxen.Game.Domain.Input;
@@ -31,7 +32,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator SetUp()
         {
             yield return SceneManager.LoadSceneAsync("Bootstrap", LoadSceneMode.Single);
-            root = Object.FindFirstObjectByType<BootstrapCompositionRoot>();
+            root = Object.FindAnyObjectByType<BootstrapCompositionRoot>();
             root.SetFocused(true);
             root.SetPaused(false);
             previousMode = InputSystem.settings.updateMode;
@@ -216,6 +217,111 @@ namespace Praxen.Game.Tests.PlayMode
             yield return null;
             Assert.That(captured, Has.Count.EqualTo(1), "Dynamic player stream must first produce a gesture.");
             Assert.That(resolved.Single().TimeUs, Is.EqualTo(2000));
+        }
+
+        [TestCase(false, true)]
+        [TestCase(true, true)]
+        [TestCase(false, false)]
+        public void DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh(bool pauseBeforeUpdate,
+            bool restoreOffsetBeforeUpdate)
+        {
+            var runtime = typeof(InputState).Assembly.GetType("UnityEngine.InputSystem.LowLevel.InputRuntime");
+            var offsetField = runtime.GetField("s_CurrentTimeOffsetToRealtimeSinceStartup",
+                BindingFlags.Public | BindingFlags.Static);
+            var originalOffset = (double)offsetField.GetValue(null);
+            root.Timing.Configure(root.InputCapture, root.InteractionPhase);
+            long earliest = RealtimeUs();
+            try
+            {
+                // Play entry changes the native offset before InputManager refreshes its cached value.
+                offsetField.SetValue(null, originalOffset - 10);
+                root.Timing.BeginEncounter(new InteractionPhase(1, InteractionPhaseKind.EnemySequence));
+                if (pauseBeforeUpdate) root.Timing.PauseByUser();
+                Assert.That(root.Timing.Session.Clock.LastDeviceTimeUs,
+                    Is.InRange(earliest, RealtimeUs()), "Startup and lifecycle must use the Play epoch.");
+                if (restoreOffsetBeforeUpdate) offsetField.SetValue(null, originalOffset);
+                if (pauseBeforeUpdate) Assert.That(root.Timing.ResumeByUser(), Is.True);
+                InputSystem.Update();
+                Assert.That(root.Timing.Session.Clock.State, Is.EqualTo(pauseBeforeUpdate
+                    ? CombatClockState.Countdown : CombatClockState.Running));
+                Assert.That(root.Timing.Session.Clock.LastDeviceTimeUs, Is.GreaterThanOrEqualTo(earliest));
+            }
+            finally
+            {
+                offsetField.SetValue(null, originalOffset);
+                root.Timing.EndEncounter();
+            }
+        }
+
+        [UnityTest]
+        public IEnumerator DefaultClockAcceptsNativeTouchTimestampsDuringDynamicUpdates()
+        {
+            root.Timing.Configure(root.InputCapture, root.InteractionPhase);
+            Start();
+            InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInDynamicUpdate;
+            long started = root.Timing.Session.Clock.LastDeviceTimeUs;
+            long sampleTime = RealtimeUs();
+            Queue(17, InputPhase.Began, 0.1, sampleTime);
+            Queue(17, InputPhase.Moved, 0.4, sampleTime + 1);
+            Queue(17, InputPhase.Ended, 0.4, sampleTime + 2);
+            yield return null;
+            Assert.That(captured, Has.Count.EqualTo(1));
+            Assert.That(root.Timing.Session.Clock.State, Is.EqualTo(CombatClockState.Running));
+            Assert.That(root.Timing.Session.Clock.TimeUs, Is.GreaterThan(0));
+            Assert.That(root.Timing.Session.RejectedCommandCount, Is.Zero);
+            Assert.That(resolved.Single().TimeUs, Is.EqualTo(sampleTime + 1 - started));
+        }
+
+        private static long RealtimeUs() => checked((long)Math.Round(
+            Time.realtimeSinceStartupAsDouble * 1000000, MidpointRounding.AwayFromZero));
+
+        [TestCase(0, false)]
+        [TestCase(-1, false)]
+        [TestCase(0, true)]
+        public void DisableFreezesAcceptedTimeWithoutReadingUnavailableSource(long resetTime,
+            bool sourceThrows)
+        {
+            bool unavailable = false;
+            int calls = 0;
+            root.Timing.Configure(root.InputCapture, root.InteractionPhase, () =>
+            {
+                calls++;
+                if (unavailable && sourceThrows) throw new InvalidOperationException("Source epoch ended.");
+                return unavailable ? resetTime : now;
+            });
+            Start();
+            now += 8000;
+            InputSystem.Update();
+            var clock = root.Timing.Session.Clock;
+            long lastDevice = clock.LastDeviceTimeUs, lastCombat = clock.TimeUs;
+            Assert.That(root.Timing.SubmitDefense(new DefenseCommand(1, now + 1,
+                DefenseCommandKind.DodgeRight)), Is.True);
+            int callsBeforeDisable = calls;
+            try
+            {
+                unavailable = true;
+                root.Timing.enabled = false;
+                Assert.That(calls, Is.EqualTo(callsBeforeDisable), "Teardown must not sample an ended epoch.");
+                Assert.That(clock.State, Is.EqualTo(CombatClockState.Suspended));
+                Assert.That(clock.SuspensionReason, Is.EqualTo(CombatSuspensionReason.ApplicationPaused));
+                Assert.That(clock.LastDeviceTimeUs, Is.EqualTo(lastDevice));
+                Assert.That(clock.TimeUs, Is.EqualTo(lastCombat));
+                Assert.That(root.Timing.CanAcceptInput, Is.False);
+                unavailable = false;
+                now += 1000;
+                root.Timing.enabled = true;
+                Assert.That(root.Timing.RequestResume(), Is.True);
+                for (int i = 0; i < 30; i++) { now += 100000; InputSystem.Update(); }
+                Assert.That(clock.State, Is.EqualTo(CombatClockState.Running));
+                Assert.That(resolved, Is.Empty, "Disable must discard pending defense.");
+                Assert.That(root.Timing.Session.RejectedCommandCount, Is.Zero);
+            }
+            finally
+            {
+                unavailable = false;
+                root.Timing.EndEncounter();
+                root.Timing.enabled = true;
+            }
         }
     }
 }

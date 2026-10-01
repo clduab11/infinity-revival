@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/GrayboxEncounter.unity
     guid: 7c825adb194c72743b0444c4b2a62c63
+  - enabled: 1
+    path: Assets/Game/Scenes/CombatPrototype.unity
+    guid: c1eff2b56aed26641a6afff9991e587d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,0 +1,94 @@
+{
+  "record_date": "2026-09-30",
+  "scope": "Interactive Unity Play startup clock defect, deprecated scene-lookup warnings, operator-approved Unity AI baseline retention",
+  "unity_version": "6000.6.0f1",
+  "unity_revision": "f7f8ed4d1e24",
+  "native_test_project": "C:\\Users\\cld-main\\AppData\\Local\\Temp\\forever-we-reign-clock-check-cdqftnfa",
+  "native_project_isolated_from_open_editor": true,
+  "game_cs_sources_matched": 99,
+  "artifacts": {
+    "docs/acceptance/evidence/2026-09-30-input-clock-startup-red.xml": {
+      "sha256": "3913d2f92d43f7689ba83028738b2329413a074e2ab7675fd72e183779c401e7",
+      "result": "Failed(Child)",
+      "total": 2,
+      "passed": 0,
+      "failed": 2,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/2026-09-30-input-clock-editmode.xml": {
+      "sha256": "616c71b24ab762bf42d5264d7c89ad330e2f813a2161ea7a5d48c764c0e8246e",
+      "result": "Passed",
+      "total": 669,
+      "passed": 669,
+      "failed": 0,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/2026-09-30-input-clock-playmode.xml": {
+      "sha256": "c6918858200dfc0f4a58fa02c0c700942df8c213dbeffac82ff45dcc699732da",
+      "result": "Passed",
+      "total": 79,
+      "passed": 79,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "python_checks": {
+    "passed": 12,
+    "total": 12
+  },
+  "structural_validator": {
+    "ok": true,
+    "direct_packages": 50,
+    "resolved_packages": 69,
+    "asset_guids": 155,
+    "git_checked": true
+  },
+  "original_package_bytes_preserved": true,
+  "pipeline_control_preserved": true,
+  "approved_lock_fingerprint": "51467ea76baca5eee9d791c2170690615dd4f6b3360799653c01280e93e9271d",
+  "source_changes_since_bug_preflight": [
+    "Assets/Game/Editor/BootstrapSceneAuthoring.cs",
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+    "Assets/Game/Tests/PlayMode/BootstrapTests.cs",
+    "Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/EnemyPatternInputIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/GrayboxEncounterTests.cs",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/TimestampedDefenseIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/TimestampedOffenseIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/TouchCaptureTests.cs"
+  ],
+  "final_native_logs": {
+    "playmode-final": {
+      "clock_exception_count": 0,
+      "input_queue_warning_count": 0,
+      "deprecated_lookup_warning_count": 0,
+      "compiler_error_count": 0
+    },
+    "editmode-green": {
+      "clock_exception_count": 0,
+      "input_queue_warning_count": 0,
+      "deprecated_lookup_warning_count": 0,
+      "compiler_error_count": 0
+    }
+  },
+  "source_sha256": {
+    "Assets/Game/Editor/BootstrapSceneAuthoring.cs": "6d3c86a373224ce425c2db4e53dc3b56717882bad9978a144174ab44a1f9a091",
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs": "4bac0c065a597d7739382fd201df83a9ac0bddaf174b553b3a6498adf72c1347",
+    "Assets/Game/Tests/PlayMode/BootstrapTests.cs": "31e27dd3c8e7cf3218bf0284bdda9a9e2dd472de68efb480763945c569a14230",
+    "Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs": "51d313447f0683f36afb0c1e0525205e74b9c4b2c201de99d9aeb6698c6c18a0",
+    "Assets/Game/Tests/PlayMode/EnemyPatternInputIntegrationTests.cs": "ff2921ea64babdf55471fd9c261003e09d320bc8ded656de79c1a539f859797d",
+    "Assets/Game/Tests/PlayMode/GrayboxEncounterTests.cs": "d32e837d9771dda3f4cab7ccbef89b3984566b1b3027e1775d5b0c88020e9649",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs": "58854127588d25cb4bbfbdfcb8e5a782358661cf0ecfeacab10bc7f3177b1fb7",
+    "Assets/Game/Tests/PlayMode/TimestampedDefenseIntegrationTests.cs": "6359a974993769756ce013df0a7e0ad97c9b0336f4ee6978bfe166076f96e42d",
+    "Assets/Game/Tests/PlayMode/TimestampedOffenseIntegrationTests.cs": "eb9ca32b55e1dc8ec5bc1168e37b5ee325bb2dea69555aa9e40777bcf8e4ff97",
+    "Assets/Game/Tests/PlayMode/TouchCaptureTests.cs": "50c783ea91bc034e6c0177753b21855ddb91d617b00e79b4856f02ab5623965f",
+    "Packages/manifest.json": "5a9b71af5b88b41b308f0e6bf30e52756bd214cb7edae4f8af7399702d624c4c",
+    "Packages/packages-lock.json": "a31c3bea7912f5774351d89443802a17f6a2753dda5218c45f5511bc70a1aa54",
+    "tools/build/dependency-baseline.json": "32235125556c7be994e88fc2aefcb604e33fd32d001bfcbabad3647341d2b83a"
+  },
+  "interactive_operator_recheck": "UNRUN after correction; operator must re-enter Play",
+  "physical_task_09_and_task_10": "UNRUN",
+  "ai_credits_spent": false,
+  "commit_or_push_performed": false
+}

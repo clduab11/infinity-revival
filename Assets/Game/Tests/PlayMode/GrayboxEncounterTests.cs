@@ -16,13 +16,13 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator SavedGrayboxStartsOwnedPrimitivesAndCorrectTitle()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            var root = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            var root = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             root.SetLifecycle(false, true);
             Assert.That(root.Encounter.Player.Health, Is.EqualTo(100));
             Assert.That(root.View.PlayerAnchor, Is.Not.Null);
             Assert.That(root.View.EnemyAnchor, Is.Not.Null);
             Assert.That(root.View.StatusText, Does.Contain("100"));
-            Assert.That(Object.FindObjectsByType<RefugeScreen>(FindObjectsSortMode.None), Is.Empty);
+            Assert.That(Object.FindObjectsByType<RefugeScreen>(), Is.Empty);
             yield return GrayboxCapture.WarmFrame(Camera.main);
             yield return RefugeCapture.WritePortraitEvidence("forever-we-reign-graybox.png");
             AssertRenderedCombatants();
@@ -32,7 +32,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator DodgePoseContinuesThroughRecoveryAndReturnsAtActionEnd()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            var root = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            var root = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             root.Timing.EndEncounter();
             var model = new DefenseCombatant();
             var initial = root.View.PlayerAnchor.localPosition;
@@ -73,7 +73,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator DisablingViewDoesNotAlterAuthoredDamageOrGuard()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            var root = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            var root = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             root.SetLifecycle(false, true);
             root.View.enabled = false;
             var outcome = root.Encounter.Player.ResolveImpact(new EnemyStrike(99,
@@ -87,11 +87,11 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator UnloadRestoresRefugeAndReleasesEncounterObjects()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            var old = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            var old = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             yield return SceneManager.LoadSceneAsync("Bootstrap", LoadSceneMode.Single);
             Assert.That(old == null, Is.True);
-            Assert.That(Object.FindObjectsByType<GrayboxEncounterView>(FindObjectsSortMode.None), Is.Empty);
-            var refuge = Object.FindFirstObjectByType<BootstrapCompositionRoot>();
+            Assert.That(Object.FindObjectsByType<GrayboxEncounterView>(), Is.Empty);
+            var refuge = Object.FindAnyObjectByType<BootstrapCompositionRoot>();
             Assert.That(refuge.Timing.Session, Is.Null);
             Assert.That(refuge.CurrentState, Is.EqualTo(Application.ApplicationState.Refuge));
         }

@@ -1,0 +1,514 @@
+{
+  "task": "09",
+  "status": "implementation_automated_verified_physical_exit_unrun",
+  "date": "2026-09-29",
+  "recorded_at_utc": "2026-09-30T03:23:55.573226+00:00",
+  "title": "Forever We Reign",
+  "canonical_windows_root": "C:\\Users\\cld-main\\Desktop\\github-projects\\infinity-redux",
+  "canonical_wsl_root": "/mnt/c/Users/cld-main/Desktop/github-projects/infinity-redux",
+  "unity": {
+    "version": "6000.6.0f1",
+    "revision": "f7f8ed4d1e24"
+  },
+  "git": {
+    "branch": "task-09-portrait-hud",
+    "base_commit": "9ced64410bf9d5a6dd164d28455fb25ac2faf902",
+    "commit_or_push_performed": false
+  },
+  "test_suites": {
+    "editmode": {
+      "total": 669,
+      "passed": 669,
+      "failed": 0,
+      "skipped": 0
+    },
+    "playmode": {
+      "total": 75,
+      "passed": 75,
+      "failed": 0,
+      "skipped": 0
+    },
+    "python": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "prior_test_identities_preserved": {
+    "editmode": 632,
+    "playmode": 60
+  },
+  "task09_new_cases": {
+    "editmode": 37,
+    "playmode": 15
+  },
+  "baseline": {
+    "ok": true,
+    "project_root": "/mnt/c/users/cld-main/desktop/github-projects/infinity-redux",
+    "direct_packages": 48,
+    "resolved_packages": 65,
+    "asset_guids": 155,
+    "git_checked": true,
+    "errors": []
+  },
+  "source_preservation": {
+    "before": 473,
+    "preserved": 463,
+    "intended_changed": 10,
+    "alternate_preserved": 62,
+    "task08_bundle_preserved": 48,
+    "task08_bundle_intended_updates": 3
+  },
+  "reviews": {
+    "domain": "SPEC_PASS_QUALITY_PASS",
+    "ui": "SPEC_PASS_QUALITY_PASS",
+    "whole_branch": "SPEC_PASS_QUALITY_PASS",
+    "unresolved_P0_P1_P2": 0
+  },
+  "controls": {
+    "default_hand": "Right",
+    "mirror_hand": "Left",
+    "scale_range": [
+      0.85,
+      1.2
+    ],
+    "calibration_taps": 3,
+    "offset_bounds_safe_fraction": {
+      "x": 0.08,
+      "y": 0.06
+    },
+    "settings_persistence": "session_only_Task15_future",
+    "ability": "intent_only_Task22_effects_future",
+    "exploration": "bounded_input_preview_Task21_traversal_future",
+    "resume_countdown_us": 3000000,
+    "mobile_orientation": "Portrait",
+    "native_button_cancellation": "fresh_pointer_down_required_after_layout_lifecycle_cancel"
+  },
+  "reference_profiles": [
+    {
+      "model": "iPhone 17 Pro Max",
+      "pixels": [
+        1320,
+        2868
+      ],
+      "target_os": "iOS 27.0.1_user_reference",
+      "synthetic_safe_area": [
+        0,
+        100,
+        1320,
+        2600
+      ],
+      "physical_status": "UNRUN"
+    },
+    {
+      "model": "Samsung Galaxy S26 Ultra",
+      "pixels": [
+        1440,
+        3120
+      ],
+      "installed_os": "UNVERIFIED",
+      "synthetic_safe_area": [
+        0,
+        80,
+        1440,
+        2960
+      ],
+      "physical_status": "UNRUN"
+    }
+  ],
+  "device_preflight": {
+    "connected_phone_candidates": 0,
+    "adb_listener": false,
+    "services_started": false,
+    "desktop_only_connector_observed": true
+  },
+  "acceptance_gates": {
+    "physical_same_hand_hold_and_operate": "UNRUN",
+    "mobile_player_build_and_OS_qualification": "UNRUN",
+    "Task10_latency_recognition_readability_performance": "UNRUN_FUTURE",
+    "production_asset_expansion": "DEFERRED_UNTIL_TASK10"
+  },
+  "artifacts": [
+    {
+      "path": "Assets/Game/Runtime/Application/Input/ExplorationInputController.cs",
+      "bytes": 5481,
+      "sha256": "02843402823f4cf30be0c0bd5a4319a5c0ce6c9a17d908893610f02cee6749a4"
+    },
+    {
+      "path": "Assets/Game/Runtime/Application/Input/ExplorationInputController.cs.meta",
+      "bytes": 60,
+      "sha256": "69f5220c98744a7380d4d6d4b49d603ae2704f0f52e981ba5b76ed7299a7f447"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatClock.cs",
+      "bytes": 5055,
+      "sha256": "bcf95237ed64dae19cbb0143fc3a3d4de36eaf82161c226db19017dfccf7b425"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/CardinalGestureRecognizer.cs",
+      "bytes": 7159,
+      "sha256": "b3f76be4bab5c303aceffccdd5afb44b0bd6f6712cd46e224986d7b5f41005d7"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/GestureInputValues.cs",
+      "bytes": 4939,
+      "sha256": "12cc55fe0c251c4ab7451e3afd8027dc84e55fdd89cac578726e1c7d2b87a45b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/PortraitHudLayout.cs",
+      "bytes": 5393,
+      "sha256": "29da7576d3857b4b87751af2c06aff9ae4b91e27a38bab138acbe1fff29e2d0a"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/PortraitHudLayout.cs.meta",
+      "bytes": 60,
+      "sha256": "ba06f64c5a5286ac210a5ec30075950ffe569bc632cbecf651c8bd10eac2ab1d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/ReachCalibration.cs",
+      "bytes": 1497,
+      "sha256": "789a2df1fa158a3f358c8fe084a5a55ac090d91fe3cd59feef17fa0aaa0877cf"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/ReachCalibration.cs.meta",
+      "bytes": 60,
+      "sha256": "3a972ad788394dc3e976adaa5c8aca03d7c532a9c7c136f3a8bbd83803e53744"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CancellableHudButton.cs",
+      "bytes": 1197,
+      "sha256": "6cc982e6ba0d49048171504843ab60e05fc0d2b7fc2cb6475f2a52fcf7659d6c"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CancellableHudButton.cs.meta",
+      "bytes": 60,
+      "sha256": "376f8368c8e7f264d235703c59c33667851bd205421a5a95283bae3557218df9"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "bytes": 9386,
+      "sha256": "fdaa25e87f97788fda75cd6aac5d2c18d7fb3062390e2f1cf136c079297e8e71"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/ExplorationPreview.cs",
+      "bytes": 2823,
+      "sha256": "eed2dee41a062469c573b367728879bfc01c4b9b09c1c66508857f9942adb197"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/ExplorationPreview.cs.meta",
+      "bytes": 60,
+      "sha256": "d185eca968b0a5df1ec588a973a5c73baffdfe786c21282bf6160e7cc8ca51e4"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "bytes": 10273,
+      "sha256": "dd4d6385c8e63239c23a42a0fbfe3b4258225b5955d7dfaf16277667c5ff4c1b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+      "bytes": 9181,
+      "sha256": "4c02554f10d5b328c9ce397e3ededaf8ff42611ef926559befd36f784193cd8d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxStrikes.cs",
+      "bytes": 1864,
+      "sha256": "28c4dcdacce3c27528155464be6acb6e978972809304a471ba3bfd17ada8026e"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/HudText.cs",
+      "bytes": 3875,
+      "sha256": "28334b30fcb83c6cbea6e3fb40bcec060249060539cc24b4f1c0aba75b95e7cf"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/HudText.cs.meta",
+      "bytes": 60,
+      "sha256": "5cd72bc129a405395dccf3ce984b976c65f072397830d82978726ec0c6f1466f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs",
+      "bytes": 18797,
+      "sha256": "600bc420325636753ea7a7b485590037c7dcedabdb569b260392cb4d6d645d54"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs.meta",
+      "bytes": 60,
+      "sha256": "877eda8ed025808ff0219ebeb47744eccdc37bf2e019999304b93a6b19769744"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitHudCoordinator.cs",
+      "bytes": 6932,
+      "sha256": "913f8fdf72824d0d0d4303badc87d89d336a065524074f3570efd2978201e78f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitHudCoordinator.cs.meta",
+      "bytes": 60,
+      "sha256": "b25cca65eebe0b66d18e21e4e9f493813e2a58f2673343662abba1ad831f46c9"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitHudMenu.cs",
+      "bytes": 6107,
+      "sha256": "4510e0f55313082af06401d04120a612d064464a2ac3951dafcc7b8328664b03"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/PortraitHudMenu.cs.meta",
+      "bytes": 60,
+      "sha256": "7196ecc8e16e5ba4d6b7c6496661be7076be90909a74ced3cb7c0600395873fd"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/ReachCalibrationCapture.cs",
+      "bytes": 2609,
+      "sha256": "cc1c2929aa6d03f9112b327b5f453bc5137448ff0caefb8438a0a262dd7d284f"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/ReachCalibrationCapture.cs.meta",
+      "bytes": 60,
+      "sha256": "ed3bef9f96a049bfd263465c24b99adfbb99cf22105c09d43a84eacdc2f58841"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/ExplorationInputTests.cs",
+      "bytes": 8203,
+      "sha256": "dcf808c37ca2d3f93d55a6dde0d6091b01a7b6fa974eddf3c1473151e406953a"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/ExplorationInputTests.cs.meta",
+      "bytes": 60,
+      "sha256": "ac0f4c960edbe63694f8ea9f9158c7c7e381794c9e225272f84646f0f4aa1484"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/PortraitBuildSettingsTests.cs",
+      "bytes": 637,
+      "sha256": "691cc72cc594b5af91caf53730cd464466f8112cdc4ed800536a0f16e6e41133"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/PortraitBuildSettingsTests.cs.meta",
+      "bytes": 60,
+      "sha256": "5db41d8a8911a93cf49c8e7219869f5a16bd2990153b3ccb00c86d4ab7f5251a"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/PortraitHudLayoutTests.cs",
+      "bytes": 6699,
+      "sha256": "33206a87e3eb5f029727dbd30cc3915adf5fde9fddce9809e6a54b5aa7f2599b"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/PortraitHudLayoutTests.cs.meta",
+      "bytes": 60,
+      "sha256": "f22f3adb864a7b02bf218c5905d00b608ab11d6828129547a886810a4612d14d"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/ReachCalibrationTests.cs",
+      "bytes": 3275,
+      "sha256": "1d1c4796dc069fa86f6f0030331c9ab4538eaef3e008d59658d1469f6a345bb8"
+    },
+    {
+      "path": "Assets/Game/Tests/EditMode/ReachCalibrationTests.cs.meta",
+      "bytes": 60,
+      "sha256": "4626b78aef6ff4fa896285e2416806405530b3f458c47c0da49d1d39d88ef74b"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/PortraitHudCapture.cs",
+      "bytes": 1790,
+      "sha256": "049bdc6733fb7f44ba4f41b5606f348d9e8b515526bbfeb3723b22acd25b4835"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/PortraitHudCapture.cs.meta",
+      "bytes": 60,
+      "sha256": "c7781e3c4315fd79319bed037207a5fbfaec3ace3bc596fb588728590d65988b"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs",
+      "bytes": 16010,
+      "sha256": "7f653529675799a9fb86688683a991415dd50045f6577777e118086070822cf6"
+    },
+    {
+      "path": "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs.meta",
+      "bytes": 60,
+      "sha256": "0579af9b89c4efb9d1f5ceac52d2152b7db8497080ca13101621990240ea0b06"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "bytes": 25953,
+      "sha256": "f23f967234b20ac32b527e50ba3b0d492ef097518d4356e3f5d322881f8539bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 32354,
+      "sha256": "971bfd88ce5baadcda79c7124433d7da6121cbc60277240fbbe1418defeeff86"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-android-Left.png",
+      "bytes": 509706,
+      "sha256": "a1dead97416ab1b6cb47caf09975a780ebaa6d5758ccf4c2d9326106dc86afe9"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-android-Right.png",
+      "bytes": 516430,
+      "sha256": "07681a87ff39dabdafaf8c16b3f843c3ab5d0c606642895d340f6296ebfd06bd"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-baseline.json",
+      "bytes": 212,
+      "sha256": "ed4fa18a7f912d23446d228943f2c4c81670034f173bd27fc2af7dbc94d8623d"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-before-source-hashes.json",
+      "bytes": 58024,
+      "sha256": "a01f7f035095a1ab8f8b139e8e67027bcd9b01c51cb928fc8f55648460d3351f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-domain-review.md",
+      "bytes": 4925,
+      "sha256": "d03b33588967013a4210e25ac2f37198da677f21bfd16d1108fe9b17353ab919"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-editmode.log",
+      "bytes": 50835,
+      "sha256": "426701b91968ffc4ad88e9def78298d81f7ea33e6919616c7b36945ed77cdc52"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-editmode.xml",
+      "bytes": 552263,
+      "sha256": "9d4ce971526701e1903bd0ec30a5a0cbce3a9b1cff662bd76f432d761520a4a8"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-exploration-preview.png",
+      "bytes": 136346,
+      "sha256": "bae7cdb9149b3dc83be7d861d399a08950b49c2bbbb5043a029b9877c4af1db0"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-final-review.md",
+      "bytes": 11728,
+      "sha256": "121c4b023c965fdf63a98c84f2ddc61ed15f33796274ca87b0c4cd241f596804"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-forever-we-reign-graybox.png",
+      "bytes": 164157,
+      "sha256": "af04b33f1114a3153af7bd4cac40ed02cea705091ed8125df251e93d952b4a7e"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-gesture-trace.png",
+      "bytes": 20168,
+      "sha256": "aff13aa07c29492ae2c93945f20830c39f2fa6bacc201ba44e460fde2fc0cddb"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-iphone17-Left.png",
+      "bytes": 442470,
+      "sha256": "253f14a0618c94eecc2e383c35e2eddfb3519d8fc2e37bb70dc51615ac379735"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-iphone17-Right.png",
+      "bytes": 450018,
+      "sha256": "96730db6c80e253c7be58852345c669bf6d90606210f6d7c16c9ac8982aca32b"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-missing-api-red.log",
+      "bytes": 170097,
+      "sha256": "1bb4e81c3e6bee29e79a1fea041603aaf72bf4fd40ad3d073ba6d2c061484391"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-overflow-red.log",
+      "bytes": 57688,
+      "sha256": "7128058a661bb7237b548209a4e4bedf2fd3306c35830316bddbe930a967729c"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-overflow-red.xml",
+      "bytes": 554291,
+      "sha256": "db8874ceb4653bd3cfe5d86753bf7d7079794423cf057a9da624841634451079"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-pause-menu.png",
+      "bytes": 103184,
+      "sha256": "20d1a60ea1cb81c273c752811fc3b16013488d65853645abdb837eef67749fde"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-playmode.log",
+      "bytes": 114593,
+      "sha256": "9e8b82e6058fd2ccc4c92fc51847ce7ce83341ea9800675a519c902cbe053c0b"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-playmode.xml",
+      "bytes": 64327,
+      "sha256": "854147b85056c0809de8044f693241738cf94554c1de67616666ecf7523a1cee"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-portrait-setting-red.log",
+      "bytes": 69007,
+      "sha256": "b96fa00102093a0244f2b9f168631eee9bd9d13f5da2edaff589b146ab3cd685"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-portrait-setting-red.xml",
+      "bytes": 553684,
+      "sha256": "6a1d584153aa0465ec0ad1918297cbfd160e2e64b1eadf88a49ed18f085d0b36"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-python.log",
+      "bytes": 1539,
+      "sha256": "0ced96cedecaa4c851b1a7de2294d51a14b54aa309eeb0e71d940a0417bd1550"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-reach-calibration.png",
+      "bytes": 107273,
+      "sha256": "f87cc78796f03971735aaca58ca88c5a0792836a6d97c249fd8fdf8ffc031681"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-refuge-portrait.png",
+      "bytes": 19678,
+      "sha256": "bdc278a632f5139711860597a774722edf5503170ffd5ff787f66155bc0eff9f"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-review-red.log",
+      "bytes": 85592,
+      "sha256": "47a5b046a74a31f93fecc4c1cb18d8c72d7a49f64e0e9c7942c002847b606451"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-review-red.xml",
+      "bytes": 64897,
+      "sha256": "f8b077ab6bea3d82831dd78342ec3f932cf17258cfee72624e4d1350a74d0373"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-source-preservation.json",
+      "bytes": 7843,
+      "sha256": "17fb5f5340ccf800893fe6a4eb6d3edb8765985dd81ba208602a76f4e2718616"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-test-first.md",
+      "bytes": 1776,
+      "sha256": "bf914131296d958a3df43c3181751143610b984377fd8bc72da66e624c694005"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-ui-cancellation-red.log",
+      "bytes": 102646,
+      "sha256": "92d2002927ecaeb2421b3a3a559f348f1d388bb916813243fbefe5850ca86003"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-ui-cancellation-red.xml",
+      "bytes": 66625,
+      "sha256": "26c7253fa4188601dbb3e2ec9d9cbc713b66218a2299c20d3516ce99a50056ae"
+    },
+    {
+      "path": "docs/acceptance/evidence/task-09-ui-review.md",
+      "bytes": 6074,
+      "sha256": "6008d37ad425ddced4f3993444641da46c0c8b68afc02c7b639b731c858bbca0"
+    },
+    {
+      "path": "docs/acceptance/task-09-portrait-hud.md",
+      "bytes": 11383,
+      "sha256": "ce696b79cd3090805a1c467521b3106bc4ff2c020f486c4e2bf9489259e28f8d"
+    },
+    {
+      "path": "docs/plans/2026-09-29-task-09-portrait-hud-plan.md",
+      "bytes": 5944,
+      "sha256": "3b1eba1c8b290a934525d278fd292d9e46c9169b2068fdb0e3d2ad780c405f24"
+    },
+    {
+      "path": "docs/plans/2026-09-29-task-09-portrait-hud-spec.md",
+      "bytes": 3019,
+      "sha256": "d78c71d40ff41a8f0a3a4dc5c5833c012db594fc8e7d2fd6f1713a8b91868b3f"
+    },
+    {
+      "path": "docs/production/asset-readiness.md",
+      "bytes": 8495,
+      "sha256": "7d85a32a33984ed44b87e01b0007540e274af265b8e50ddde70fcaf422b11abe"
+    }
+  ]
+}

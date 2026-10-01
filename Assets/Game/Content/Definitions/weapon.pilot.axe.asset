@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b5076f797043829751c09409467472, type: 3}
+  m_Name: weapon.pilot.axe
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.WeaponDefinition
+  Id: weapon.pilot.axe
+  Version: 1
+  LocalizationKey: content.weapon.pilot.axe
+  Family: 1
+  OneHanded: 1
+  ShieldCompatible: 1
+  Attacks:
+  - {fileID: 11400000, guid: 854098ad4abae814ea06c92983e2ebee, type: 2}
+  - {fileID: 11400000, guid: 46156011d5b633f4f8e4b3dde9c3e63f, type: 2}
+  - {fileID: 11400000, guid: 646d4a4b2be670144af31c2f1b9fa13a, type: 2}
+  - {fileID: 11400000, guid: e946b119325316b42a8470abb6bcb246, type: 2}
+  MotionProfile: {fileID: 11400000, guid: d9031727bb062ba49afde7432cacabbd, type: 2}
+  Icon: {fileID: 0}
+  Materials:
+  - {fileID: 2100000, guid: 9b4dc0cb8d5821f4ca599f3d59ee8c1a, type: 2}
+  - {fileID: 2100000, guid: 9cfc80bfac5348e4f85beb547f9f730d, type: 2}
+  - {fileID: 2100000, guid: 1bd9cbcccf1800045b8508ab0fa8e6cb, type: 2}
+  ProvenancePath: SourceArt/Equipment/WeaponFamilyPilot/weapon-family-pilot-source.json
+  ProductionReady: 0
+  RequestedCapabilities: []

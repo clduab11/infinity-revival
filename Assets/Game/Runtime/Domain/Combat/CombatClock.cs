@@ -14,7 +14,8 @@ namespace Praxen.Game.Domain.Combat
         None,
         FocusLost,
         ApplicationPaused,
-        FrameStall
+        FrameStall,
+        UserPaused
     }
 
     public sealed class CombatClock
@@ -80,7 +81,8 @@ namespace Praxen.Game.Domain.Combat
             ValidateDeviceTime(deviceNowUs);
             if (reason != CombatSuspensionReason.FocusLost &&
                 reason != CombatSuspensionReason.ApplicationPaused &&
-                reason != CombatSuspensionReason.FrameStall)
+                reason != CombatSuspensionReason.FrameStall &&
+                reason != CombatSuspensionReason.UserPaused)
                 throw new ArgumentOutOfRangeException(nameof(reason));
 
             LastDeviceTimeUs = deviceNowUs;

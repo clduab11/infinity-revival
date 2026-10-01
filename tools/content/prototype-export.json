@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source_version": "prototype-pair-1.0.3",
+  "scene": "FWR_PrototypePair",
+  "fps": 100,
+  "units": "meters",
+  "character_height_m": 1.8,
+  "characters": ["Soldier", "Captain"],
+  "lod_segments": [12, 8, 5],
+  "material_slots": ["Ceramic", "Brass", "Cloth"],
+  "export_directory": "Assets/Game/Content/Characters/PrototypePair",
+  "source_file": "SourceArt/Characters/PrototypePair.blend",
+  "source_manifest": "SourceArt/Characters/prototype-pair-source.json",
+  "clips": {
+    "Idle": 100,
+    "Guard": 100,
+    "Parry": 30,
+    "DodgeLeft": 36,
+    "DodgeRight": 36,
+    "CutUp": 50,
+    "CutDown": 50,
+    "CutLeft": 50,
+    "CutRight": 50,
+    "Hit": 30,
+    "Death": 100,
+    "EnemyTell": 60,
+    "EnemyAttack": 50
+  },
+  "cut_impact_frame": 10,
+  "frame_convention": "Keys from frame 0 through duration_frames inclusive; duration = duration_frames / fps.",
+  "fbx": {
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "apply_unit_scale": true,
+    "add_leaf_bones": false,
+    "bake_anim_use_all_actions": false,
+    "bake_anim_use_nla_strips": true,
+    "animation_lods": [0]
+  }
+}

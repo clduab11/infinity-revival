@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source_version": "weapon-family-pilot-1.0.0",
+  "scene": "FWR_WeaponFamilyPilot",
+  "fps": 100,
+  "units": "meters",
+  "rig_id": "rig.prototype-pair.23-bone.v1",
+  "character_height_m": 1.8,
+  "lod_segments": [12, 8, 5],
+  "material_slots": ["Ceramic", "Brass", "Cloth"],
+  "export_directory": "Assets/Game/Content/Characters/WeaponFamilyPilot",
+  "source_file": "SourceArt/Equipment/WeaponFamilyPilot/WeaponFamilyPilot.blend",
+  "source_manifest": "SourceArt/Equipment/WeaponFamilyPilot/weapon-family-pilot-source.json",
+  "source_config": "SourceArt/Equipment/WeaponFamilyPilot/weapon-pilot-export.json",
+  "families": [
+    { "family": "Axe", "actor": "AxePilot", "contact_frame": 15, "duration_frames": 60, "release_frame": 9 },
+    { "family": "Mace", "actor": "MacePilot", "contact_frame": 18, "duration_frames": 70, "release_frame": 10 }
+  ],
+  "accepted_source_version": "prototype-pair-1.0.3",
+  "accepted_recipe_sha256": "c3e5ab5acb199304955cd480d4cfbf556158e21e47ac46932cbb90eb56d0a246",
+  "accepted_motion_sha256": "90dbe95c550df413eb69fbd943d7c98801a7f20020f7f7e836819ceed4b8f807",
+  "frame_convention": "Keys from frame 0 through duration_frames inclusive; duration = duration_frames / fps.",
+  "fbx": { "axis_forward": "-Z", "axis_up": "Y", "animation_lods": [0], "add_leaf_bones": false }
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918d1ef20cc54e90a968a5f5b3cddbd8, type: 3}
+  m_Name: sword.left-finish
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.EnemyAttackDefinition
+  Id: sword.left-finish
+  Version: 1
+  LocalizationKey: content.sword.left-finish
+  AllowedDefenses: 7
+  SafeDodgeSides: 2
+  ParryDirection: 0
+  GuardCost: 25
+  Damage: 30
+  TelegraphDurationUs: 650000
+  RecoveryDurationUs: 650000

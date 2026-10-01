@@ -15,6 +15,8 @@
 | Legacy perks | 6 |
 | Difficulty tiers | 6, including base tier |
 
+The 34-item catalog includes twelve melee weapons: four swords, four one-handed axes, and four one-handed maces/warhammers, plus eight shields, four helmets, four armor pieces, and six talismans. Ranged weapons are excluded. These families retain one one-handed player combat style; axe/mace grip, contact, and portrait compatibility require their own asset validation. See the [earned loot and upgrade specification](../melee-loot-and-upgrades.md).
+
 Each region contains approximately twelve authored nodes: entrance/exit, junctions, encounter alternatives, two mandatory boss nodes, and optional cache or narrative nodes.
 
 Route alternatives reuse region assets while changing encounter order, rewards, and presentation.
@@ -94,7 +96,7 @@ Generated raster images do not substitute for rigged combatants or coherent moti
 
 Keep generation prompts, selected outputs, edits, and provenance alongside asset records. Review generated imagery for consistency with the original art direction.
 
-**Current connection status:** Unity MCP is not exposed in this chat. Blender tools are registered, but the read-only connection check failed. Both integrations require a verified handshake before their automation is scheduled as available capacity.
+**Connection status checked 2026-09-30:** Unity MCP is not exposed in this chat. After the operator started Blender 5.2, Blender MCP passed live path, scene/object, and datablock inspection. The starting unsaved scene contains the default Cube, Camera, and Light; Task 11 creates a separate scene without removing them. Blender authoring is now available; Unity changes use controlled file tools and the pinned native Editor.
 
 ---
 

@@ -1,0 +1,67 @@
+{
+  "record_date": "2026-10-01",
+  "scope": "Saved canonical project checkpoint through Task13 and complete technical/art bootstraps",
+  "pre_checkpoint_commit": "9ced64410bf9d5a6dd164d28455fb25ac2faf902",
+  "unity": "6000.6.0f1 (f7f8ed4d1e24)",
+  "urp": "17.6.0",
+  "native_graphics_enabled": true,
+  "isolated_workspace": true,
+  "operator_editors_preserved": true,
+  "unsaved_interactive_blender_state_in_git": false,
+  "native_test_runs": {
+    "editmode": {
+      "total": 841,
+      "passed": 841,
+      "failed": 0,
+      "skipped": 0,
+      "result": "Passed",
+      "start_time": "2026-10-01 05:45:37Z",
+      "end_time": "2026-10-01 05:45:39Z",
+      "path": "docs/acceptance/evidence/checkpoint-2026-10-01-editmode.xml",
+      "sha256": "736351e909ad55479e2a40224d643b7d85c72fa8723d998d45303ddea2038b8a"
+    },
+    "playmode": {
+      "total": 155,
+      "passed": 155,
+      "failed": 0,
+      "skipped": 0,
+      "result": "Passed",
+      "start_time": "2026-10-01 05:49:06Z",
+      "end_time": "2026-10-01 05:49:28Z",
+      "path": "docs/acceptance/evidence/checkpoint-2026-10-01-playmode.xml",
+      "sha256": "b5a46668449cbe6d87c82232ca3126ba0780c7986b3dbed54ddc3ca9badcad46"
+    }
+  },
+  "python_tests": {
+    "baseline": 12,
+    "weapon_family_motion": 12,
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0,
+    "fresh_run": true
+  },
+  "production_files_unchanged_since_native_test_snapshot": 621,
+  "static_baseline": {
+    "direct_packages": 50,
+    "resolved_packages": 69,
+    "asset_guids": 295,
+    "errors": []
+  },
+  "source_checks": [
+    "prototype_motion.py --check",
+    "weapon_pilot_motion.py --check",
+    "build_feedback_tones.py --check"
+  ],
+  "physical_and_final_art_acceptance": "UNRUN",
+  "publication_status": "Pending push and independent remote payload verification",
+  "ignored_preserved_local_roots": [
+    "My project/",
+    "infinity-game/",
+    "output/",
+    ".superpowers/",
+    "Library/",
+    "Logs/",
+    "UserSettings/"
+  ],
+  "paid_generations_or_purchases": 0
+}

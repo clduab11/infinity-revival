@@ -51,7 +51,16 @@ Create one Markdown record per asset or clearly defined source bundle. Store it 
 
 No externally sourced or generated asset is approved merely by this Task02 scaffold. Add completed records when actual content is introduced.
 
+## Runtime prototype bundles
+
+- [Original soldier/captain pair](prototype-pair-provenance.md): procedural Blender source, six FBX exports, shared Humanoid imports and LOD prefabs. Approved for the bounded technical prototype; final visual and release approval remains deferred.
+- [Task 12 original feedback tones and presentation authoring](task-12-feedback-provenance.md): four short, quiet mono PCM tones synthesized from an explicit Python sine/chirp recipe, with source hashes and Unity GUIDs. The separate CombatPrototype scene connects the Task 11 pair, animation, camera, audio, and effects to observed combat events. No external assets, purchases, or generative-model credits were used; physical readability and final Foley/release approval remain UNRUN or UNVERIFIED.
+
+- [Task 13 original weapon-family pilot](weapon-family-pilot-provenance.md): separate axe/mace sources, six FBXs, family handling, scoped imports, and URP material variations. No purchases, external textures, or AI credits; physical/final art approval remains UNRUN.
+
 ## Documentation imagery
 
 - [Infinity Revival GPT-Image concept and generation record](../media/infinity-revival-prototype.md): authorized documentation prototype, not a runtime asset; production release eligibility remains unverified.
 - [Current Refuge render](../media/refuge-current.png): project-owned screenshot evidence from the saved Bootstrap scene in the desktop Editor, separate from the generated concept.
+
+- [September 30 supplied duel concept](../media/forever-we-reign-duel-concept.md): unedited ChatGPT documentation image, original bytes and provenance recorded; concept rather than a Unity render.

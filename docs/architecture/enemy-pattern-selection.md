@@ -56,7 +56,8 @@ overlap: each subsequent tell begins at or after the preceding recovery, with
 its authored gap. Existing inclusive parry and dodge windows remain unchanged.
 
 These decks exercise the selection contract. Finished regular archetypes remain
-Tasks 26–29; ScriptableObject content authoring and validators remain Task 13.
+Tasks 26–29; [Task 13](../acceptance/task-13-content-authoring.md) now supplies
+ScriptableObject authoring and validators while preserving these teaching identities.
 Task 08 requires no generated art or production asset batch.
 
 ## Approved observations and eligibility

@@ -22,8 +22,9 @@ namespace Praxen.Game.Presentation.Combat
         private bool touchInboxDropped;
 
         public CombatSession Session { get; private set; }
+        public bool IsUserPaused { get; private set; }
         public long DroppedCommandCount { get; private set; }
-        public bool CanAcceptInput => isActiveAndEnabled && !paused && focused &&
+        public bool CanAcceptInput => isActiveAndEnabled && !paused && focused && !IsUserPaused &&
             (Session == null || Session.Clock.State == CombatClockState.Running);
         public event Action Suspended;
         public event Action EncounterEnded;
@@ -84,19 +85,48 @@ namespace Praxen.Game.Presentation.Combat
                 pending.Clear();
                 Suspended?.Invoke();
             }
-            else if (Session != null && !wasPermitted && Session.Clock.State == CombatClockState.Suspended)
+            else if (Session != null && !IsUserPaused && !wasPermitted && Session.Clock.State == CombatClockState.Suspended)
                 RequestResume();
             RefreshInput();
         }
 
         public bool RequestResume()
         {
-            if (Session == null || paused || !focused || !isActiveAndEnabled ||
+            if (Session == null || IsUserPaused || paused || !focused || !isActiveAndEnabled ||
                 Session.Clock.State != CombatClockState.Suspended) return false;
             Session.BeginResume(sourceTime());
             pending.Clear();
             RefreshInput();
             return true;
+        }
+
+        public void PauseByUser()
+        {
+            IsUserPaused = true;
+            if (Session != null) Session.Suspend(sourceTime(), CombatSuspensionReason.UserPaused);
+            pending.Clear();
+            touchInboxDropped = false;
+            Suspended?.Invoke();
+            RefreshInput();
+        }
+
+        public bool ResumeByUser()
+        {
+            if (paused || !focused || !isActiveAndEnabled) return false;
+            if (!IsUserPaused) return Session == null || RequestResume();
+            IsUserPaused = false;
+            if (Session != null && Session.Clock.State == CombatClockState.Suspended)
+                Session.BeginResume(sourceTime());
+            pending.Clear();
+            RefreshInput();
+            return true;
+        }
+
+        public void ClearUserPauseForRestart()
+        {
+            IsUserPaused = false;
+            pending.Clear();
+            RefreshInput();
         }
 
         private void ReceiveCommand(GestureCommand command)
@@ -169,8 +199,10 @@ namespace Praxen.Game.Presentation.Combat
                 type == InputUpdateType.Manual;
         }
 
+        // Touch event timestamps use realtime; InputState's cached offset can lag behind Play entry.
         private static long SourceTimeUs() =>
-            checked((long)Math.Round(InputState.currentTime * 1000000, MidpointRounding.AwayFromZero));
+            checked((long)Math.Round(Time.realtimeSinceStartupAsDouble * 1000000,
+                MidpointRounding.AwayFromZero));
 
         private void RefreshInput() => capture?.SetInputEnabled(CanAcceptInput);
         private void OnEnable()
@@ -206,7 +238,9 @@ namespace Praxen.Game.Presentation.Combat
         private void OnDisable()
         {
             Unhook();
-            if (Session != null) Session.Suspend(sourceTime(), CombatSuspensionReason.ApplicationPaused);
+            // Teardown can outlive the source epoch. Freeze accepted time without sampling it again.
+            if (Session != null) Session.Suspend(Session.Clock.LastDeviceTimeUs,
+                CombatSuspensionReason.ApplicationPaused);
             pending.Clear();
             if (capture != null) capture.SetInputEnabled(false);
         }

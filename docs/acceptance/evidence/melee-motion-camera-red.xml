@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Failed(Child)" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.9529256">
+  <test-suite type="TestSuite" id="1154" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.952926" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1300" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.942822" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="79044" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1301" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.940662" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1302" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.939067" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1303" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.937198" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1304" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="123" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.935433" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1164" name="CombatCameraMotionIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.932086" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1167" name="AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.479885" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1165" name="AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked(Left,1)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked(Left,1)" methodname="AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="538525652" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.390824" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1166" name="AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked(Right,-1)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked(Right,-1)" methodname="AcceptedCutsOrbitOppositeSidesAndKeepTheFocusPointLocked" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="602531805" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.078324" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1170" name="AcceptedDodgesOrbitWithinTheBoundAndReturnExactly" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedDodgesOrbitWithinTheBoundAndReturnExactly" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.112627" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1168" name="AcceptedDodgesOrbitWithinTheBoundAndReturnExactly(DodgeLeft,1)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedDodgesOrbitWithinTheBoundAndReturnExactly(DodgeLeft,1)" methodname="AcceptedDodgesOrbitWithinTheBoundAndReturnExactly" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="640495727" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.054254" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1169" name="AcceptedDodgesOrbitWithinTheBoundAndReturnExactly(DodgeRight,-1)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.AcceptedDodgesOrbitWithinTheBoundAndReturnExactly(DodgeRight,-1)" methodname="AcceptedDodgesOrbitWithinTheBoundAndReturnExactly" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="1190377112" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.056489" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1176" name="DisableUnbindAndRestartRestoreTheAuthoredCameraExactly" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.DisableUnbindAndRestartRestoreTheAuthoredCameraExactly" methodname="DisableUnbindAndRestartRestoreTheAuthoredCameraExactly" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="1415274878" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.054352" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1171" name="OrbitStrengthIsClampedAndZeroOrDisabledProducesNoOrbit" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.OrbitStrengthIsClampedAndZeroOrDisabledProducesNoOrbit" methodname="OrbitStrengthIsClampedAndZeroOrDisabledProducesNoOrbit" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="740301285" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.074111" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1175" name="ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.136625" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1173" name="ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack(False)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack(False)" methodname="ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="569060976" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:47Z" duration="0.070555" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1174" name="ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack(True)" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack(True)" methodname="ReenableSuppressesTheCurrentActionUntilTheNextAcceptedAttack" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="1323372955" result="Failed" start-time="2026-09-30 20:49:47Z" end-time="2026-09-30 20:49:48Z" duration="0.063658" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1172" name="SuspendAndResumeCountdownFreezeBothCameraPositionAndRotation" fullname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.SuspendAndResumeCountdownFreezeBothCameraPositionAndRotation" methodname="SuspendAndResumeCountdownFreezeBothCameraPositionAndRotation" classname="Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests" runstate="Runnable" seed="1125779687" result="Failed" start-time="2026-09-30 20:49:48Z" end-time="2026-09-30 20:49:48Z" duration="0.060951" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp :   The profile must expose bounded camera motion settings.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Field (System.String name, System.Boolean required) [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:169
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests.Get[T] (System.String name) [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:172
+at Praxen.Game.Tests.PlayMode.CombatCameraMotionIntegrationTests+<SetUp>d__9.MoveNext () [0x00100] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatCameraMotionIntegrationTests.cs:41
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

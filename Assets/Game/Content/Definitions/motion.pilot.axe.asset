@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6cbd5870204761950e9a3034b648fb, type: 3}
+  m_Name: motion.pilot.axe
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.MotionProfileDefinition
+  Id: motion.pilot.axe
+  Version: 1
+  LocalizationKey: content.motion.pilot.axe
+  ActorPrefab: {fileID: 3959133389313827199, guid: 11eab70dec7e1f741975a150bc217a07, type: 3}
+  RigId: rig.prototype-pair.23-bone.v1
+  RightHanded: 1
+  WeaponTipPath: LOD0/AxePilot_Rig/Hips/Spine/Chest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/WeaponSocket/WeaponTip
+  WeaponSocketPath: LOD0/AxePilot_Rig/Hips/Spine/Chest/RightShoulder/RightUpperArm/RightLowerArm/RightHand/WeaponSocket
+  ShieldSocketPath: LOD0/AxePilot_Rig/Hips/Spine/Chest/LeftShoulder/LeftUpperArm/LeftLowerArm/LeftHand/ShieldSocket
+  WeaponRendererPaths:
+  - LOD0/AxePilot_LOD0_Weapon
+  - LOD1/AxePilot_LOD1_Weapon
+  - LOD2/AxePilot_LOD2_Weapon
+  Bindings:
+  - Key: Idle
+    Clip: {fileID: -3100369314251171874, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 1
+    ReleaseSeconds: 0
+    Loop: 1
+  - Key: Guard
+    Clip: {fileID: -3260646018562980696, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 1
+    ReleaseSeconds: 0
+    Loop: 1
+  - Key: Parry
+    Clip: {fileID: 5987634597008431552, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 0.29999998211860657
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: DodgeLeft
+    Clip: {fileID: 7849272648206702947, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 0.35999998450279236
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: DodgeRight
+    Clip: {fileID: 4761915719394628313, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 0.35999998450279236
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: CutUp
+    Clip: {fileID: 516844403585125193, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0.15
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0.09
+    Loop: 0
+  - Key: CutDown
+    Clip: {fileID: 1153444682023446455, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0.15
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0.09
+    Loop: 0
+  - Key: CutLeft
+    Clip: {fileID: -6370075751204139015, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0.15
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0.09
+    Loop: 0
+  - Key: CutRight
+    Clip: {fileID: -6230941014240595202, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0.15
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0.09
+    Loop: 0
+  - Key: Hit
+    Clip: {fileID: -1304387373167265313, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 0.29999998211860657
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: Death
+    Clip: {fileID: 4348485665485846014, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 1
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: EnemyTell
+    Clip: {fileID: -8139398739787445934, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0
+    Loop: 0
+  - Key: EnemyAttack
+    Clip: {fileID: -3189543450004216711, guid: af28e58b14a935f48afc4ecd19aa761d, type: 3}
+    ContactSeconds: 0.15
+    DurationSeconds: 0.5999999642372131
+    ReleaseSeconds: 0.09
+    Loop: 0

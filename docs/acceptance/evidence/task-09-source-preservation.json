@@ -1,0 +1,149 @@
+{
+  "before_count": 473,
+  "preserved_count": 463,
+  "changes": [
+    {
+      "path": "Assets/Game/Runtime/Domain/Combat/CombatClock.cs",
+      "before_sha256": "25798f4c5de69f83eefe05e43c1da2fdf5ff5a49e3f72d3e7f55dc7a617eefa6",
+      "after_sha256": "bcf95237ed64dae19cbb0143fc3a3d4de36eaf82161c226db19017dfccf7b425"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/CardinalGestureRecognizer.cs",
+      "before_sha256": "6da659d396e8bcbdc077ebcaa836403da280b9583497134e0928dd50c8c0e2b2",
+      "after_sha256": "b3f76be4bab5c303aceffccdd5afb44b0bd6f6712cd46e224986d7b5f41005d7"
+    },
+    {
+      "path": "Assets/Game/Runtime/Domain/Input/GestureInputValues.cs",
+      "before_sha256": "c2909dbeefa759ba03d46d19bf7be3beee92878e444517ef1245cdcef99d3f6a",
+      "after_sha256": "12cc55fe0c251c4ab7451e3afd8027dc84e55fdd89cac578726e1c7d2b87a45b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+      "before_sha256": "5749a738abf974115e20fd3af0273125ff5db6028cf95fa7342123251a9b6341",
+      "after_sha256": "fdaa25e87f97788fda75cd6aac5d2c18d7fb3062390e2f1cf136c079297e8e71"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+      "before_sha256": "a1b86dd60cf990eadb834a6539d8ce8596eb5d739db74d79d30536076c7842b4",
+      "after_sha256": "dd4d6385c8e63239c23a42a0fbfe3b4258225b5955d7dfaf16277667c5ff4c1b"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterView.cs",
+      "before_sha256": "1d196de5d1e5a509a3ef0687f33d91073b53da91cb0cbb0a14c1b30b1477cdfa",
+      "after_sha256": "4c02554f10d5b328c9ce397e3ededaf8ff42611ef926559befd36f784193cd8d"
+    },
+    {
+      "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxStrikes.cs",
+      "before_sha256": "6e4d5981e617c7436ff4bf0e86f83c6ef5d5b959a7a046f9b23ba0778de887ed",
+      "after_sha256": "28c4dcdacce3c27528155464be6acb6e978972809304a471ba3bfd17ada8026e"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "before_sha256": "c6059d22e45d537a90f0bf459fa07a2b1a2a66bdfcd51677bebbd81018ba91f3",
+      "after_sha256": "f23f967234b20ac32b527e50ba3b0d492ef097518d4356e3f5d322881f8539bf"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "b353491386649f6f0c21b59cd3271162ca3c17923610989dfc4dcb04786a3fc4",
+      "after_sha256": "971bfd88ce5baadcda79c7124433d7da6121cbc60277240fbbe1418defeeff86"
+    },
+    {
+      "path": "docs/production/asset-readiness.md",
+      "before_sha256": "4ebe2bfa13b2996a2d046c0db72fd7d7d31df2652b6aa520e1924b7a23391b2c",
+      "after_sha256": "7d85a32a33984ed44b87e01b0007540e274af265b8e50ddde70fcaf422b11abe"
+    }
+  ],
+  "new_files": [
+    "Assets/Game/Runtime/Application/Input/ExplorationInputController.cs",
+    "Assets/Game/Runtime/Application/Input/ExplorationInputController.cs.meta",
+    "Assets/Game/Runtime/Domain/Input/PortraitHudLayout.cs",
+    "Assets/Game/Runtime/Domain/Input/PortraitHudLayout.cs.meta",
+    "Assets/Game/Runtime/Domain/Input/ReachCalibration.cs",
+    "Assets/Game/Runtime/Domain/Input/ReachCalibration.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/CancellableHudButton.cs",
+    "Assets/Game/Runtime/Presentation/Combat/CancellableHudButton.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/ExplorationPreview.cs",
+    "Assets/Game/Runtime/Presentation/Combat/ExplorationPreview.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/HudText.cs",
+    "Assets/Game/Runtime/Presentation/Combat/HudText.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitHudCoordinator.cs",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitHudCoordinator.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitHudMenu.cs",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitHudMenu.cs.meta",
+    "Assets/Game/Runtime/Presentation/Combat/ReachCalibrationCapture.cs",
+    "Assets/Game/Runtime/Presentation/Combat/ReachCalibrationCapture.cs.meta",
+    "Assets/Game/Tests/EditMode/ExplorationInputTests.cs",
+    "Assets/Game/Tests/EditMode/ExplorationInputTests.cs.meta",
+    "Assets/Game/Tests/EditMode/PortraitBuildSettingsTests.cs",
+    "Assets/Game/Tests/EditMode/PortraitBuildSettingsTests.cs.meta",
+    "Assets/Game/Tests/EditMode/PortraitHudLayoutTests.cs",
+    "Assets/Game/Tests/EditMode/PortraitHudLayoutTests.cs.meta",
+    "Assets/Game/Tests/EditMode/ReachCalibrationTests.cs",
+    "Assets/Game/Tests/EditMode/ReachCalibrationTests.cs.meta",
+    "Assets/Game/Tests/PlayMode/PortraitHudCapture.cs",
+    "Assets/Game/Tests/PlayMode/PortraitHudCapture.cs.meta",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs.meta",
+    "docs/acceptance/evidence/task-09-android-Left.png",
+    "docs/acceptance/evidence/task-09-android-Right.png",
+    "docs/acceptance/evidence/task-09-baseline.json",
+    "docs/acceptance/evidence/task-09-before-source-hashes.json",
+    "docs/acceptance/evidence/task-09-domain-review.md",
+    "docs/acceptance/evidence/task-09-editmode.log",
+    "docs/acceptance/evidence/task-09-editmode.xml",
+    "docs/acceptance/evidence/task-09-exploration-preview.png",
+    "docs/acceptance/evidence/task-09-final-review.md",
+    "docs/acceptance/evidence/task-09-forever-we-reign-graybox.png",
+    "docs/acceptance/evidence/task-09-gesture-trace.png",
+    "docs/acceptance/evidence/task-09-iphone17-Left.png",
+    "docs/acceptance/evidence/task-09-iphone17-Right.png",
+    "docs/acceptance/evidence/task-09-missing-api-red.log",
+    "docs/acceptance/evidence/task-09-overflow-red.log",
+    "docs/acceptance/evidence/task-09-overflow-red.xml",
+    "docs/acceptance/evidence/task-09-pause-menu.png",
+    "docs/acceptance/evidence/task-09-playmode.log",
+    "docs/acceptance/evidence/task-09-playmode.xml",
+    "docs/acceptance/evidence/task-09-portrait-setting-red.log",
+    "docs/acceptance/evidence/task-09-portrait-setting-red.xml",
+    "docs/acceptance/evidence/task-09-python.log",
+    "docs/acceptance/evidence/task-09-reach-calibration.png",
+    "docs/acceptance/evidence/task-09-refuge-portrait.png",
+    "docs/acceptance/evidence/task-09-review-red.log",
+    "docs/acceptance/evidence/task-09-review-red.xml",
+    "docs/acceptance/evidence/task-09-test-first.md",
+    "docs/acceptance/evidence/task-09-ui-cancellation-red.log",
+    "docs/acceptance/evidence/task-09-ui-cancellation-red.xml",
+    "docs/acceptance/evidence/task-09-ui-review.md",
+    "docs/acceptance/task-09-portrait-hud.md",
+    "docs/plans/2026-09-29-task-09-portrait-hud-plan.md",
+    "docs/plans/2026-09-29-task-09-portrait-hud-spec.md"
+  ],
+  "alternate_project_sources_preserved": 62,
+  "package_pins_preserved": true,
+  "existing_scene_and_guid_bytes_preserved": true,
+  "pipeline_control_bytes_preserved": true,
+  "historical_png_bytes_preserved": true,
+  "task08_bundle": {
+    "total": 51,
+    "preserved": 48,
+    "intentional_source_updates": [
+      {
+        "path": "Assets/Game/Runtime/Presentation/Combat/GrayboxEncounterRoot.cs",
+        "before_sha256": "a1b86dd60cf990eadb834a6539d8ce8596eb5d739db74d79d30536076c7842b4",
+        "after_sha256": "dd4d6385c8e63239c23a42a0fbfe3b4258225b5955d7dfaf16277667c5ff4c1b"
+      },
+      {
+        "path": "README.md",
+        "before_sha256": "b353491386649f6f0c21b59cd3271162ca3c17923610989dfc4dcb04786a3fc4",
+        "after_sha256": "971bfd88ce5baadcda79c7124433d7da6121cbc60277240fbbe1418defeeff86"
+      },
+      {
+        "path": "docs/production/asset-readiness.md",
+        "before_sha256": "4ebe2bfa13b2996a2d046c0db72fd7d7d31df2652b6aa520e1924b7a23391b2c",
+        "after_sha256": "7d85a32a33984ed44b87e01b0007540e274af265b8e50ddde70fcaf422b11abe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "record_date": "2026-09-30",
+  "scope": "OnDisable clock-source teardown correction and accurate dodge availability feedback",
+  "unity_version": "6000.6.0f1",
+  "unity_revision": "f7f8ed4d1e24",
+  "native_test_project": "C:\\Users\\cld-main\\AppData\\Local\\Temp\\forever-we-reign-clock-check-cdqftnfa",
+  "native_project_isolated_from_open_editor": true,
+  "artifacts": {
+    "docs/acceptance/evidence/2026-09-30-teardown-red.xml": {
+      "sha256": "63ca2f522fabf20b23bc9019194581454e7ad6e57ac2fe214044a4a681d862bd",
+      "result": "Failed(Child)",
+      "total": 3,
+      "passed": 0,
+      "failed": 3,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/2026-09-30-dodge-hud-red.xml": {
+      "sha256": "9b0ddd977b379b240c45df28bdbd96e468c052962724f7f955fa045dc790aee3",
+      "result": "Failed(Child)",
+      "total": 28,
+      "passed": 18,
+      "failed": 10,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/2026-09-30-teardown-dodge-editmode.xml": {
+      "sha256": "9028abe463ee76efdc980a7bebc2cd43ffab10f061df19c534b4ee4bde512d02",
+      "result": "Passed",
+      "total": 669,
+      "passed": 669,
+      "failed": 0,
+      "skipped": 0
+    },
+    "docs/acceptance/evidence/2026-09-30-teardown-dodge-playmode.xml": {
+      "sha256": "2fd03075ceecfa816ebd3d5334e8995a9b31cf2086ae9e9872593ca75bc23691",
+      "result": "Passed",
+      "total": 95,
+      "passed": 95,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "test_identity_preservation": {
+    "EditMode": {
+      "prior": 669,
+      "preserved": 669,
+      "new": 0,
+      "missing": []
+    },
+    "PlayMode": {
+      "prior": 79,
+      "preserved": 79,
+      "new": 16,
+      "missing": []
+    }
+  },
+  "python_checks": {
+    "passed": 12,
+    "total": 12
+  },
+  "structural_validator": {
+    "ok": true,
+    "direct_packages": 50,
+    "resolved_packages": 69,
+    "asset_guids": 155,
+    "git_checked": true
+  },
+  "final_native_logs": {
+    "teardown-hud-editmode": {
+      "clock_exception_count": 0,
+      "input_queue_warning_count": 0,
+      "deprecated_lookup_warning_count": 0,
+      "compiler_error_count": 0
+    },
+    "teardown-hud-playmode": {
+      "clock_exception_count": 0,
+      "input_queue_warning_count": 0,
+      "deprecated_lookup_warning_count": 0,
+      "compiler_error_count": 0
+    }
+  },
+  "game_cs_sources_matched": 99,
+  "game_cs_source_map_sha256": "fd5c92ab2ef5b7d26da9c05bb09c87b2e5143a71a23055f6a08ae448f529f5f2",
+  "source_changes_since_followup_preflight": [
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs",
+    "Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs"
+  ],
+  "source_sha256": {
+    "Assets/Game/Runtime/Presentation/Combat/CombatTimingDriver.cs": "4d2933ae93f3e6ec5d495753fbe77617271210804d5997413eff65ccbf3ee36a",
+    "Assets/Game/Runtime/Presentation/Combat/PortraitCombatHud.cs": "17405e27c8e4b8163c8b06a9140aeb940edf2f774c2a0cbe7e0b2ec517dd717f",
+    "Assets/Game/Tests/PlayMode/CombatTimingIntegrationTests.cs": "cb335e11484e803d4fc78c5e8aa4304d49f4606fb74913fa175c1cea1df71ef6",
+    "Assets/Game/Tests/PlayMode/PortraitHudIntegrationTests.cs": "c4643f8c460454a234c0dbbfb3e4b377f7d972b9c6531326ac990ccdaf1d56cc",
+    "Packages/manifest.json": "5a9b71af5b88b41b308f0e6bf30e52756bd214cb7edae4f8af7399702d624c4c",
+    "Packages/packages-lock.json": "a31c3bea7912f5774351d89443802a17f6a2753dda5218c45f5511bc70a1aa54",
+    "ProjectSettings/Packages/com.unity.pipeline/EditorPipelineConfig.json": "b3297fefaa11a1188b767225853f6b98d8643b73ef7150be296b90f31caead8c",
+    "tools/build/dependency-baseline.json": "32235125556c7be994e88fc2aefcb604e33fd32d001bfcbabad3647341d2b83a"
+  },
+  "package_bytes_preserved": true,
+  "pipeline_control_preserved": true,
+  "domain_combat_and_input_bytes_preserved": true,
+  "other_assets_and_project_settings_bytes_preserved": true,
+  "review": "Read-only independent review: no actionable P0/P1/P2 findings",
+  "operator_editor_check_before_this_correction": "PRELIMINARY PASS for both dodges, sword swipes and ability intent; one remaining OnDisable exception reported",
+  "operator_editor_recheck_after_this_correction": "UNRUN",
+  "physical_task_09_and_task_10": "UNRUN",
+  "fluid_animation_and_physical_input_latency": "UNMEASURED; Task 10 qualification and Task 12 presentation remain pending",
+  "new_progression_stats_implemented": false,
+  "progression_candidates": "docs/production/2026-09-30-progression-and-combat-feel-notes.md",
+  "ai_credits_spent": false,
+  "commit_or_push_performed": false
+}

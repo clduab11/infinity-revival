@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.471784">
+  <test-suite type="TestSuite" id="1098" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.471784" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1090" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.453239" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="75684" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1091" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.450192" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1092" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.448296" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1093" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.442326" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1094" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.440034" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1010" name="CombatTimingIntegrationTests" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-30 04:58:16Z" end-time="2026-09-30 04:58:18Z" duration="1.434285" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1022" name="DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 04:58:17Z" end-time="2026-09-30 04:58:18Z" duration="1.421146" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1020" name="DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh(False)" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh(False)" methodname="DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1736401690" result="Failed" start-time="2026-09-30 04:58:17Z" end-time="2026-09-30 04:58:18Z" duration="1.123736" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Startup and lifecycle must use the Play epoch.
+  Expected: in range (17935834,17941328)
+  But was:  27938801
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh (System.Boolean pauseBeforeUpdate) [0x000a2] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs:238
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1021" name="DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh(True)" fullname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh(True)" methodname="DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh" classname="Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests" runstate="Runnable" seed="1075803166" result="Failed" start-time="2026-09-30 04:58:18Z" end-time="2026-09-30 04:58:18Z" duration="0.257096" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Startup and lifecycle must use the Play epoch.
+  Expected: in range (18772985,18804441)
+  But was:  28773639
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.CombatTimingIntegrationTests.DefaultClockStartsInPlayEpochBeforeInputOffsetRefresh (System.Boolean pauseBeforeUpdate) [0x000a2] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs:238
+]]></stack-trace>
+                    </failure>
+                    <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,1555 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 63036)
+VBCSCompiler prewarm took 8.68 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cld-main" at "2026-09-30T03:13:19.0700651Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 48900 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T03:13:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24176, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              6ccde3880fb046f08c6fa1f1adbce889
+  Correlation Id:          4a0942eb790a3c319bbd1f52d8cf2d58
+  External correlation Id: 6990123127388139264
+  Machine Id:              T094sZre+r836f7Huwglp/CeU6E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cld-main" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cld-main-notifications" at "2026-09-30T03:13:19.1730525Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Module] Licensing Background thread has ended after 0.12s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\cld-main\Desktop\github-projects\infinity-redux
+-logFile
+C:\Users\cld-main\Desktop\github-projects\infinity-redux\output\task-09\ui-cancellation-red.log
+-runTests
+-testPlatform
+PlayMode
+-assemblyNames
+Praxen.Game.Tests.PlayMode
+-testResults
+C:\Users\cld-main\Desktop\github-projects\infinity-redux\output\task-09\ui-cancellation-red.xml
+Successfully changed project path to: C:\Users\cld-main\Desktop\github-projects\infinity-redux
+C:/Users/cld-main/Desktop/github-projects/infinity-redux
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [22224]  Target information:
+
+Player connection [22224]  * "[IP] 192.168.0.253 [Port] 55504 [Flags] 2 [Guid] 954567004 [EditorId] 954567004 [Version] 1048832 [Id] WindowsEditor(7,cld-pc-desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22224]  * "[IP] 172.22.96.1 [Port] 55504 [Flags] 2 [Guid] 954567004 [EditorId] 954567004 [Version] 1048832 [Id] WindowsEditor(7,cld-pc-desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22224]  * "[IP] 100.89.56.46 [Port] 55504 [Flags] 2 [Guid] 954567004 [EditorId] 954567004 [Version] 1048832 [Id] WindowsEditor(7,cld-pc-desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-31380" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/cld-main/Desktop/github-projects/infinity-redux[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cld-main/Desktop/github-projects/infinity-redux/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Registered in 0.010891 seconds.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1614ms
+	BeginReloadAssembly (152ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (142ms)
+		TypeCache.Refresh (334ms)
+			TypeCache.ScanAssembly (318ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (875ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-BD94-N7Y7-ECXG-BGV5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476032566722-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.addressables@2.11.2 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.addressables@42676f2a154e)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.pipeline@0.8.0-exp.1 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.pipeline@62c08c808737)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.splines@2.9.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.splines@e6e1d5900acc)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.scriptablebuildpipeline@3.0.3 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.scriptablebuildpipeline@61526b33bf2c)
+    com.unity.searcher@4.9.5 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+  Built-in packages:
+    com.unity.cinemachine@6.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.cinemachine@f53aa49b3acc)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.xr)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.mathematics@1.4.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\cld-main\Desktop\github-projects\infinity-redux\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/cld-main/Desktop/github-projects/infinity-redux
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 1s264ms
+[ 866/1117  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1113/1117  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Praxen.Game.Tests.PlayMode.dll (+2 others)
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(21,25): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs(34,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(19,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(25,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(25,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Game\Tests\PlayMode\TouchCaptureTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs(29,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\TimestampedDefenseIntegrationTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(35,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\EnemyPatternInputIntegrationTests.cs(31,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(32,66): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(32,27): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(65,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(65,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(78,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(78,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(76,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\TimestampedOffenseIntegrationTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(90,23): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(93,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(93,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(94,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1114/1117  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Praxen.Game.Tests.PlayMode.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Praxen.Game.Tests.PlayMode.dll, with 151 defines and 307 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[1115/1117  0s] CopyFiles Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.pdb
+[1116/1117  0s] CopyFiles Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll
+*** Tundra build success (1.22 seconds), 5 items updated, 1117 evaluated
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(21,25): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\CombatTimingIntegrationTests.cs(34,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(19,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(25,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(25,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Game\Tests\PlayMode\TouchCaptureTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\PortraitHudIntegrationTests.cs(29,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\TimestampedDefenseIntegrationTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(35,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\EnemyPatternInputIntegrationTests.cs(31,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(32,66): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(32,27): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(65,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(65,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(78,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Game\Tests\PlayMode\BootstrapTests.cs(78,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(76,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\TimestampedOffenseIntegrationTests.cs(33,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(90,23): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(93,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(93,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Game\Tests\PlayMode\GrayboxEncounterTests.cs(94,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 2.011040s
+Begin MonoManager ReloadAssembly
+Total cache size 265498140
+Total cache size after purge 265498140, took 00:00:00.3962444
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.403 seconds
+Domain Reload Profiling: 3208ms
+	BeginReloadAssembly (362ms)
+		DisableScriptedObjects (68ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (1282ms)
+		LoadAssemblies (609ms)
+		TypeCache.Refresh (469ms)
+			TypeCache.ScanAssembly (438ms)
+		AnalyzeDomain (131ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1405ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Starting new worker id: 0 with log in C:/Users/cld-main/Desktop/github-projects/infinity-redux/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=ae1bdee039acae848b69a38a9b2be34e): Total: 6.460 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2057 ms
+		Asset DB Callback time: managed=388 ms, native=35 ms
+		Scripting: domain reloads=1, domain reload time=1894 ms, compile time=2013 ms, other=71 ms
+		Project Asset Count: scripts=1394, non-scripts=2471
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 26.564ms
+	ApplyChangesToAssetFolders: 1.007ms
+	Scan: 171.390ms
+	Collect global state as custom dependencies: 27.668ms
+	OnSourceAssetsModified: 0.821ms
+	CategorizeScriptCompilationAssets: 46.111ms
+	ProcessAssetsWithTransientArtifactChanges: 115.237ms
+	CategorizeAssets: 82.148ms
+	CompileScripts: 2012.953ms
+	ImportOutOfDateAssets: 1431.314ms (1413.869ms without children)
+		ReloadNativeAssets: 0.053ms
+		UnloadImportedAssets: 2.520ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.992ms
+		ImportSchedulerStart: 13.871ms
+	PostProcessAllAssets: 391.644ms
+		VCAutoAddAssetPostprocess 2.032ms
+		XRBuildSystem.XRAssetImported 0.855ms
+		PostProcessCallbackCreateDeferredMaterials 0.089ms
+		MonoPostProcessAllAssets: 387.738ms
+			AssetPostprocessor.OnPostprocessAllAssets 254.518ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 31.669ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 25.496ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 12.101ms
+			SyncVS.PostprocessSyncProject 4.193ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.833ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.785ms
+			AssetChangedListener.OnPostprocessAllAssets 2.994ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.756ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.593ms
+			AddressablesAssetPostProcessor.OnPostprocessAllAssets 2.173ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.717ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.356ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.122ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.984ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.956ms
+			PostProcessor.OnPostprocessAllAssets 0.809ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.740ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.721ms
+			AssetEvents.OnPostprocessAllAssets 0.690ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.683ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.613ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.592ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.485ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.437ms
+			AssetPathToTypes.OnPostprocessAllAssets 0.430ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.400ms
+			CinemachineSettings.OnPostprocessAllAssets 0.396ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.385ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.361ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.356ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.324ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.274ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.271ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.233ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.222ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.217ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.150ms
+	PostAssetChangesProfiler: 7.748ms
+	UnloadStreamsBegin: 2.049ms
+	PersistCurrentRevisions: 0.179ms
+	GenerateScriptTypeHashes: 2.512ms
+	GenerateScriptTypeSerializationHashes: 4.213ms
+	Untracked: 2112.137ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 1.810ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Forever We Reign
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6340 unused Assets / (11.7 MB). Loaded Objects now: 7293.
+Memory consumption went from 436.1 MB to 424.4 MB.
+Total: 12.391200 ms (FindLiveObjects: 0.746100 ms CreateObjectMapping: 0.356200 ms MarkObjects: 7.392800 ms  DeleteObjects: 3.608500 ms)
+
+[Project] Loading completed in 10.616 seconds
+	Project init time: 				9.822 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.262 seconds
+		Asset Database init time: 		0.377 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.663 seconds
+		Unity extensions init time: 	0.023 seconds
+		Asset Database refresh time: 	6.460 seconds
+	Scene opening time: 			0.145 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790738009659,"processId":31380,"projectLoad":10.6156185,"projectInit":9.8219349,"templateInit":0.0,"packageManagerInit":0.2619713,"assetDatabaseInit":0.3767757,"globalIlluminationInit":0.0028057,"assembliesLoad":1.6630275,"unityExtensionsInit":0.0232134,"assetDatabaseRefresh":6.4604847,"sceneOpening":0.1451675}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790738009659,"processId":31380,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = Praxen.Game.Tests.PlayMode
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/cld-main/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.017s, timestamps: [10.621 - 10.638]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (323.3 KB). Loaded Objects now: 7449.
+Memory consumption went from 432.8 MB to 432.5 MB.
+Total: 14.059700 ms (FindLiveObjects: 0.597500 ms CreateObjectMapping: 0.264800 ms MarkObjects: 12.320000 ms  DeleteObjects: 0.491000 ms)
+
+Importing 'GUID: 83ffe6bfa814e414b906fc12ed2f0f81 - Path: Assets/InitTestScene2763643d-e15e-4c04-a3ff-40ed075f92ea.unity' with importer (DefaultImporter)
+Imported 'GUID: 83ffe6bfa814e414b906fc12ed2f0f81' -> (Import Result ID: '22c464509c2a23ebbf92188fa12bf264') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=b2907df5402f727b3488759dbad0ddf6 DependenciesID=be28999e2ec741fe8b44a5e8f337e684 StaticDependenciesID=04fb519e0e40412ff3bc5fef417163e1 
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Asset Pipeline Refresh (id=35317067293b94146b3d84ad9415f43b): Total: 0.090 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:129)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.552700 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            2.075 ms
+	Integration:            68.969 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.965 ms
+	Total Operation Time:   72.021 ms
+Unloading 169 unused Assets / (1.3 MB). Loaded Objects now: 7522.
+Memory consumption went from 449.7 MB to 448.4 MB.
+Total: 13.566400 ms (FindLiveObjects: 0.523600 ms CreateObjectMapping: 0.244700 ms MarkObjects: 11.576900 ms  DeleteObjects: 0.957600 ms)
+
+Starting new worker id: 1 with log in C:/Users/cld-main/Desktop/github-projects/infinity-redux/Logs/AssetImportWorkerHW1.log
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.139500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.959 ms
+	Integration:            12.744 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.088 ms
+	Total Operation Time:   14.793 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.7 MB to 446.7 MB.
+Total: 12.891700 ms (FindLiveObjects: 0.498400 ms CreateObjectMapping: 0.181400 ms MarkObjects: 11.876800 ms  DeleteObjects: 0.062000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.442100 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.910 ms
+	Integration:            13.741 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.511 ms
+	Total Operation Time:   15.164 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.7 MB to 446.7 MB.
+Total: 13.289800 ms (FindLiveObjects: 0.610400 ms CreateObjectMapping: 0.473000 ms MarkObjects: 11.896100 ms  DeleteObjects: 0.053200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.478200 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.741 ms
+	Integration:            12.579 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.529 ms
+	Total Operation Time:   13.851 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.8 MB to 446.8 MB.
+Total: 14.415800 ms (FindLiveObjects: 0.553200 ms CreateObjectMapping: 0.198300 ms MarkObjects: 13.209700 ms  DeleteObjects: 0.126300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.654500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.806 ms
+	Integration:            13.084 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.780 ms
+	Total Operation Time:   14.672 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.8 MB to 446.8 MB.
+Total: 14.142000 ms (FindLiveObjects: 0.677200 ms CreateObjectMapping: 0.287800 ms MarkObjects: 12.867000 ms  DeleteObjects: 0.053100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.543000 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.891 ms
+	Integration:            12.067 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.873 ms
+	Total Operation Time:   13.833 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.9 MB to 446.9 MB.
+Total: 13.550200 ms (FindLiveObjects: 0.538400 ms CreateObjectMapping: 0.186700 ms MarkObjects: 12.503100 ms  DeleteObjects: 0.049600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.439900 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.990 ms
+	Integration:            11.685 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.991 ms
+	Total Operation Time:   13.668 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.9 MB to 446.9 MB.
+Total: 14.093900 ms (FindLiveObjects: 0.615500 ms CreateObjectMapping: 0.222200 ms MarkObjects: 12.947800 ms  DeleteObjects: 0.051700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.522500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.797 ms
+	Integration:            16.188 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.702 ms
+	Total Operation Time:   17.690 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7522.
+Memory consumption went from 446.9 MB to 446.9 MB.
+Total: 13.933900 ms (FindLiveObjects: 0.646200 ms CreateObjectMapping: 0.290200 ms MarkObjects: 12.683300 ms  DeleteObjects: 0.051700 ms)
+
+GPU Resident Drawer created.
+Worker ready: AssetImportWorkerHW0 0
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.866800 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.762 ms
+	Integration:            14.253 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       40.447 ms
+	Total Operation Time:   55.466 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 486.7 MB to 486.7 MB.
+Total: 15.540500 ms (FindLiveObjects: 0.537100 ms CreateObjectMapping: 0.194700 ms MarkObjects: 14.501300 ms  DeleteObjects: 0.048400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540800 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.760 ms
+	Integration:            13.426 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.423 ms
+	Total Operation Time:   15.612 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 486.7 MB to 486.7 MB.
+Total: 15.967200 ms (FindLiveObjects: 0.641600 ms CreateObjectMapping: 0.211600 ms MarkObjects: 14.665200 ms  DeleteObjects: 0.107800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.391100 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.748 ms
+	Integration:            11.774 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.674 ms
+	Total Operation Time:   13.198 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.1 MB to 487.1 MB.
+Total: 14.899700 ms (FindLiveObjects: 0.691200 ms CreateObjectMapping: 0.240600 ms MarkObjects: 13.624100 ms  DeleteObjects: 0.061400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450000 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.904 ms
+	Integration:            13.436 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.716 ms
+	Total Operation Time:   15.059 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.1 MB to 487.1 MB.
+Total: 17.070500 ms (FindLiveObjects: 0.585100 ms CreateObjectMapping: 0.290200 ms MarkObjects: 15.864500 ms  DeleteObjects: 0.058200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.440400 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            1.781 ms
+	Integration:            12.684 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.855 ms
+	Total Operation Time:   15.322 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.1 MB to 487.1 MB.
+Total: 15.668300 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.232800 ms MarkObjects: 14.479900 ms  DeleteObjects: 0.077100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.618100 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.885 ms
+	Integration:            14.411 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.740 ms
+	Total Operation Time:   17.037 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.2 MB to 487.2 MB.
+Total: 13.418900 ms (FindLiveObjects: 0.499100 ms CreateObjectMapping: 0.202700 ms MarkObjects: 12.347600 ms  DeleteObjects: 0.053300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540300 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            1.083 ms
+	Integration:            14.428 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.087 ms
+	Total Operation Time:   16.600 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.2 MB to 487.2 MB.
+Total: 13.177100 ms (FindLiveObjects: 0.985600 ms CreateObjectMapping: 0.421500 ms MarkObjects: 11.463500 ms  DeleteObjects: 0.051000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.572900 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.669 ms
+	Integration:            13.918 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.922 ms
+	Total Operation Time:   15.512 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.2 MB to 487.2 MB.
+Total: 17.088400 ms (FindLiveObjects: 0.703300 ms CreateObjectMapping: 0.270000 ms MarkObjects: 15.804600 ms  DeleteObjects: 0.053200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.580700 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            1.156 ms
+	Integration:            11.273 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       1.374 ms
+	Total Operation Time:   13.807 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7643.
+Memory consumption went from 487.2 MB to 487.2 MB.
+Total: 14.525900 ms (FindLiveObjects: 0.508400 ms CreateObjectMapping: 0.161100 ms MarkObjects: 13.482200 ms  DeleteObjects: 0.082900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.475900 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            2.585 ms
+	Integration:            64.299 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.209 ms
+	Total Operation Time:   68.095 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 490.9 MB to 490.9 MB.
+Total: 13.601900 ms (FindLiveObjects: 0.531300 ms CreateObjectMapping: 0.143500 ms MarkObjects: 12.595600 ms  DeleteObjects: 0.056400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.950500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.975 ms
+	Integration:            21.237 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.068 ms
+	Total Operation Time:   23.283 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.2 MB to 491.2 MB.
+Total: 14.192300 ms (FindLiveObjects: 0.611800 ms CreateObjectMapping: 0.248600 ms MarkObjects: 13.019600 ms  DeleteObjects: 0.048700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.453300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.990 ms
+	Integration:            20.647 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.844 ms
+	Total Operation Time:   22.484 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.2 MB to 491.2 MB.
+Total: 16.754300 ms (FindLiveObjects: 0.684300 ms CreateObjectMapping: 0.286500 ms MarkObjects: 15.402200 ms  DeleteObjects: 0.079400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.086400 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.697 ms
+	Integration:            21.564 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.126 ms
+	Total Operation Time:   23.390 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.2 MB to 491.2 MB.
+Total: 15.615500 ms (FindLiveObjects: 0.545600 ms CreateObjectMapping: 0.154100 ms MarkObjects: 14.556800 ms  DeleteObjects: 0.070200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.933800 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.888 ms
+	Integration:            19.975 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.619 ms
+	Total Operation Time:   21.484 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7966.
+Memory consumption went from 491.1 MB to 491.1 MB.
+Total: 14.897100 ms (FindLiveObjects: 0.536800 ms CreateObjectMapping: 0.172800 ms MarkObjects: 13.894600 ms  DeleteObjects: 0.043600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.244000 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.918 ms
+	Integration:            18.967 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.050 ms
+	Total Operation Time:   20.938 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7966.
+Memory consumption went from 491.2 MB to 491.2 MB.
+Total: 13.663400 ms (FindLiveObjects: 0.580500 ms CreateObjectMapping: 0.173300 ms MarkObjects: 12.585000 ms  DeleteObjects: 0.055300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.127500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.910 ms
+	Integration:            19.525 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.648 ms
+	Total Operation Time:   21.085 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.4 MB to 491.4 MB.
+Total: 15.880600 ms (FindLiveObjects: 0.788200 ms CreateObjectMapping: 0.182000 ms MarkObjects: 14.598500 ms  DeleteObjects: 0.051400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.082500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            1.008 ms
+	Integration:            26.636 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.863 ms
+	Total Operation Time:   28.508 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7966.
+Memory consumption went from 491.3 MB to 491.3 MB.
+Total: 15.525100 ms (FindLiveObjects: 0.537200 ms CreateObjectMapping: 0.159900 ms MarkObjects: 14.514700 ms  DeleteObjects: 0.052700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.014500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.784 ms
+	Integration:            14.200 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.315 ms
+	Total Operation Time:   16.300 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 490.8 MB to 490.8 MB.
+Total: 14.291300 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.139100 ms MarkObjects: 13.373200 ms  DeleteObjects: 0.056200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.495300 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.786 ms
+	Integration:            11.772 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.524 ms
+	Total Operation Time:   13.085 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 490.8 MB to 490.8 MB.
+Total: 11.865200 ms (FindLiveObjects: 0.503100 ms CreateObjectMapping: 0.173900 ms MarkObjects: 10.869300 ms  DeleteObjects: 0.057500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.440100 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.745 ms
+	Integration:            19.183 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.609 ms
+	Total Operation Time:   20.539 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.3 MB to 491.3 MB.
+Total: 14.120000 ms (FindLiveObjects: 0.663800 ms CreateObjectMapping: 0.191200 ms MarkObjects: 12.960300 ms  DeleteObjects: 0.048800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.030600 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            1.001 ms
+	Integration:            16.425 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.807 ms
+	Total Operation Time:   18.234 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.6 MB to 491.6 MB.
+Total: 13.803300 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.166000 ms MarkObjects: 12.825400 ms  DeleteObjects: 0.050000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.195100 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.989 ms
+	Integration:            20.434 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.807 ms
+	Total Operation Time:   22.232 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.6 MB to 491.6 MB.
+Total: 14.802300 ms (FindLiveObjects: 0.749800 ms CreateObjectMapping: 0.206100 ms MarkObjects: 13.525800 ms  DeleteObjects: 0.053000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.814500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.900 ms
+	Integration:            21.676 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.975 ms
+	Total Operation Time:   23.553 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.6 MB to 491.6 MB.
+Total: 15.716400 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.279100 ms MarkObjects: 14.489300 ms  DeleteObjects: 0.083900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.829300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.917 ms
+	Integration:            21.303 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.063 ms
+	Total Operation Time:   23.286 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.6 MB to 491.6 MB.
+Total: 12.850800 ms (FindLiveObjects: 0.485900 ms CreateObjectMapping: 0.151200 ms MarkObjects: 11.798600 ms  DeleteObjects: 0.066600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.173200 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.873 ms
+	Integration:            23.274 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.972 ms
+	Total Operation Time:   25.122 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.7 MB to 491.7 MB.
+Total: 16.448700 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.144700 ms MarkObjects: 15.472900 ms  DeleteObjects: 0.057500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.426300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.818 ms
+	Integration:            22.840 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.748 ms
+	Total Operation Time:   24.407 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.7 MB to 491.7 MB.
+Total: 15.296600 ms (FindLiveObjects: 0.564500 ms CreateObjectMapping: 0.230700 ms MarkObjects: 14.182700 ms  DeleteObjects: 0.053300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.774900 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.689 ms
+	Integration:            19.740 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.615 ms
+	Total Operation Time:   21.046 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.7 MB to 491.7 MB.
+Total: 15.168400 ms (FindLiveObjects: 0.713200 ms CreateObjectMapping: 0.429600 ms MarkObjects: 13.708800 ms  DeleteObjects: 0.049500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.237400 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.959 ms
+	Integration:            22.139 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.778 ms
+	Total Operation Time:   23.878 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.8 MB to 491.7 MB.
+Total: 18.480600 ms (FindLiveObjects: 0.690200 ms CreateObjectMapping: 0.241700 ms MarkObjects: 17.183400 ms  DeleteObjects: 0.072800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.063300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.772 ms
+	Integration:            21.625 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.795 ms
+	Total Operation Time:   23.194 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 491.9 MB to 491.9 MB.
+Total: 14.916900 ms (FindLiveObjects: 0.528200 ms CreateObjectMapping: 0.172100 ms MarkObjects: 13.919800 ms  DeleteObjects: 0.046500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.909100 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.893 ms
+	Integration:            18.066 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.551 ms
+	Total Operation Time:   19.511 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 492.0 MB to 492.0 MB.
+Total: 14.765300 ms (FindLiveObjects: 0.511500 ms CreateObjectMapping: 0.156900 ms MarkObjects: 13.803100 ms  DeleteObjects: 0.047100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.839200 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.788 ms
+	Integration:            23.056 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.088 ms
+	Total Operation Time:   24.935 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 492.1 MB to 492.1 MB.
+Total: 15.408700 ms (FindLiveObjects: 0.588800 ms CreateObjectMapping: 0.190000 ms MarkObjects: 14.239500 ms  DeleteObjects: 0.071200 ms)
+
+Worker ready: AssetImportWorkerHW1 1
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.990400 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.776 ms
+	Integration:            23.778 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.887 ms
+	Total Operation Time:   25.443 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7984.
+Memory consumption went from 492.8 MB to 492.8 MB.
+Total: 16.404300 ms (FindLiveObjects: 0.672500 ms CreateObjectMapping: 0.203800 ms MarkObjects: 15.156800 ms  DeleteObjects: 0.075700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.344600 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.777 ms
+	Integration:            26.310 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.870 ms
+	Total Operation Time:   27.960 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 492.9 MB to 492.9 MB.
+Total: 17.823300 ms (FindLiveObjects: 0.631000 ms CreateObjectMapping: 0.180600 ms MarkObjects: 16.678900 ms  DeleteObjects: 0.057700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.271700 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.829 ms
+	Integration:            27.052 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.024 ms
+	Total Operation Time:   28.908 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 492.8 MB to 492.8 MB.
+Total: 19.265500 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.207100 ms MarkObjects: 17.978100 ms  DeleteObjects: 0.170500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.014000 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.869 ms
+	Integration:            24.883 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       1.157 ms
+	Total Operation Time:   26.914 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 492.9 MB to 492.9 MB.
+Total: 15.963300 ms (FindLiveObjects: 0.651500 ms CreateObjectMapping: 0.210400 ms MarkObjects: 14.766100 ms  DeleteObjects: 0.060000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.152200 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.719 ms
+	Integration:            20.727 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.724 ms
+	Total Operation Time:   22.171 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 18.019400 ms (FindLiveObjects: 0.766900 ms CreateObjectMapping: 0.353400 ms MarkObjects: 16.548300 ms  DeleteObjects: 0.063500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.194300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.761 ms
+	Integration:            22.564 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.756 ms
+	Total Operation Time:   24.083 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 18.068700 ms (FindLiveObjects: 0.543300 ms CreateObjectMapping: 0.187600 ms MarkObjects: 16.989200 ms  DeleteObjects: 0.060200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.039600 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.811 ms
+	Integration:            25.447 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.860 ms
+	Total Operation Time:   27.121 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 20.015600 ms (FindLiveObjects: 0.959000 ms CreateObjectMapping: 0.322100 ms MarkObjects: 18.290800 ms  DeleteObjects: 0.098000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.391500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.836 ms
+	Integration:            24.205 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.981 ms
+	Total Operation Time:   26.025 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 16.383600 ms (FindLiveObjects: 0.648600 ms CreateObjectMapping: 0.222300 ms MarkObjects: 15.168200 ms  DeleteObjects: 0.067100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.022500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.684 ms
+	Integration:            21.857 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.593 ms
+	Total Operation Time:   23.135 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 17.279000 ms (FindLiveObjects: 0.594500 ms CreateObjectMapping: 0.161200 ms MarkObjects: 16.218900 ms  DeleteObjects: 0.048800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.038300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.763 ms
+	Integration:            27.947 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.776 ms
+	Total Operation Time:   29.489 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 15.228500 ms (FindLiveObjects: 0.633900 ms CreateObjectMapping: 0.160400 ms MarkObjects: 14.114300 ms  DeleteObjects: 0.056200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.957800 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.759 ms
+	Integration:            21.387 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.652 ms
+	Total Operation Time:   22.801 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 17.432000 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.199200 ms MarkObjects: 16.330100 ms  DeleteObjects: 0.068600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.084300 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.801 ms
+	Integration:            23.542 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.170 ms
+	Total Operation Time:   25.516 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 15.306100 ms (FindLiveObjects: 0.573400 ms CreateObjectMapping: 0.271100 ms MarkObjects: 14.138300 ms  DeleteObjects: 0.064600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.337700 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            1.009 ms
+	Integration:            22.077 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.702 ms
+	Total Operation Time:   23.791 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.0 MB to 493.0 MB.
+Total: 15.725600 ms (FindLiveObjects: 0.611700 ms CreateObjectMapping: 0.223900 ms MarkObjects: 14.572400 ms  DeleteObjects: 0.054900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.080400 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.745 ms
+	Integration:            22.601 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.823 ms
+	Total Operation Time:   24.171 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 18.130000 ms (FindLiveObjects: 0.539600 ms CreateObjectMapping: 0.545100 ms MarkObjects: 16.699100 ms  DeleteObjects: 0.074100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.228000 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.771 ms
+	Integration:            24.140 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.726 ms
+	Total Operation Time:   25.639 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.8 MB to 493.8 MB.
+Total: 18.482900 ms (FindLiveObjects: 0.648400 ms CreateObjectMapping: 0.315100 ms MarkObjects: 17.138500 ms  DeleteObjects: 0.080900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.040500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.836 ms
+	Integration:            25.447 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.867 ms
+	Total Operation Time:   27.153 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 19.088300 ms (FindLiveObjects: 0.841100 ms CreateObjectMapping: 0.321600 ms MarkObjects: 17.481600 ms  DeleteObjects: 0.107100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.147000 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.839 ms
+	Integration:            25.198 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.901 ms
+	Total Operation Time:   26.940 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 17.547800 ms (FindLiveObjects: 0.684500 ms CreateObjectMapping: 0.405500 ms MarkObjects: 16.094900 ms  DeleteObjects: 0.077900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.882800 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            1.105 ms
+	Integration:            23.331 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.839 ms
+	Total Operation Time:   25.278 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 20.601500 ms (FindLiveObjects: 0.608800 ms CreateObjectMapping: 0.355100 ms MarkObjects: 19.265400 ms  DeleteObjects: 0.078900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.237100 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.850 ms
+	Integration:            24.979 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.470 ms
+	Total Operation Time:   27.302 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 18.607200 ms (FindLiveObjects: 0.767400 ms CreateObjectMapping: 0.251600 ms MarkObjects: 16.940600 ms  DeleteObjects: 0.085200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.223600 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.932 ms
+	Integration:            26.734 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.695 ms
+	Total Operation Time:   29.364 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 18.776900 ms (FindLiveObjects: 0.612600 ms CreateObjectMapping: 0.218400 ms MarkObjects: 17.597700 ms  DeleteObjects: 0.066300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.321500 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.805 ms
+	Integration:            25.711 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.963 ms
+	Total Operation Time:   27.483 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 19.150300 ms (FindLiveObjects: 1.003400 ms CreateObjectMapping: 0.404200 ms MarkObjects: 17.389000 ms  DeleteObjects: 0.060400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.422100 ms
+Loaded scene 'Assets/Game/Scenes/GrayboxEncounter.unity'
+	Deserialize:            0.910 ms
+	Integration:            28.643 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       1.855 ms
+	Total Operation Time:   31.411 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7968.
+Memory consumption went from 493.9 MB to 493.9 MB.
+Total: 18.845700 ms (FindLiveObjects: 0.681200 ms CreateObjectMapping: 0.229300 ms MarkObjects: 17.528000 ms  DeleteObjects: 0.098900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.213100 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.943 ms
+	Integration:            20.815 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.002 ms
+	Total Operation Time:   22.763 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.4 MB to 493.4 MB.
+Total: 18.834600 ms (FindLiveObjects: 1.020800 ms CreateObjectMapping: 0.352700 ms MarkObjects: 16.795800 ms  DeleteObjects: 0.071900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.519200 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.815 ms
+	Integration:            11.038 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.864 ms
+	Total Operation Time:   12.719 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.3 MB to 493.3 MB.
+Total: 15.248300 ms (FindLiveObjects: 0.536600 ms CreateObjectMapping: 0.182400 ms MarkObjects: 14.197100 ms  DeleteObjects: 0.061200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.426000 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.692 ms
+	Integration:            13.006 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.686 ms
+	Total Operation Time:   14.387 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.3 MB to 493.3 MB.
+Total: 14.621900 ms (FindLiveObjects: 0.488300 ms CreateObjectMapping: 0.176300 ms MarkObjects: 13.626700 ms  DeleteObjects: 0.066100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.510700 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.683 ms
+	Integration:            13.287 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.528 ms
+	Total Operation Time:   14.499 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.3 MB to 493.3 MB.
+Total: 14.605200 ms (FindLiveObjects: 0.504600 ms CreateObjectMapping: 0.157600 ms MarkObjects: 13.629100 ms  DeleteObjects: 0.058100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.973 ms
+	Integration:            13.349 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.845 ms
+	Total Operation Time:   15.169 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.3 MB to 493.3 MB.
+Total: 14.060600 ms (FindLiveObjects: 0.463600 ms CreateObjectMapping: 0.160300 ms MarkObjects: 13.148200 ms  DeleteObjects: 0.043400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.341600 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.924 ms
+	Integration:            12.603 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.643 ms
+	Total Operation Time:   14.170 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.3 MB to 493.3 MB.
+Total: 15.839400 ms (FindLiveObjects: 0.550900 ms CreateObjectMapping: 0.154500 ms MarkObjects: 14.834400 ms  DeleteObjects: 0.048300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.527600 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.937 ms
+	Integration:            12.406 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.984 ms
+	Total Operation Time:   14.329 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.5 MB to 493.4 MB.
+Total: 13.871800 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.197400 ms MarkObjects: 12.929200 ms  DeleteObjects: 0.049300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.515200 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.559 ms
+	Integration:            13.074 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.670 ms
+	Total Operation Time:   14.305 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 16.080400 ms (FindLiveObjects: 0.545800 ms CreateObjectMapping: 0.188400 ms MarkObjects: 15.015200 ms  DeleteObjects: 0.068800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.673500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.744 ms
+	Integration:            13.368 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       1.032 ms
+	Total Operation Time:   15.148 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 14.660000 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 0.196100 ms MarkObjects: 13.563000 ms  DeleteObjects: 0.085700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364900 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.923 ms
+	Integration:            11.174 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.843 ms
+	Total Operation Time:   12.941 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 15.558800 ms (FindLiveObjects: 0.520200 ms CreateObjectMapping: 0.226000 ms MarkObjects: 14.359100 ms  DeleteObjects: 0.097900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.502500 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.776 ms
+	Integration:            11.950 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.898 ms
+	Total Operation Time:   13.626 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 15.833300 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.186400 ms MarkObjects: 14.773400 ms  DeleteObjects: 0.072400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.497000 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            0.786 ms
+	Integration:            13.173 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.889 ms
+	Total Operation Time:   14.850 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 16.282000 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.186300 ms MarkObjects: 15.310700 ms  DeleteObjects: 0.051500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.571900 ms
+Loaded scene 'Assets/Game/Scenes/Bootstrap.unity'
+	Deserialize:            1.040 ms
+	Integration:            13.680 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.478 ms
+	Total Operation Time:   16.201 ms
+Unloading 11 unused Assets / (8.1 KB). Loaded Objects now: 7645.
+Memory consumption went from 493.6 MB to 493.6 MB.
+Total: 17.899800 ms (FindLiveObjects: 0.590800 ms CreateObjectMapping: 0.227100 ms MarkObjects: 16.785000 ms  DeleteObjects: 0.046500 ms)
+
+Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+Saving results to: C:\Users\cld-main\Desktop\github-projects\infinity-redux\output\task-09\ui-cancellation-red.xml
+GPU Resident Drawer disposed.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.183 ms
+	Integration:            10.880 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   12.085 ms
+Unloading 0 unused Assets / (1.4 KB). Loaded Objects now: 7467.
+Memory consumption went from 489.0 MB to 489.0 MB.
+Total: 14.653900 ms (FindLiveObjects: 0.527600 ms CreateObjectMapping: 0.257500 ms MarkObjects: 13.570100 ms  DeleteObjects: 0.025000 ms)
+
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:129)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 7469.
+Memory consumption went from 489.1 MB to 489.1 MB.
+Total: 16.832200 ms (FindLiveObjects: 0.474400 ms CreateObjectMapping: 0.165600 ms MarkObjects: 15.900800 ms  DeleteObjects: 0.022200 ms)
+
+Asset Pipeline Refresh (id=dc937b75ac325e247b10e056252e60a2): Total: 0.070 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 2 (Failed). One or more tests failed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+MonoPathRemapper: Attempts to remap: 42890; Successful remaps: 26460
+Serialized file version minimum: 22, current 23
+Killing ADB server in 2.1099855 seconds.
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '5a2c624fed02773e2ed7bfa48950cc1d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=054c890a8f4b6dddbea933bc5e4b7df4 DependenciesID=161ee8f2c20247933bf32bfcf1575115 StaticDependenciesID=eb69c295e5fc7ff0c1cabfce04ffbd80 
+Asset Pipeline Refresh (id=a5375325fe4f3e64ea75b8491fc75c89): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-cld-main-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-cld-main channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790738023028,"processId":31380,"allocatedMemory":17730668,"memoryLabels":[{"Default":206779},{"Permanent":15516},{"NewDelete":71311},{"Thread":4138088},{"Manager":2338245},{"VertexData":392},{"Geometry":816},{"Texture":24},{"Shader":850534},{"Material":24},{"GfxDevice":56184},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":37632},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1319264},{"BaseObject":109696},{"Resource":1208},{"Renderer":2384},{"Transform":4685},{"File":19273},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":506262},{"StaticString":3808},{"Utility":2674806},{"Curl":2478},{"PoolAlloc":2840},{"AI":80},{"TypeTree":32269},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":288},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":122326},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4640829},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":266},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3210},{"Windowing":456},{"Licensing":12575},{"AssetReference":32},{"IPCStream":32}]}

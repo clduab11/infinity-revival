@@ -1,0 +1,19 @@
+{
+    "Fps": 0,
+    "Enabled": [
+        "enemy:1:660000:Parried:100:100",
+        "attack:1:1300000:20:80",
+        "attack:2:1800000:20:60",
+        "pattern:sword.side-pair:3160000:597037503",
+        "enemy:2:3820000:Hit:75:100",
+        "final:75:100:3:Recovery:60:22:25:EnemySequence:0:Running:0"
+    ],
+    "Disabled": [
+        "enemy:1:660000:Parried:100:100",
+        "attack:1:1300000:20:80",
+        "attack:2:1800000:20:60",
+        "pattern:sword.side-pair:3160000:597037503",
+        "enemy:2:3820000:Hit:75:100",
+        "final:75:100:3:Recovery:60:22:25:EnemySequence:0:Running:0"
+    ]
+}

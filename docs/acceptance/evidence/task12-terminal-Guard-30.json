@@ -1,0 +1,41 @@
+{
+    "Scenario": "Guard",
+    "Fps": 30,
+    "EndUs": 1170000,
+    "Commands": [
+        "600000:1:GuardPress",
+        "700000:2:GuardRelease"
+    ],
+    "Enabled": [
+        "initial-ai:20260929:20260929:1:sword.intro:Executing:prototype-enemy-decks-v1:task08-balance-2026-09-29-v1:sword.intro:0:0:20260929:20260929|1:Guard, Parry, Dodge:Left:Up:20:25:10000:660000:1160000",
+        "timeline:10000:Milestone:Telegraph:1:100:100:3:Ready:False:100:0:0:False:4:EnemySequence:Running:0:0",
+        "accepted-control:1:600000:GuardPress:100:100:3:Guarding:True:100:0:0:False:4:EnemySequence:Running:0:0",
+        "timeline:600000:DefenseCommand:1:GuardPress:100:100:3:Guarding:True:100:0:0:False:4:EnemySequence:Running:0:0",
+        "enemy:1:660000:Blocked:100:80:100:80:3:Guarding:True:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:660000:Milestone:Impact:2:100:80:3:Guarding:True:100:5:5:False:4:EnemySequence:Running:0:0",
+        "accepted-control:2:700000:GuardRelease:100:80:3:Ready:False:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:700000:DefenseCommand:2:GuardRelease:100:80:3:Ready:False:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:1160000:Milestone:PhaseTransition:9223372036854775807:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "timeline:1160000:Milestone:RecoveryComplete:3:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "final:1170000:Running:0:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "current-ai:20260929:20260929:1:sword.intro:PlayerOpening:prototype-enemy-decks-v1:task08-balance-2026-09-29-v1:sword.intro:0:0:20260929:20260929|1:Guard, Parry, Dodge:Left:Up:20:25:10000:660000:1160000",
+        "pending:1"
+    ],
+    "Disabled": [
+        "initial-ai:20260929:20260929:1:sword.intro:Executing:prototype-enemy-decks-v1:task08-balance-2026-09-29-v1:sword.intro:0:0:20260929:20260929|1:Guard, Parry, Dodge:Left:Up:20:25:10000:660000:1160000",
+        "timeline:10000:Milestone:Telegraph:1:100:100:3:Ready:False:100:0:0:False:4:EnemySequence:Running:0:0",
+        "accepted-control:1:600000:GuardPress:100:100:3:Guarding:True:100:0:0:False:4:EnemySequence:Running:0:0",
+        "timeline:600000:DefenseCommand:1:GuardPress:100:100:3:Guarding:True:100:0:0:False:4:EnemySequence:Running:0:0",
+        "enemy:1:660000:Blocked:100:80:100:80:3:Guarding:True:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:660000:Milestone:Impact:2:100:80:3:Guarding:True:100:5:5:False:4:EnemySequence:Running:0:0",
+        "accepted-control:2:700000:GuardRelease:100:80:3:Ready:False:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:700000:DefenseCommand:2:GuardRelease:100:80:3:Ready:False:100:5:5:False:4:EnemySequence:Running:0:0",
+        "timeline:1160000:Milestone:PhaseTransition:9223372036854775807:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "timeline:1160000:Milestone:RecoveryComplete:3:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "final:1170000:Running:0:100:80:3:Ready:False:100:5:5:False:5:PlayerOpening:Running:1160000:3160000",
+        "current-ai:20260929:20260929:1:sword.intro:PlayerOpening:prototype-enemy-decks-v1:task08-balance-2026-09-29-v1:sword.intro:0:0:20260929:20260929|1:Guard, Parry, Dodge:Left:Up:20:25:10000:660000:1160000",
+        "pending:1"
+    ],
+    "DeathSample": 0.0,
+    "DeathPoseChanged": false
+}

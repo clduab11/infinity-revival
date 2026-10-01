@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b5076f797043829751c09409467472, type: 3}
+  m_Name: weapon.pilot.sword
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.WeaponDefinition
+  Id: weapon.pilot.sword
+  Version: 1
+  LocalizationKey: content.weapon.pilot.sword
+  Family: 0
+  OneHanded: 1
+  ShieldCompatible: 1
+  Attacks:
+  - {fileID: 11400000, guid: 53a28ef083e61a040ac48974b67be53c, type: 2}
+  - {fileID: 11400000, guid: a7c789ca238b7bc4b9406e365c633326, type: 2}
+  - {fileID: 11400000, guid: 8fc8c93a43cecc444ade73543eb5ae45, type: 2}
+  - {fileID: 11400000, guid: cefaa30c31cef50479d4fd866dcba5b3, type: 2}
+  MotionProfile: {fileID: 11400000, guid: 2be17d6a1aefbc5478765068d32de564, type: 2}
+  Icon: {fileID: 0}
+  Materials:
+  - {fileID: 2100000, guid: ff5b6c9e1c2bfe949950c382d2dc04ae, type: 2}
+  - {fileID: 2100000, guid: 9d36fe92ae32a1f43916c36182f2573f, type: 2}
+  - {fileID: 2100000, guid: d15fd66411d76224b8f2cc091a59923d, type: 2}
+  ProvenancePath: SourceArt/Characters/prototype-pair-source.json
+  ProductionReady: 0
+  RequestedCapabilities: []

@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "source_version": "weapon-family-pilot-1.0.0",
+  "blender_version": "5.2.1 LTS",
+  "original_art": true,
+  "external_textures": false,
+  "rig_id": "rig.prototype-pair.23-bone.v1",
+  "units": "meters",
+  "forward": "-Y",
+  "up": "Z",
+  "bones": [
+    [
+      "Hips",
+      null,
+      [
+        0,
+        0,
+        0.91
+      ],
+      [
+        0,
+        0,
+        1.01
+      ]
+    ],
+    [
+      "Spine",
+      "Hips",
+      [
+        0,
+        0,
+        1.01
+      ],
+      [
+        0,
+        0,
+        1.19
+      ]
+    ],
+    [
+      "Chest",
+      "Spine",
+      [
+        0,
+        0,
+        1.19
+      ],
+      [
+        0,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "Neck",
+      "Chest",
+      [
+        0,
+        0,
+        1.4
+      ],
+      [
+        0,
+        0,
+        1.53
+      ]
+    ],
+    [
+      "Head",
+      "Neck",
+      [
+        0,
+        0,
+        1.53
+      ],
+      [
+        0,
+        0,
+        1.78
+      ]
+    ],
+    [
+      "LeftShoulder",
+      "Chest",
+      [
+        0.04,
+        0,
+        1.4
+      ],
+      [
+        0.18,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftUpperArm",
+      "LeftShoulder",
+      [
+        0.18,
+        0,
+        1.4
+      ],
+      [
+        0.45,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftLowerArm",
+      "LeftUpperArm",
+      [
+        0.45,
+        0,
+        1.4
+      ],
+      [
+        0.7,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftHand",
+      "LeftLowerArm",
+      [
+        0.7,
+        0,
+        1.4
+      ],
+      [
+        0.83,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "LeftUpperLeg",
+      "Hips",
+      [
+        0.1,
+        0,
+        0.91
+      ],
+      [
+        0.1,
+        0,
+        0.5
+      ]
+    ],
+    [
+      "LeftLowerLeg",
+      "LeftUpperLeg",
+      [
+        0.1,
+        0,
+        0.5
+      ],
+      [
+        0.1,
+        0,
+        0.12
+      ]
+    ],
+    [
+      "LeftFoot",
+      "LeftLowerLeg",
+      [
+        0.1,
+        0,
+        0.12
+      ],
+      [
+        0.1,
+        -0.14,
+        0.05
+      ]
+    ],
+    [
+      "LeftToes",
+      "LeftFoot",
+      [
+        0.1,
+        -0.14,
+        0.05
+      ],
+      [
+        0.1,
+        -0.24,
+        0.05
+      ]
+    ],
+    [
+      "RightShoulder",
+      "Chest",
+      [
+        -0.04,
+        0,
+        1.4
+      ],
+      [
+        -0.18,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightUpperArm",
+      "RightShoulder",
+      [
+        -0.18,
+        0,
+        1.4
+      ],
+      [
+        -0.45,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightLowerArm",
+      "RightUpperArm",
+      [
+        -0.45,
+        0,
+        1.4
+      ],
+      [
+        -0.7,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightHand",
+      "RightLowerArm",
+      [
+        -0.7,
+        0,
+        1.4
+      ],
+      [
+        -0.83,
+        0,
+        1.4
+      ]
+    ],
+    [
+      "RightUpperLeg",
+      "Hips",
+      [
+        -0.1,
+        0,
+        0.91
+      ],
+      [
+        -0.1,
+        0,
+        0.5
+      ]
+    ],
+    [
+      "RightLowerLeg",
+      "RightUpperLeg",
+      [
+        -0.1,
+        0,
+        0.5
+      ],
+      [
+        -0.1,
+        0,
+        0.12
+      ]
+    ],
+    [
+      "RightFoot",
+      "RightLowerLeg",
+      [
+        -0.1,
+        0,
+        0.12
+      ],
+      [
+        -0.1,
+        -0.14,
+        0.05
+      ]
+    ],
+    [
+      "RightToes",
+      "RightFoot",
+      [
+        -0.1,
+        -0.14,
+        0.05
+      ],
+      [
+        -0.1,
+        -0.24,
+        0.05
+      ]
+    ],
+    [
+      "WeaponSocket",
+      "RightHand",
+      [
+        -0.79,
+        0,
+        1.4
+      ],
+      [
+        -0.79,
+        0,
+        1.46
+      ]
+    ],
+    [
+      "ShieldSocket",
+      "LeftHand",
+      [
+        0.79,
+        0,
+        1.4
+      ],
+      [
+        0.79,
+        -0.06,
+        1.4
+      ]
+    ]
+  ],
+  "families": {
+    "Axe": {
+      "actor": "AxePilot",
+      "rig": "AxePilot_Rig",
+      "clips": {
+        "Idle": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            1,
+            101
+          ]
+        },
+        "Guard": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            111,
+            211
+          ]
+        },
+        "Parry": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            221,
+            251
+          ]
+        },
+        "DodgeLeft": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            261,
+            297
+          ]
+        },
+        "DodgeRight": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            307,
+            343
+          ]
+        },
+        "CutUp": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            353,
+            413
+          ],
+          "impact_frame": 15
+        },
+        "CutDown": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            423,
+            483
+          ],
+          "impact_frame": 15
+        },
+        "CutLeft": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            493,
+            553
+          ],
+          "impact_frame": 15
+        },
+        "CutRight": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            563,
+            623
+          ],
+          "impact_frame": 15
+        },
+        "Hit": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            633,
+            663
+          ]
+        },
+        "Death": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            673,
+            773
+          ]
+        },
+        "EnemyTell": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            783,
+            843
+          ]
+        },
+        "EnemyAttack": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            853,
+            913
+          ],
+          "impact_frame": 15
+        }
+      },
+      "contact_point_blender": [
+        -1.055,
+        0,
+        1.88
+      ],
+      "release_frame": 9,
+      "markers": [
+        "AxePilot_WeaponTip",
+        "AxePilot_WeaponSocket",
+        "AxePilot_ShieldSocket"
+      ],
+      "lods": [
+        {
+          "file": "AxePilot_LOD0.fbx",
+          "vertices": 980,
+          "triangles": 1836,
+          "max_influences": 2,
+          "parts": [
+            "AxePilot_LOD0_Body",
+            "AxePilot_LOD0_Weapon",
+            "AxePilot_LOD0_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        },
+        {
+          "file": "AxePilot_LOD1.fbx",
+          "vertices": 672,
+          "triangles": 1220,
+          "max_influences": 2,
+          "parts": [
+            "AxePilot_LOD1_Body",
+            "AxePilot_LOD1_Weapon",
+            "AxePilot_LOD1_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        },
+        {
+          "file": "AxePilot_LOD2.fbx",
+          "vertices": 441,
+          "triangles": 758,
+          "max_influences": 2,
+          "parts": [
+            "AxePilot_LOD2_Body",
+            "AxePilot_LOD2_Weapon",
+            "AxePilot_LOD2_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        }
+      ]
+    },
+    "Mace": {
+      "actor": "MacePilot",
+      "rig": "MacePilot_Rig",
+      "clips": {
+        "Idle": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            1,
+            101
+          ]
+        },
+        "Guard": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            111,
+            211
+          ]
+        },
+        "Parry": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            221,
+            251
+          ]
+        },
+        "DodgeLeft": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            261,
+            297
+          ]
+        },
+        "DodgeRight": {
+          "duration_frames": 36,
+          "duration_seconds": 0.36,
+          "action_frames": [
+            0,
+            36
+          ],
+          "nla_frames": [
+            307,
+            343
+          ]
+        },
+        "CutUp": {
+          "duration_frames": 70,
+          "duration_seconds": 0.7,
+          "action_frames": [
+            0,
+            70
+          ],
+          "nla_frames": [
+            353,
+            423
+          ],
+          "impact_frame": 18
+        },
+        "CutDown": {
+          "duration_frames": 70,
+          "duration_seconds": 0.7,
+          "action_frames": [
+            0,
+            70
+          ],
+          "nla_frames": [
+            433,
+            503
+          ],
+          "impact_frame": 18
+        },
+        "CutLeft": {
+          "duration_frames": 70,
+          "duration_seconds": 0.7,
+          "action_frames": [
+            0,
+            70
+          ],
+          "nla_frames": [
+            513,
+            583
+          ],
+          "impact_frame": 18
+        },
+        "CutRight": {
+          "duration_frames": 70,
+          "duration_seconds": 0.7,
+          "action_frames": [
+            0,
+            70
+          ],
+          "nla_frames": [
+            593,
+            663
+          ],
+          "impact_frame": 18
+        },
+        "Hit": {
+          "duration_frames": 30,
+          "duration_seconds": 0.3,
+          "action_frames": [
+            0,
+            30
+          ],
+          "nla_frames": [
+            673,
+            703
+          ]
+        },
+        "Death": {
+          "duration_frames": 100,
+          "duration_seconds": 1.0,
+          "action_frames": [
+            0,
+            100
+          ],
+          "nla_frames": [
+            713,
+            813
+          ]
+        },
+        "EnemyTell": {
+          "duration_frames": 60,
+          "duration_seconds": 0.6,
+          "action_frames": [
+            0,
+            60
+          ],
+          "nla_frames": [
+            823,
+            883
+          ]
+        },
+        "EnemyAttack": {
+          "duration_frames": 70,
+          "duration_seconds": 0.7,
+          "action_frames": [
+            0,
+            70
+          ],
+          "nla_frames": [
+            893,
+            963
+          ],
+          "impact_frame": 18
+        }
+      },
+      "contact_point_blender": [
+        -0.79,
+        0,
+        1.94
+      ],
+      "release_frame": 10,
+      "markers": [
+        "MacePilot_WeaponTip",
+        "MacePilot_WeaponSocket",
+        "MacePilot_ShieldSocket"
+      ],
+      "lods": [
+        {
+          "file": "MacePilot_LOD0.fbx",
+          "vertices": 1040,
+          "triangles": 1956,
+          "max_influences": 2,
+          "parts": [
+            "MacePilot_LOD0_Body",
+            "MacePilot_LOD0_Weapon",
+            "MacePilot_LOD0_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        },
+        {
+          "file": "MacePilot_LOD1.fbx",
+          "vertices": 704,
+          "triangles": 1284,
+          "max_influences": 2,
+          "parts": [
+            "MacePilot_LOD1_Body",
+            "MacePilot_LOD1_Weapon",
+            "MacePilot_LOD1_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        },
+        {
+          "file": "MacePilot_LOD2.fbx",
+          "vertices": 452,
+          "triangles": 780,
+          "max_influences": 2,
+          "parts": [
+            "MacePilot_LOD2_Body",
+            "MacePilot_LOD2_Weapon",
+            "MacePilot_LOD2_Shield"
+          ],
+          "weapon_rigid_bone": "RightHand",
+          "shield_rigid_bone": "LeftHand"
+        }
+      ]
+    }
+  },
+  "configuration": {
+    "schema_version": 1,
+    "source_version": "weapon-family-pilot-1.0.0",
+    "scene": "FWR_WeaponFamilyPilot",
+    "fps": 100,
+    "units": "meters",
+    "rig_id": "rig.prototype-pair.23-bone.v1",
+    "character_height_m": 1.8,
+    "lod_segments": [
+      12,
+      8,
+      5
+    ],
+    "material_slots": [
+      "Ceramic",
+      "Brass",
+      "Cloth"
+    ],
+    "export_directory": "Assets/Game/Content/Characters/WeaponFamilyPilot",
+    "source_file": "SourceArt/Equipment/WeaponFamilyPilot/WeaponFamilyPilot.blend",
+    "source_manifest": "SourceArt/Equipment/WeaponFamilyPilot/weapon-family-pilot-source.json",
+    "source_config": "SourceArt/Equipment/WeaponFamilyPilot/weapon-pilot-export.json",
+    "families": [
+      {
+        "family": "Axe",
+        "actor": "AxePilot",
+        "contact_frame": 15,
+        "duration_frames": 60,
+        "release_frame": 9
+      },
+      {
+        "family": "Mace",
+        "actor": "MacePilot",
+        "contact_frame": 18,
+        "duration_frames": 70,
+        "release_frame": 10
+      }
+    ],
+    "accepted_source_version": "prototype-pair-1.0.3",
+    "accepted_recipe_sha256": "c3e5ab5acb199304955cd480d4cfbf556158e21e47ac46932cbb90eb56d0a246",
+    "accepted_motion_sha256": "90dbe95c550df413eb69fbd943d7c98801a7f20020f7f7e836819ceed4b8f807",
+    "frame_convention": "Keys from frame 0 through duration_frames inclusive; duration = duration_frames / fps.",
+    "fbx": {
+      "axis_forward": "-Z",
+      "axis_up": "Y",
+      "animation_lods": [
+        0
+      ],
+      "add_leaf_bones": false
+    }
+  },
+  "upstream_sha256": {
+    "Assets/Game/Content/Characters/PrototypePair/Brass.mat": "58275934b9c3b75637e901039159b21341570c3e640ecdb93df5382efe89b874",
+    "Assets/Game/Content/Characters/PrototypePair/Brass.mat.meta": "bf49d2d7f7f671b05f8107e748b39731543b54997bce24db26c4f08e7e7d04f4",
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab": "4b3db4fe7e082b480ea06dc63fcdcc8a5fe6c2c9a62c44997f15afc582c0071e",
+    "Assets/Game/Content/Characters/PrototypePair/Captain.prefab.meta": "b4bd12b735588abc6c8ed0a9e2da138af8b308891cc85dd5001a0ca8b1427620",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx": "a90c7a569ed79a19a2784326cc925150d3ee7f8e9fdcdfd576394010b81fef43",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD0.fbx.meta": "86b165d5ba7d0365defe497c934c08547fb416fffe279c085f13e4f1e3f1b7e3",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx": "43a0845b4bcea4087ecfa5df1e5c67d8430404de8c9d2f1d7ad04af8ae6fef65",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD1.fbx.meta": "67e9dc68361d4e172e62f653189d7b8b01288e10b3acc1a5d69f2d2b9c0b12cd",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx": "6aeccaea8500208f099dfbb9c5758eed84a4617dddfed4cf8d113e7f761ed906",
+    "Assets/Game/Content/Characters/PrototypePair/Captain_LOD2.fbx.meta": "4ac8ec6223e0f490d1c77677457a0579f2958e85db4abad22bab60f8d848f286",
+    "Assets/Game/Content/Characters/PrototypePair/Ceramic.mat": "a0a6e68e8347c718dab84028f633a67a50ce029d9c55cd9b7441d8e2112223b9",
+    "Assets/Game/Content/Characters/PrototypePair/Ceramic.mat.meta": "007695f085939b619a0f2e83854020663c218e7d3df8f054ac6345e9501187b4",
+    "Assets/Game/Content/Characters/PrototypePair/Cloth.mat": "6fe38291494c21ed21b4f5ed3df8e7996028371958ca45fb2e6e4154f0623f3e",
+    "Assets/Game/Content/Characters/PrototypePair/Cloth.mat.meta": "32745407cc0fdd95f065b6982d68b9dae8a55cbb60fdff5a6c7e08b8ccc9b2ef",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab": "b46595c03af0aa69fa6c7b0a161e42a919d2ac6a9fd3ba26b65c6c2a8281c2c4",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier.prefab.meta": "9668ad4c56a5e1855502b10415cf0bedecc9965e8689026a365c6a8ebaee112d",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx": "5a553830a0fe7b18676f14593950868347242ff578c5d8d51b88d015fdf6cf24",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD0.fbx.meta": "8a82a90dfd0c2858779e22680b481ce9c570890938604d92ee818cdaa8455319",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx": "2ede966eb3179ce732aa36a0583eaa20e65cb2bab305deff3b7313d5adaa503d",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD1.fbx.meta": "56ceda66f7f27f2e445dec1d2b152a82d240aea58988e54389762c7ee2ca92c6",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx": "6c94aaaf07fe5e90fab1c617ac85987c943eab76c2ec830dc006ebe1554da333",
+    "Assets/Game/Content/Characters/PrototypePair/Soldier_LOD2.fbx.meta": "bbaf13628868896f4b07123eb5331e34594bc37f16589818e2639be8a73f27cd",
+    "SourceArt/Characters/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SourceArt/Characters/prototype-pair-source.json": "71ed3a4e69d9d2b3b8585880f73e8180e670a4dab8271e0268c216878ae21d5f",
+    "SourceArt/Characters/PrototypePair.blend": "fde5451d94fe1a7577dd08458e5e2580d7c4c0f4a0847f030fbb7c59d6c81633",
+    "SourceArt/Characters/PrototypePair.blend1": "acbc49574266297fbb4fe7c9fe0e11088e0b60ca61a1883a6b0eedb89ac68eb6",
+    "tools/content/build_prototype_pair.py": "c3e5ab5acb199304955cd480d4cfbf556158e21e47ac46932cbb90eb56d0a246",
+    "tools/content/prototype-export.json": "dc6c84deff21f4b4e3c3abdb96d93190bab00e7e391e0d7182036d8397b512e3",
+    "tools/content/prototype_motion.py": "90dbe95c550df413eb69fbd943d7c98801a7f20020f7f7e836819ceed4b8f807"
+  },
+  "sha256": {
+    "SourceArt/Equipment/WeaponFamilyPilot/WeaponFamilyPilot.blend": "80160c74402e14a79173b9a7731a7c855faeee8a2369d96efc544770e31f4b29",
+    "SourceArt/Equipment/WeaponFamilyPilot/weapon-pilot-export.json": "979b24e51a25d33831c8cc97cb92809a0e9bc8097bc58ac2cb4f849639a1dce7",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/AxePilot_LOD0.fbx": "bef29332721295fe40d514cc24fde70f5a7559233cd027f026f509634f9322d6",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/AxePilot_LOD1.fbx": "089e5ddec233501da0f73e7ba561502219b29500b2a5bb5d4ef86105c562dadb",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/AxePilot_LOD2.fbx": "2918911d937cd9d9f2f753c3e837211163694ede1a58d9d9e8aea2e0cce23a59",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/MacePilot_LOD0.fbx": "17758500fba176c5041c9e9bc7b2c0de1c6952c5f3d52880894ef133c921987a",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/MacePilot_LOD1.fbx": "99504308ff171c8f619039c6a4e5a45e644734258cfa2f61ec52496556c57b82",
+    "Assets/Game/Content/Characters/WeaponFamilyPilot/MacePilot_LOD2.fbx": "3c0d0de62337e8d05bca9ca5bfc969be4ddbf711f7214234fb4c25912c223296"
+  },
+  "recipe_sha256": "936292db798512791228e9b263986f3853d101e0c7966bbdda7059b12a0bcf46",
+  "motion_recipe_sha256": "de786c509cd15f690ce2a3027fc213f3cff5dc5758bb2d93cfc346c72af6389a",
+  "config_sha256": "979b24e51a25d33831c8cc97cb92809a0e9bc8097bc58ac2cb4f849639a1dce7"
+}

@@ -83,3 +83,16 @@ docs/acceptance/evidence/*.log -text
 *.[tT][tT][fF] filter=lfs diff=lfs merge=lfs -text
 *.[oO][tT][fF] filter=lfs diff=lfs merge=lfs -text
 *.[uU][nN][iI][tT][yY][pP][aA][cC][kK][aA][gG][eE] filter=lfs diff=lfs merge=lfs -text
+
+# Unity writes a trailing space after empty serialized YAML fields.
+# Preserve generated asset bytes and GUIDs; hand-written source keeps normal checks.
+*.meta whitespace=-blank-at-eol
+*.mat whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
+*.asset whitespace=-blank-at-eol
+
+# Verbatim Windows receipts retain CRLF and diagnostic trailing spaces.
+# Their raw hashes are evidence; whitespace rules do not alter test results.
+docs/acceptance/evidence/*.xml whitespace=-blank-at-eol,cr-at-eol
+docs/acceptance/evidence/*.log whitespace=-blank-at-eol,cr-at-eol

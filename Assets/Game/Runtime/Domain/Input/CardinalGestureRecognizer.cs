@@ -91,7 +91,8 @@ namespace Praxen.Game.Domain.Input
         {
             var capturedOwner = owner;
             if (owner.Kind == PointerOwnerKind.Gameplay &&
-                phase.Kind != InteractionPhaseKind.Inactive)
+                (phase.Kind == InteractionPhaseKind.EnemySequence ||
+                    phase.Kind == InteractionPhaseKind.PlayerOpening))
             {
                 if (_gameplayPointer != 0)
                     capturedOwner = PointerOwnership.Excluded;
@@ -170,7 +171,8 @@ namespace Praxen.Game.Domain.Input
                 BeginTimestampUs = begin.TimestampUs;
                 LastTimestampUs = begin.TimestampUs;
                 CanRecognize = ownership.Kind == PointerOwnerKind.Gameplay &&
-                    phase.Kind != InteractionPhaseKind.Inactive;
+                    (phase.Kind == InteractionPhaseKind.EnemySequence ||
+                    phase.Kind == InteractionPhaseKind.PlayerOpening);
             }
         }
     }

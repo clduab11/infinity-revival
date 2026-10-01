@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1a9a50fca3408d8d00e508297e3b04, type: 3}
+  m_Name: prototype.shield
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.EnemyDeckDefinition
+  Id: prototype.shield
+  Version: 1
+  LocalizationKey: content.prototype.shield
+  Archetype: 1
+  Lesson: Patient defense and recovery punishment
+  ContentRevision: prototype-enemy-decks-v1
+  BalanceRevision: task08-balance-2026-09-29-v1
+  IntroPatternId: shield.intro
+  Patterns:
+  - {fileID: 11400000, guid: 27a5ac7fc8b4f2e4591d20f01a62ee2a, type: 2}
+  - {fileID: 11400000, guid: 7d28ec35f48ba134a94b6f6cfd6b0986, type: 2}
+  - {fileID: 11400000, guid: 05e876b497d0c294d8b74cc25f8b5160, type: 2}

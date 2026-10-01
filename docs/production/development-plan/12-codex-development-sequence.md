@@ -14,6 +14,8 @@ Use separate agents for independent code or content work. Serialize modification
 
 Each row is a bounded work order. Proceed only after its stated exit condition is met.
 
+**Operator schedule override, 2026-09-30:** the earlier hands-on checkpoint after Task 12 remains outstanding. The operator's later "Complete next Task" instruction authorizes bounded Task 13 ScriptableObject authoring, immutable conversion, validation, and the representative sword/axe/mace pilot to proceed. Task 09 physical acceptance, Task 10 device qualification, and final Task 11 visual/contact/deformation/device approval remain **DEFERRED, execution UNRUN**. Automated checks continue; this exception changes sequencing, not acceptance thresholds or supported-device claims. It does not authorize a broad production-art batch, purchases, AI-credit spend, commits, or pushes. See the [checkpoint record](../../acceptance/post-task-12-checkpoint.md) and [Task 13 execution plan](../../plans/2026-09-30-task-13-content-authoring.md).
+
 | ID | Implementation prompt | Required exit condition |
 |---|---|---|
 | **01** | Inventory the canonical Unity project, installed Editor, packages, build modules, signing dependencies, accessible devices, Unity MCP, Blender MCP, and experimental automation features. Produce a readiness ledger. | Facts distinguish installed, connected, unverified, and unavailable capabilities. |
@@ -28,7 +30,7 @@ Each row is a bounded work order. Proceed only after its stated exit condition i
 | **10** | Run the prototype device qualification and produce input-latency, recognition, readability, and frame-time evidence. Fix failed contracts before proceeding. | Prototype gate accepted with recorded evidence. |
 | **11** | Establish the shared skeleton and asset-import pipeline using approved assets. Validate retargeting, weapon contact, deformation, portrait framing, and export presets. | One player/enemy pair passes the asset acceptance checklist. |
 | **12** | Connect animation, camera, audio hooks, and effects to combat events. Keep gameplay outcomes in the combat domain. | Disabling presentation does not change combat outcomes. |
-| **13** | Implement ScriptableObject definitions, immutable runtime conversion, stable IDs, and authoring validators. | Invalid attack timing, duplicate IDs, and broken references fail validation. |
+| **13** | Implement ScriptableObject definitions, immutable runtime conversion, stable IDs, and authoring validators. Include the [anchored melee direction](../../design/melee-combat-direction.md) for validated weapon-family timing/contact bindings and a representative sword/axe/mace pilot. | Invalid attack timing, duplicate IDs, and broken references fail validation. Unsupported future mechanics stay disabled; family imports and arcs require native validation. Technical delivery: [Task 13 acceptance](../../acceptance/task-13-content-authoring.md). |
 | **14** | Implement Addressables loading scopes and owned leases for bootstrap, refuge, region, and encounter resources. | Load, cancel, failure, retry, and release cases leave no retained encounter handles. |
 | **15** | Implement the save envelope, serialized writer, recoverable generations, integrity checks, and load recovery. | Interrupted writes and corrupt newest generations recover safely. |
 | **16** | Add sequential save migrations and missing-content fallback behavior. | Old fixtures migrate without destroying the previous valid generation. |

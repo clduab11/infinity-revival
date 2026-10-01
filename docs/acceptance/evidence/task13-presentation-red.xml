@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.0711596">
+  <test-suite type="TestSuite" id="1164" name="Forever We Reign" fullname="Forever We Reign" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.071160" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1320" name="Praxen.Game.Tests.PlayMode.dll" fullname="C:/Users/cld-main/AppData/Local/Temp/forever-we-reign-clock-check-cdqftnfa/Library/ScriptAssemblies/Praxen.Game.Tests.PlayMode.dll" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.056985" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="82900" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1321" name="Praxen" fullname="Praxen" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.054691" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1322" name="Game" fullname="Praxen.Game" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.051030" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1323" name="Tests" fullname="Praxen.Game.Tests" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.048345" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1324" name="PlayMode" fullname="Praxen.Game.Tests.PlayMode" runstate="Runnable" testcasecount="130" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.045381" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1277" name="Task13ContentAdmissionTests" fullname="Praxen.Game.Tests.PlayMode.Task13ContentAdmissionTests" classname="Praxen.Game.Tests.PlayMode.Task13ContentAdmissionTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.034398" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1278" name="EncounterRootExposesAnAuthoredCatalogAndCapturedContent" fullname="Praxen.Game.Tests.PlayMode.Task13ContentAdmissionTests.EncounterRootExposesAnAuthoredCatalogAndCapturedContent" methodname="EncounterRootExposesAnAuthoredCatalogAndCapturedContent" classname="Praxen.Game.Tests.PlayMode.Task13ContentAdmissionTests" runstate="Runnable" seed="1882821061" result="Failed" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.016109" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Task 13 requires authored content admission before encounter mutation.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.Task13ContentAdmissionTests.EncounterRootExposesAnAuthoredCatalogAndCapturedContent () [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\Task13ContentAdmissionTests.cs:12
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1279" name="Task13PresentationSnapshotTests" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.006298" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="1283" name="LogicalImpactSamplesTheSelectedFamilyContact" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.LogicalImpactSamplesTheSelectedFamilyContact" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.003299" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="1281" name="LogicalImpactSamplesTheSelectedFamilyContact(0.15d,0.6d)" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.LogicalImpactSamplesTheSelectedFamilyContact(0.15d,0.6d)" methodname="LogicalImpactSamplesTheSelectedFamilyContact" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" seed="1542882963" result="Failed" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.001267" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Presentation must accept an explicit family contact time.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.LogicalImpactSamplesTheSelectedFamilyContact (System.Double contact, System.Double duration) [0x00042] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\Task13PresentationSnapshotTests.cs:24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="1282" name="LogicalImpactSamplesTheSelectedFamilyContact(0.18d,0.7d)" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.LogicalImpactSamplesTheSelectedFamilyContact(0.18d,0.7d)" methodname="LogicalImpactSamplesTheSelectedFamilyContact" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" seed="476742706" result="Failed" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.000364" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[  Presentation must accept an explicit family contact time.
+  Expected: not null
+  But was:  null
+]]></message>
+                      <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.LogicalImpactSamplesTheSelectedFamilyContact (System.Double contact, System.Double duration) [0x00042] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\Task13PresentationSnapshotTests.cs:24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+                <test-case id="1280" name="MotionBindingDeclaresAnExplicitAuthoredContactTime" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.MotionBindingDeclaresAnExplicitAuthoredContactTime" methodname="MotionBindingDeclaresAnExplicitAuthoredContactTime" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" seed="2082163657" result="Failed" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.000577" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Weapon families need their authored contact time instead of a universal sword contact.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.MotionBindingDeclaresAnExplicitAuthoredContactTime () [0x00014] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\Task13PresentationSnapshotTests.cs:13
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1284" name="PresentationSupportsDeliberateUnboundConfigurationRefresh" fullname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.PresentationSupportsDeliberateUnboundConfigurationRefresh" methodname="PresentationSupportsDeliberateUnboundConfigurationRefresh" classname="Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests" runstate="Runnable" seed="206665852" result="Failed" start-time="2026-10-01 03:12:58Z" end-time="2026-10-01 03:12:58Z" duration="0.000435" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  A deliberate encounter restart must be able to select a new weapon family.
+  Expected: not null
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Praxen.Game.Tests.PlayMode.Task13PresentationSnapshotTests.PresentationSupportsDeliberateUnboundConfigurationRefresh () [0x00000] in C:\Users\cld-main\AppData\Local\Temp\forever-we-reign-clock-check-cdqftnfa\Assets\Game\Tests\PlayMode\Task13PresentationSnapshotTests.cs:35
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/cld-main/AppData/LocalLow/DefaultCompany/Forever We Reign\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

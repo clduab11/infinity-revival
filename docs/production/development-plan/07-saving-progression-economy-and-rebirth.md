@@ -6,11 +6,11 @@ Use one versioned envelope containing:
 
 | Component | Contents |
 |---|---|
-| Profile | Level, XP, attributes, equipment ownership, upgrades, mastery |
+| Profile | Level, XP, attributes, equipment ownership, upgrades, mastery, reward protection counters |
 | Expedition | ID, seed, selected tier, route state, completed nodes |
-| Encounter checkpoint | Encounter ID, entry loadout/resources, content revision, reward seed |
-| Reward ledger | Recently committed encounter transactions |
-| Permanent claims | First-clear tier rewards and permanent unlocks |
+| Encounter checkpoint | Encounter ID, entry loadout/resources, content revision, reward seed/algorithm version, frozen pool and protection snapshot, fixed milestone choice |
+| Reward ledger | Recently committed encounter transactions and concrete reward results, including pool IDs/revisions and protection changes |
+| Permanent claims | First-clear equipment milestones, tier rewards, and permanent unlocks |
 | Settings | Controls, accessibility, audio, performance |
 | Header | Schema version, generation, application/content versions, integrity data |
 
@@ -41,13 +41,22 @@ A victory commits all of the following together:
 - Character XP.
 - Equipment mastery.
 - Level changes.
+- Equipment reward protection changes and permanent milestone claims.
 - Node completion.
 - Route advancement.
 - Reward claim identifier.
+- Concrete reward result and its pool/revision in the reward ledger.
 
 Only then display the committed reward result.
 
 Reward identity is based on expedition ID and encounter ID. Nodes cannot be replayed for another reward within the same expedition.
+
+Equipment reward parameters and milestone choices are fixed at the checkpoint.
+Use a versioned deterministic selection algorithm. Replaying an interrupted
+encounter, retrying a failed save, or skipping the reveal cannot reroll rewards
+or advance protection twice. Cache rewards follow the same claim and atomic
+transaction contract at their node boundary. See the
+[melee equipment and earned loot specification](../melee-loot-and-upgrades.md).
 
 A storage failure leaves the game on a recoverable result screen with retry available. It does not continue with uncommitted purchases or progression.
 
@@ -71,13 +80,21 @@ App termination can be used to retry an encounter. Accept that tradeoff for a pr
 
 Launch equipment budget:
 
-- 12 sword definitions.
+- 12 melee weapon definitions: 4 swords, 4 one-handed axes, and 4 one-handed maces/warhammers.
 - 8 shield definitions.
 - 4 helmet definitions.
 - 4 armor definitions.
 - 6 talisman definitions.
 
 That is **34 equipment definitions**, not 34 entirely unrelated character production pipelines.
+
+All twelve launch weapons use one one-handed player combat style with a shield.
+Family compatibility remains unvalidated until the actual assets pass contact,
+deformation, framing, and presentation acceptance. Ranged weapons are excluded.
+Two-handed weapons, player polearms, and paired daggers are deferred styles with
+additional animation, input, and defensive-mask costs. Their design boundaries
+and initial family-stat hypotheses are in the
+[melee equipment specification](../melee-loot-and-upgrades.md).
 
 Use one owned record per equipment definition:
 
@@ -89,6 +106,12 @@ Use one owned record per equipment definition:
 Duplicate drops convert to currency. Mastery is keyed by equipment definition, preventing duplicate copies from repeatedly awarding first-mastery progression.
 
 Each item has three upgrade levels. No randomized affix system is required at launch.
+
+Fixed family traits and predictable upgrades preserve useful loadout tradeoffs.
+The initial approximately 15% family-stat limit is a Task 34 tuning hypothesis,
+not accepted balance. Optional temporary weapon effects remain Task 22
+candidates within the existing ability budget; they do not establish the
+proposed Speed stat or change action timings.
 
 ## 7.5 Character progression
 
@@ -128,6 +151,20 @@ Keep the economy finite and inspectable:
 - No purchase necessary beyond the game itself.
 - No escalating repair bill after defeat.
 - No loss of previously committed ordinary currency on defeat.
+
+Selected boss rewards and authored caches use earned equipment grants with
+skippable reveals, displayed pools, and exact current probabilities. First-clear
+milestones offer eligible melee-family choices. Fixed ordinary-currency
+purchases provide a target-item acquisition path alongside random grants.
+
+The initial random-pool proposal uses equal eligible-item weights. After two
+consecutive duplicate equipment grants, the next grant guarantees an eligible
+unowned item; protection counts grants, not victories. When a pool is complete,
+show duplicate conversion instead. The threshold and acquisition costs require
+Task 34 tuning. There are no paid draws, expiring pools, extra crafting currencies,
+or changes to the two-currency contract. Full rules, the conditional twelve-item
+collection bound, research limits, and acceptance scenarios are in the
+[earned loot specification](../melee-loot-and-upgrades.md).
 
 ## 7.7 Rebirth contract
 

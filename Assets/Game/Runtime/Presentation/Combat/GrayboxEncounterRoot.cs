@@ -3,6 +3,8 @@ using Praxen.Game.Application.Combat;
 using Praxen.Game.Application.Input;
 using Praxen.Game.Content.Input;
 using Praxen.Game.Content.Combat;
+using Praxen.Game.Content.Definitions;
+using Praxen.Game.Domain.Content;
 using Praxen.Game.Domain.Combat;
 using Praxen.Game.Domain.Input;
 using Praxen.Game.Presentation.Input;
@@ -16,6 +18,11 @@ namespace Praxen.Game.Presentation.Combat
     {
         [SerializeField] private Camera encounterCamera;
         [SerializeField] private GestureTuningAsset gestureTuning;
+        [SerializeField] private CombatPresentationProfile presentationProfile;
+        [SerializeField] private CombatContentCatalog contentCatalog;
+        [SerializeField] private MotionProfileDefinition enemyMotionProfile;
+        [SerializeField] private string weaponId = "weapon.pilot.sword";
+        private CombatPresentationProfile admittedPresentationProfile;
         [SerializeField] private EnemyArchetype enemyArchetype = EnemyArchetype.Sword;
         [SerializeField] private int encounterSeed = 20260929;
         [SerializeField, Range(0, 5)] private int difficultyTier;
@@ -23,7 +30,12 @@ namespace Praxen.Game.Presentation.Combat
         private GestureTraceView trace;
         private CombatSession displaySession;
         private bool paused, focused = true;
-        private string tell = "Prepare to defend", outcome = "Swipe in the authored direction to parry";
+        private string tell = HudText.Get("combat.prepare"), outcome = HudText.Get("combat.instructions");
+        public Camera EncounterCamera => encounterCamera;
+        public CombatContentCatalog ContentCatalog => contentCatalog;
+        public EncounterContentSnapshot ActiveContent { get; private set; }
+        public string SelectedWeaponId => weaponId;
+        public CombatPresentation Presentation { get; private set; }
         public CombatTimingDriver Timing { get; private set; }
         public TimestampedTouchCapture InputCapture { get; private set; }
         public GesturePhaseContext InteractionPhase { get; private set; }
@@ -32,6 +44,7 @@ namespace Praxen.Game.Presentation.Combat
         public EnemyPatternDirector EnemyAI { get; private set; }
         public GrayboxEncounterView View { get; private set; }
         public TimestampedDefenseControls Controls { get; private set; }
+        public PortraitHudCoordinator HudControls { get; private set; }
 
         public void Bind(Camera camera, GestureTuningAsset tuning)
         {
@@ -40,11 +53,27 @@ namespace Praxen.Game.Presentation.Combat
             gestureTuning = tuning;
         }
 
+        public void BindPresentation(CombatPresentationProfile profile) => presentationProfile = profile;
+
+        public void BindContent(CombatContentCatalog catalog, MotionProfileDefinition enemyMotion,
+            string initialWeaponId = "weapon.pilot.sword")
+        {
+            if (Timing != null) throw new InvalidOperationException("Bind content before startup.");
+            contentCatalog = catalog;
+            enemyMotionProfile = enemyMotion;
+            weaponId = initialWeaponId;
+        }
+
         private void Awake()
         {
             if (encounterCamera == null) encounterCamera = Camera.main;
             View = Child("Graybox view").AddComponent<GrayboxEncounterView>();
             View.Build(encounterCamera);
+            if (presentationProfile != null)
+            {
+                Presentation = Child("Combat presentation").AddComponent<CombatPresentation>();
+                Presentation.Configure(presentationProfile, View, encounterCamera);
+            }
             if (EventSystem.current == null)
             {
                 var ui = Child("UI EventSystem");
@@ -71,44 +100,81 @@ namespace Praxen.Game.Presentation.Combat
             Timing.Suspended += trace.Clear;
             View.ResumeButton.onClick.AddListener(Resume);
             View.RestartButton.onClick.AddListener(RestartFromButton);
+            HudControls = Child("Portrait HUD coordinator").AddComponent<PortraitHudCoordinator>();
+            HudControls.Configure(this);
             RestartEncounter();
         }
 
         public void RestartEncounter(Func<long> timestampProvider = null, uint? seed = null,
-            EnemyArchetype? archetype = null, int? tier = null)
+            EnemyArchetype? archetype = null, int? tier = null, string selectedWeaponId = null)
         {
             // Validate requested encounter inputs before disposing the current session.
             if (tier.HasValue && (tier.Value < 0 || tier.Value > 5))
                 throw new ArgumentOutOfRangeException(nameof(tier));
             if (archetype.HasValue && !Enum.IsDefined(typeof(EnemyArchetype), archetype.Value))
                 throw new ArgumentOutOfRangeException(nameof(archetype));
-            if (seed.HasValue) encounterSeed = unchecked((int)seed.Value);
-            if (archetype.HasValue) enemyArchetype = archetype.Value;
-            if (tier.HasValue) difficultyTier = tier.Value;
-            DisposeEncounter();
+            var nextArchetype = archetype ?? enemyArchetype;
+            var nextWeaponId = selectedWeaponId ?? weaponId;
+            // Validate the whole authoring graph and copy values before changing the active encounter.
+            var nextContent = contentCatalog == null ? null : contentCatalog.ToRuntime(nextArchetype, nextWeaponId);
+            var nextDeck = nextContent?.EnemyDeck ?? PrototypeEnemyDecks.Create(nextArchetype);
+            var nextGesture = gestureTuning != null ? gestureTuning.ToRuntime() : GestureTuning.Default;
+            var nextPresentation = Presentation == null ? null : EncounterPresentationCapture.Capture(
+                presentationProfile, nextContent == null ? null : contentCatalog.GetWeapon(nextWeaponId),
+                enemyMotionProfile, contentCatalog?.Camera);
+            PreparedCombatConfiguration prepared;
+            try { prepared = nextPresentation == null ? null : Presentation.PrepareConfiguration(nextPresentation); }
+            catch
+            {
+                if (nextPresentation != null) Destroy(nextPresentation);
+                throw;
+            }
+            using (prepared)
+            {
+                if (seed.HasValue) encounterSeed = unchecked((int)seed.Value);
+                if (archetype.HasValue) enemyArchetype = archetype.Value;
+                if (tier.HasValue) difficultyTier = tier.Value;
+                weaponId = nextWeaponId;
+                ActiveContent = nextContent;
+                HudControls?.ResetForEncounter();
+                DisposeEncounter();
+                if (nextPresentation != null)
+                {
+                    prepared.Commit();
+                    if (admittedPresentationProfile != null) Destroy(admittedPresentationProfile);
+                    admittedPresentationProfile = nextPresentation;
+                }
+                StartEncounter(timestampProvider, nextContent, nextDeck, nextGesture);
+            }
+        }
+
+        private void StartEncounter(Func<long> timestampProvider, EncounterContentSnapshot nextContent,
+            EnemyPatternDeck nextDeck, GestureTuning nextGesture)
+        {
             Controls.CancelHeld();
             Timing.EndEncounter();
             if (timestampProvider != null) sourceTime = timestampProvider;
             Timing.Configure(InputCapture, InteractionPhase, sourceTime);
             // A deliberate restart creates a fresh session; lifecycle suspension is reapplied below.
             Timing.SetLifecycle(false, true);
+            Timing.ClearUserPauseForRestart();
             var phase = new InteractionPhase(checked(InteractionPhase.Current.Id + 1),
                 InteractionPhaseKind.EnemySequence);
             Timing.BeginEncounter(phase);
-            Encounter = new CombatEncounter(Timing.Session, phase);
-            Duel = new CombatOpeningController(Encounter, InteractionPhase, null,
-                gestureTuning != null ? gestureTuning.ToRuntime() : GestureTuning.Default);
+            Encounter = new CombatEncounter(Timing.Session, phase, nextContent?.Defense);
+            Duel = new CombatOpeningController(Encounter, InteractionPhase, nextContent?.Offense, nextGesture);
             Duel.GestureRecognized += InputCapture.PublishRecognized;
             Duel.PlayerStrikeResolved += ShowAttackResult;
             Encounter.TelegraphStarted += ShowTell;
             Encounter.StrikeResolved += ShowResult;
             displaySession = Timing.Session;
             displaySession.FrameAdvanced += ShowFrame;
-            tell = "Prepare to defend";
-            outcome = "Swipe in the authored direction to parry";
+            tell = HudText.Get("combat.prepare");
+            outcome = HudText.Get("combat.instructions");
             Timing.SetLifecycle(paused, focused);
-            EnemyAI = new EnemyPatternDirector(Duel, PrototypeEnemyDecks.Create(enemyArchetype),
+            EnemyAI = new EnemyPatternDirector(Duel, nextDeck,
                 unchecked((uint)encounterSeed), difficultyTier);
+            if (Presentation != null) Presentation.Bind(Encounter, Duel);
             EnemyAI.Start(0);
             ShowFrame(0);
         }
@@ -123,24 +189,31 @@ namespace Praxen.Game.Presentation.Combat
         {
             if (Encounter == null || Duel == null || Timing.Session == null) return;
             var prompt = Duel.CurrentPhase.Kind == InteractionPhaseKind.PlayerOpening
-                ? "OPENING: swipe through the arena to attack" : tell;
-            var result = Duel.Outcome == DuelOutcome.Victory ? "VICTORY: restart the encounter" :
-                Duel.Outcome == DuelOutcome.Defeat ? "DEFEATED: restart the encounter" : outcome;
-            if (EnemyAI?.CurrentDecision != null)
-                prompt += $"\n{EnemyAI.CurrentDecision.Pattern.Id} ({EnemyAI.State})";
+                ? HudText.Get("combat.opening") : tell;
+            var result = Duel.Outcome == DuelOutcome.Victory ? HudText.Get("combat.victory") :
+                Duel.Outcome == DuelOutcome.Defeat ? HudText.Get("combat.defeat") : outcome;
+
             View.Show(Encounter.Player, prompt, result, Timing.Session.Clock);
             View.ShowOffense(Duel.Offense, Duel.Momentum, Duel.CurrentPhase, Duel.OpeningRemainingUs);
+            if (Presentation != null) Presentation.RenderCurrent();
+        }
+
+        public void ShowFeedback(string localizationKey)
+        {
+            outcome = HudText.Get(localizationKey);
+            ShowFrame(Timing.Session?.Clock.TimeUs ?? 0);
         }
 
         private void ShowTell(EnemyStrike strike) => tell = GrayboxStrikes.Describe(strike);
         private void ShowResult(DefenseResolution result)
         {
-            outcome = result.IsDead ? "DEFEATED: restart the encounter" : result.Outcome.ToString();
+            outcome = result.IsDead ? HudText.Get("combat.defeat") : HudText.Get("result." + result.Outcome);
         }
         private void ReleaseHeldDefense() => Encounter?.Player.ReleaseHeldDefense();
         private void CancelContacts() => Duel?.CancelContacts();
         private void ShowAttackResult(PlayerAttackResolution result) => outcome =
-            $"{result.Attack.Direction}: {result.Damage} damage" + (result.Attack.ComboFinisher ? " (FINISHER)" : string.Empty);
+            HudText.Format("combat.attack", HudText.Get("direction." + result.Attack.Direction), result.Damage,
+                result.Attack.ComboFinisher ? HudText.Get("combat.finisher") : string.Empty);
         private void EndEncounter()
         {
             DisposeEncounter();
@@ -150,6 +223,7 @@ namespace Praxen.Game.Presentation.Combat
 
         private void DisposeEncounter()
         {
+            if (Presentation != null) Presentation.Unbind();
             EnemyAI?.Dispose();
             EnemyAI = null;
             if (displaySession != null) displaySession.FrameAdvanced -= ShowFrame;
@@ -164,13 +238,14 @@ namespace Praxen.Game.Presentation.Combat
             Encounter?.Dispose();
             Encounter = null;
         }
-        private void Resume() => Timing.RequestResume();
+        private void Resume() => HudControls.Resume();
         private void RestartFromButton() => RestartEncounter();
         public void SetLifecycle(bool applicationPaused, bool applicationFocused)
         {
             paused = applicationPaused;
             focused = applicationFocused;
             Timing?.SetLifecycle(paused, focused);
+            HudControls?.SetLifecycle(paused, focused);
         }
         private void OnApplicationPause(bool value) => SetLifecycle(value, focused);
         private void OnApplicationFocus(bool value) => SetLifecycle(paused, value);
@@ -191,6 +266,7 @@ namespace Praxen.Game.Presentation.Combat
             if (Timing != null) Timing.TouchInputRejected -= CancelContacts;
             if (Controls != null) Controls.HeldControlCancelled -= ReleaseHeldDefense;
             DisposeEncounter();
+            if (admittedPresentationProfile != null) Destroy(admittedPresentationProfile);
         }
     }
 }

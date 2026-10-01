@@ -30,7 +30,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator SetUp()
         {
             yield return SceneManager.LoadSceneAsync("GrayboxEncounter", LoadSceneMode.Single);
-            root = Object.FindFirstObjectByType<GrayboxEncounterRoot>();
+            root = Object.FindAnyObjectByType<GrayboxEncounterRoot>();
             Assert.That(root, Is.Not.Null);
             root.SetLifecycle(false, true);
             previousMode = InputSystem.settings.updateMode;

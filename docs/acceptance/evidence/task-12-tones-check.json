@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "mismatches": [],
+  "tones": [
+    {
+      "name": "Tell",
+      "sha256": "3cc7257911cdc71a8dfb908ecc8bfb5d502bf060f07ff7e54bcc9f5ac6d75e5f"
+    },
+    {
+      "name": "Swing",
+      "sha256": "b0779d878a35b1ff9946e4781c888da3857abefe1fd87d2364b1753c45f4d5a4"
+    },
+    {
+      "name": "Clash",
+      "sha256": "ddce06c3fccf28f09692a8740da162cb5f9fd4282b3f5cb4e39165ccd96e3957"
+    },
+    {
+      "name": "Impact",
+      "sha256": "f604a9c2f9055f4cbe43d1ea5264bc179e0e4f4e3d0a9870484aead8384279dc"
+    }
+  ]
+}

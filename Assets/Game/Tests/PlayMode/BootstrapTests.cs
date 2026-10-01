@@ -18,7 +18,7 @@ namespace Praxen.Game.Tests.PlayMode
         public IEnumerator LoadSavedBootstrap()
         {
             yield return SceneManager.LoadSceneAsync("Bootstrap", LoadSceneMode.Single);
-            bootstrap = Object.FindFirstObjectByType<BootstrapCompositionRoot>();
+            bootstrap = Object.FindAnyObjectByType<BootstrapCompositionRoot>();
             Assert.That(bootstrap, Is.Not.Null);
             bootstrap.SetFocused(true);
             bootstrap.SetPaused(false);
@@ -29,7 +29,7 @@ namespace Praxen.Game.Tests.PlayMode
         {
             yield return null;
             Assert.That(bootstrap.CurrentState, Is.EqualTo(ApplicationState.Refuge));
-            var screens = Object.FindObjectsByType<RefugeScreen>(FindObjectsSortMode.None);
+            var screens = Object.FindObjectsByType<RefugeScreen>();
             Assert.That(screens, Has.Length.EqualTo(1));
             Assert.That(screens[0].IsVisible, Is.True);
             Assert.That(screens[0].GetComponentsInChildren<Text>().Single().text,
@@ -62,7 +62,7 @@ namespace Praxen.Game.Tests.PlayMode
             bootstrap.Initialize();
             bootstrap.Initialize();
             Assert.That(bootstrap.Diagnostics.TotalRecorded, Is.EqualTo(count));
-            Assert.That(Object.FindObjectsByType<RefugeScreen>(FindObjectsSortMode.None),
+            Assert.That(Object.FindObjectsByType<RefugeScreen>(),
                 Has.Length.EqualTo(1));
             yield return null;
         }
@@ -75,7 +75,7 @@ namespace Praxen.Game.Tests.PlayMode
             yield return null;
             Assert.That(diagnostics.Snapshot().Last().CurrentState,
                 Is.EqualTo(ApplicationState.Shutdown));
-            Assert.That(Object.FindObjectsByType<RefugeScreen>(FindObjectsSortMode.None),
+            Assert.That(Object.FindObjectsByType<RefugeScreen>(),
                 Is.Empty);
         }
 

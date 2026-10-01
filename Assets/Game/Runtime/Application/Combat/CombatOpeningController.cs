@@ -46,6 +46,7 @@ namespace Praxen.Game.Application.Combat
 
         public event Action<long> EnemySequenceReady;
         public event Action<PlayerAttackResolution> PlayerStrikeResolved;
+        public event Action<PlayerAttack> PlayerAttackStarted;
         public event Action<GestureCommand> GestureRecognized;
 
         public CombatOpeningController(CombatEncounter encounter, GesturePhaseContext phases,
@@ -277,6 +278,7 @@ namespace Praxen.Game.Application.Combat
             records.Add(impactId, new OwnedRecord(RecordKind.PlayerImpact, attackId));
             records.Add(recoveryId, new OwnedRecord(RecordKind.Recovery, attackId));
             records.Add(bufferedId, new OwnedRecord(RecordKind.Buffered, attackId));
+            PlayerAttackStarted?.Invoke(result.Attack.Value);
         }
 
         private void ResolveMilestone(CombatMilestone milestone)

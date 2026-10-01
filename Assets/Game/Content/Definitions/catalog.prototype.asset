@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca2f5f7dbc475aa1a5e6c6c79c94a0, type: 3}
+  m_Name: catalog.prototype
+  m_EditorClassIdentifier: Praxen.Game.Content::Praxen.Game.Content.Definitions.CombatContentCatalog
+  Id: catalog.prototype
+  Version: 1
+  LocalizationKey: content.catalog.prototype
+  Weapons:
+  - {fileID: 11400000, guid: 6c39088cd9707544daedf69e43fef9f7, type: 2}
+  - {fileID: 11400000, guid: 8c6a5f91ab09bf14c999e492bc73312c, type: 2}
+  - {fileID: 11400000, guid: d60ef89560acfa84bac51a1b04abe0b6, type: 2}
+  EnemyDecks:
+  - {fileID: 11400000, guid: 33cfecf51e9ebd54ebfdf5044aefcf49, type: 2}
+  - {fileID: 11400000, guid: 70ca3870dec2ea046bd8b0e148691c18, type: 2}
+  - {fileID: 11400000, guid: 65700468d29c940429675b12b1ca043e, type: 2}
+  - {fileID: 11400000, guid: f0e429d0b80452f44b9c7a20002bd00d, type: 2}
+  Defense: {fileID: 11400000, guid: 260981e2eeecee1408f89e9b02626983, type: 2}
+  Camera: {fileID: 11400000, guid: 515eb26d204ce664b90d0916d8623c37, type: 2}

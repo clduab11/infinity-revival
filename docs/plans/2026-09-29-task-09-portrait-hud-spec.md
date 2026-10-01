@@ -1,0 +1,15 @@
+# Task 09 portrait HUD specification
+
+Authority: development-plan/12-codex-development-sequence.md Task 09, combat-specification section 2, unity-systems decisions section 5. Preserve deterministic combat through Task 08.
+
+Mobile defaults select portrait orientation and disable other rotation directions. The desktop Editor can letterbox the portrait HUD for inspection.
+
+Right thumb is the user-selected default. Mirror all HUD controls for left hand without changing left/right dodge meanings. Honor Screen.safeArea, keep controls separate from tells, allow scale 0.85 through 1.20. These values and placement are prototype tuning, not validated ergonomic limits.
+
+Lower thumb cluster: guard hold, separate left/right dodge taps, equipped ability intent tap. Pause near bottom thumb edge. The arena and lower clear area recognize phase-owned cardinal swipes. Resource readout includes HP, guard, dodge charges, enemy balance and Focus. Show countdown and directional traces. Use dark stone, bone text, brass accents and restrained teal; no generated art needed. Separate dynamic HUD and static menu canvases. All new visible copy comes from localization keys with English fallback; translated catalogs are future content.
+
+Menu supports resume, restart, handedness, scale, reach calibration and bounded exploration preview. Explicit user pause survives focus loss/return; app recovery alone retains prior automatic countdown behavior. Opening calibration suspends combat, cancels held guard and incomplete gestures. Capture three comfortable thumb taps in safe-area lower 45%, reject drags and second contacts; averaged offset is clamped to +/-0.08 safe width and +/-0.06 safe height. Apply or cancel returns to paused menu; three-second explicit resume. Layout changes cancel contacts. Preferences are session-local pending Task 15 save infrastructure.
+
+Exploration preview lives in GrayboxEncounter, preserves minimal Bootstrap Refuge. End combat session, increment phase to Exploration, cancel contacts, allow one gameplay pointer: destination tap <=0.025 short-dimension travel selects a bounded hotspot; exceeding threshold becomes camera inspection only, clamped yaw +/-12 and pitch +/-8 degrees. UI Begin remains UI, all ownership is latched, second contact excluded until lift, mode/lifecycle changes reset contacts. This is Task 09 input plumbing, not Task 21 campaign traversal. Restart/Return to duel creates fresh encounter. Ability control emits a gated intent event only, without effects or resource spending, reserved for Task 22.
+
+Native geometry, input and lifecycle tests required; retain previous 632 EditMode and 60 PlayMode tests. Physical gate remains UNRUN until a same-hand hold-and-operate check. Reference profiles: iPhone 17 Pro Max 1320x2868, user requested iOS 27.0.1; comparable Android Galaxy S26 Ultra 1440x3120, actual device OS must be recorded. Synthetic safe areas are scenarios, not measured insets. No claim of OS/device qualification. Full performance/latency soak is Task 10.

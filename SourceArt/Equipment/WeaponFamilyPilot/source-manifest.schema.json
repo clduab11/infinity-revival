@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Original weapon family pilot provenance",
+  "type": "object",
+  "required": ["schema_version", "source_version", "blender_version", "original_art", "rig_id", "bones", "families", "upstream_sha256", "sha256", "recipe_sha256", "motion_recipe_sha256", "config_sha256"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "source_version": { "const": "weapon-family-pilot-1.0.0" },
+    "blender_version": { "type": "string", "minLength": 1 },
+    "original_art": { "const": true },
+    "rig_id": { "const": "rig.prototype-pair.23-bone.v1" },
+    "bones": { "type": "array", "minItems": 23, "maxItems": 23 },
+    "families": { "type": "object", "required": ["Axe", "Mace"] },
+    "upstream_sha256": { "$ref": "#/$defs/hashes" },
+    "sha256": { "$ref": "#/$defs/hashes" },
+    "recipe_sha256": { "$ref": "#/$defs/hash" },
+    "motion_recipe_sha256": { "$ref": "#/$defs/hash" },
+    "config_sha256": { "$ref": "#/$defs/hash" }
+  },
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "hashes": { "type": "object", "minProperties": 1, "additionalProperties": { "$ref": "#/$defs/hash" } }
+  }
+}
