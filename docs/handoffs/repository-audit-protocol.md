@@ -113,6 +113,11 @@ git lfs status
 git lfs fsck
 ```
 
+A fresh clone needs repository-local LFS initialization for the structural verifier.
+Inspect existing hooks, then use `git lfs install --local` when required. Do not
+force-overwrite a custom hook or change global configuration. Global smudge
+filters can hydrate a clone without satisfying this local configuration check.
+
 Read the pointer for each LFS-tracked path at the target revision, then verify
 the local hydrated payload against its OID and size. If available, fetch the
 required LFS objects and materialize them only when doing so cannot overwrite

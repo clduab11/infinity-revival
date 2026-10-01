@@ -1,0 +1,36 @@
+{
+  "record_date": "2026-10-01",
+  "source_checkpoint_commit": "2d4354a9c9e7f926aadc5808c0f6f7ab44ed2215",
+  "remote_clone_from": "https://github.com/clduab11/infinity-revival.git",
+  "independent_lfs_storage": true,
+  "manifest_paths": 933,
+  "exact_raw_payload_matches": 919,
+  "text_eol_only_differences": [
+    ".gitattributes",
+    ".gitignore",
+    ".vsconfig",
+    "Assets/InputSystem_Actions.inputactions",
+    "Assets/TutorialInfo/Layout.wlt",
+    "Assets/TutorialInfo/StyleSheets/ReadmeEditor.uss",
+    "Assets/TutorialInfo/StyleSheets/ReadmeEditorDark.uss",
+    "Assets/TutorialInfo/StyleSheets/ReadmeEditorLight.uss",
+    "ProjectSettings/ProjectVersion.txt",
+    "SourceArt/Characters/prototype-pair-source.json",
+    "SourceArt/Equipment/WeaponFamilyPilot/weapon-family-pilot-source.json",
+    "docs/acceptance/evidence/task13-baseline-python.txt",
+    "docs/acceptance/evidence/task13-pilot-python.txt",
+    "docs/media/infinity-revival-prototype.prompt.txt"
+  ],
+  "lfs_payloads_verified": 54,
+  "git_tree_blobs_match": true,
+  "remote_clone_working_tree_clean": true,
+  "lfs_fsck": "PASS",
+  "fresh_clone_local_lfs_configuration_gap": "Resolved with git lfs install --local; no global config or dependency change",
+  "clone_baseline_verifier": "PASS",
+  "clone_python_tests": {
+    "build": 12,
+    "content": 12,
+    "failed": 0
+  },
+  "verified_at_utc": "2026-10-01T06:03:22Z"
+}

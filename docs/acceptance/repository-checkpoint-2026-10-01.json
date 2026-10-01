@@ -53,7 +53,7 @@
     "build_feedback_tones.py --check"
   ],
   "physical_and_final_art_acceptance": "UNRUN",
-  "publication_status": "Pending push and independent remote payload verification",
+  "publication_status": "Source checkpoint pushed to origin/main and independently verified",
   "ignored_preserved_local_roots": [
     "My project/",
     "infinity-game/",
@@ -63,5 +63,11 @@
     "Logs/",
     "UserSettings/"
   ],
-  "paid_generations_or_purchases": 0
+  "paid_generations_or_purchases": 0,
+  "source_checkpoint_commit": "2d4354a9c9e7f926aadc5808c0f6f7ab44ed2215",
+  "remote_verification_receipt": "docs/handoffs/published-source-verification.json",
+  "remote_source_paths": 933,
+  "remote_lfs_payloads": 54,
+  "fresh_clone_python_tests": 24,
+  "current_tip_instruction": "Discover latest main; documentation-only handoff metadata follows verified source commit"
 }

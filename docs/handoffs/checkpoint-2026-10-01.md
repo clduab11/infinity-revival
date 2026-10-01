@@ -1,7 +1,10 @@
 # Saved-source checkpoint and continuation handoff
 
 **Recorded:** 2026-10-01. **Saved-source verification:** PASS.
-**Publication:** pending the requested push and independent remote verification.
+**Publication:** saved-source checkpoint pushed to GitHub `main` and independently verified.
+
+**Verified source commit:** `2d4354a9c9e7f926aadc5808c0f6f7ab44ed2215`. Subsequent handoff metadata commits
+retain this source baseline; discover and compare the current tip on each bootstrap.
 
 This checkpoint preserves the canonical project through Task 13, its original
 art sources, imports, provenance, concept image, portable acceptance evidence,
@@ -84,3 +87,19 @@ Separate working copies and a single owner per shared Unity asset are required
 for concurrent authoring. The repository is the durable source of decisions.
 New conversations must verify their own capabilities and cannot assume that this
 conversation's tools, temporary workspaces, authorization or unsaved state transfer.
+
+## Independent GitHub verification
+
+A fresh HTTPS clone with its own LFS object store recovered all 54 hydrated binary
+paths. All 933 source-manifest paths have matching Git blob identities; 919 also
+match raw working bytes, and the remaining 14 differ only in text line endings.
+The clone passes LFS fsck, the structural verifier and both Python suites (24 tests).
+A newly cloned repository needed `git lfs install --local` to satisfy the verifier;
+that setup gap was resolved in the validation clone and documented in both prompts.
+No global configuration or dependency was changed.
+
+See the [remote verification receipt](published-source-verification.json). The
+[checkpoint source manifest](checkpoint-source-manifest.json) excludes mutable
+handoff/publication metadata explicitly. Verify the latest GitHub tip and those
+metadata files separately; the published source revision is a known baseline,
+not an instruction to reset a newer or dirty working copy.
